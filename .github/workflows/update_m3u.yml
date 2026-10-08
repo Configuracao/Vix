@@ -2,7 +2,7 @@ name: Actualizar Lista M3U
 
 on:
   schedule:
-    - cron: '0 */2 * * *'  # Se ejecuta cada 2 horas
+    - cron: '*/5 * * * *'  # Se ejecuta cada 2 horas
   workflow_dispatch:        # Permite ejecutarlo manualmente desde GitHub
 
 permissions:
