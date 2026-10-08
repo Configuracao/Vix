@@ -1,8 +1,8 @@
 import json
 import urllib.parse
-import requests
+from curl_cffi import requests
 
-EVENTS_URL = "https://raw.githubusercontent.com/Configuracao/Vix/refs/heads/main/eventos.json"
+EVENTS_URL = "https://shplus.240025.xyz/application-webview/eventos.json"
 API_BASE_URL = "https://shplus.240025.xyz/application-webview/vixplus/json/api/ver.php?id="
 
 HEADERS = {
@@ -23,19 +23,20 @@ def extract_id_from_url(raw_url):
     return None
 
 def fetch_m3u8(event_id):
-    """Consulta la API ver.php?id=... y retorna el enlace m3u8."""
+    """Consulta la API impersonando Chrome para evitar bloqueos TLS/JA3."""
     if not event_id:
         return None
     
     api_url = f"{API_BASE_URL}{event_id}"
     try:
-        res = requests.get(api_url, headers=HEADERS, timeout=10)
-        print(f"  [-] Consultando API con ID '{event_id}' -> HTTP {res.status_code}")
+        # impersonate="chrome" simula la huella digital TLS real de un navegador
+        res = requests.get(api_url, headers=HEADERS, impersonate="chrome", timeout=12)
+        print(f"  [-] Consultando API ID '{event_id}' -> HTTP {res.status_code}")
         
         if res.status_code == 200:
             data = res.json()
             
-            # Buscar en content -> media -> url
+            # 1. Buscar dentro de content -> media
             content = data.get("content", {})
             if isinstance(content, dict):
                 media_list = content.get("media", [])
@@ -43,7 +44,7 @@ def fetch_m3u8(event_id):
                     if isinstance(item, dict) and item.get("url"):
                         return item.get("url")
             
-            # Fallback directos
+            # 2. Búsqueda directa en la raíz del JSON
             if isinstance(data, dict):
                 if "url" in data:
                     return data["url"]
@@ -51,19 +52,19 @@ def fetch_m3u8(event_id):
                     return data["stream"]
 
     except Exception as e:
-        print(f"  [!] Error al obtener M3U8 para ID {event_id}: {e}")
+        print(f"  [!] Error consultando ID {event_id}: {e}")
     return None
 
 def main():
-    print(f"[+] Descargando eventos.json desde: {EVENTS_URL}")
+    print(f"[+] Descargando eventos desde: {EVENTS_URL}")
     try:
-        res = requests.get(EVENTS_URL, headers=HEADERS, timeout=12)
+        res = requests.get(EVENTS_URL, headers=HEADERS, impersonate="chrome", timeout=15)
         if res.status_code != 200:
             print(f"[!] Error HTTP {res.status_code} al descargar eventos.json")
             return
         events = res.json()
     except Exception as e:
-        print(f"[!] Error al procesar JSON: {e}")
+        print(f"[!] Error al obtener el JSON principal: {e}")
         return
 
     print(f"[+] Se encontraron {len(events)} eventos.")
@@ -75,36 +76,37 @@ def main():
         category = event.get("desc", "Deportes")
         logo = event.get("img", "")
         
-        # 1. Intentar obtener IDs desde la clave 'opciones' si existe
+        # Evaluar múltiples opciones si existen
         urls_to_check = []
         opciones = event.get("opciones")
+        
         if isinstance(opciones, dict):
             for opt_name, opt_url in opciones.items():
                 urls_to_check.append((f"{title} ({opt_name})", opt_url))
         
-        # 2. Si no hay opciones, usar la propiedad 'url' principal
         if not urls_to_check:
             main_url = event.get("url")
             if main_url:
                 urls_to_check.append((title, main_url))
 
-        # Procesar cada URL/Opción del evento
+        # Procesar cada entrada
         for item_title, raw_url in urls_to_check:
             event_id = extract_id_from_url(raw_url)
-            print(f"-> [{idx}/{len(events)}] Processing: '{item_title}' | ID: {event_id}")
+            print(f"-> [{idx}/{len(events)}] Procesando: '{item_title}' | ID: {event_id}")
             
             stream_url = fetch_m3u8(event_id)
+            
             if stream_url:
                 valid_count += 1
                 m3u_lines.append(f'#EXTINF:-1 tvg-logo="{logo}" group-title="{category}", {item_title}\n')
                 m3u_lines.append(f'{stream_url}\n\n')
 
-    print(f"\n[+] Total de enlaces reproducibles generados: {valid_count}")
+    print(f"\n[+] Total de enlaces generados con éxito: {valid_count}")
 
     with open("eventos.m3u", "w", encoding="utf-8") as f:
         f.writelines(m3u_lines)
 
-    print("[+] Archivo 'eventos.m3u' guardado con éxito.")
+    print("[+] Archivo 'eventos.m3u' generado correctamente.")
 
 if __name__ == "__main__":
     main()
