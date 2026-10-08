@@ -1,1 +1,403 @@
-
+[
+    {
+        "id": 1,
+        "title": "Tampa Bay Rays vs. NY Yankees",
+        "desc": "MLB - ALDS",
+        "url": "https://shplus.240025.xyz/application-webview/vix.html?id=adst9BQ6dLA1axO0",
+        "start_utc": "2026-10-07T23:00:00Z",
+        "end_utc": "2026-10-08T03:00:00Z",
+        "img": "https://images.vix.com/prd/league/card/6abfd3ccbaf2c86ce31fb5aa/adaa25833f27195c6e3b619e399739d0?tr=w-1800,h-1020:l-image,i-/prd/team-logo/6a3d3b9d36f2ab93894ab371/9c2d1ca5b5439557e35e71828d22d404,lx-243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end:l-image,i-/prd/team-logo/69fcf335e6111438e8416fe0/926c76fc1ea209a3c50525d580f25a84,lx-N243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end",
+        "live": true
+    },
+    {
+        "id": 2,
+        "title": "Cleveland Guardians vs. Chicago White Sox",
+        "desc": "MLB - ALDS",
+        "url": "https://shplus.240025.xyz/application-webview/vix.html?id=adst82m0dZw8aEnv",
+        "start_utc": "2026-10-08T20:30:00Z",
+        "end_utc": "2026-10-08T23:59:00Z",
+        "img": "https://images.vix.com/prd/league/card/6abfd3ccbaf2c86ce31fb5aa/adaa25833f27195c6e3b619e399739d0?tr=w-1800,h-1020:l-image,i-/prd/team-logo/69fcf3695172114904092876/726f9dd5ec3c01bca410eee3d4dafbf5,lx-243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end:l-image,i-/prd/team-logo/6a6679212461a5bd04923e2e/cab224849ac9fcd958338a22aadb39ab,lx-N243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end",
+        "live": false,
+        "date": "08 de Octubre"
+    },
+    {
+        "id": 3,
+        "title": "Instituto Córdoba vs. Boca Juniors",
+        "desc": "Liga Profesional de Fútbol - Torneo Clausura",
+        "url": "https://shplus.240025.xyz/application-webview/vix.html?id=adstAjPoNMA9NZvm",
+        "start_utc": "2026-10-09T22:15:00Z",
+        "end_utc": "2026-10-10T00:50:00Z",
+        "img": "https://images.vix.com/prd/league/card/69e4061c9903c7032ff37339/38b6184310862968ee262b837d2e9113?tr=w-1800,h-1020:l-image,i-/prd/team-logo/69e409c4ddaec47e28faa404/00b7f6700f531a03fa2930649e82f602,lx-243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end:l-image,i-/prd/team-logo/69e40b9f68b5bcbdb13629f5/c42b849fa994519644ecaad1c9bb8cff,lx-N243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end",
+        "live": false,
+        "date": "09 de Octubre"
+    },
+    {
+        "id": 4,
+        "title": "MLB ESTA SEMANA",
+        "desc": "MLB ESTA SEMANA",
+        "url": "https://shplus.240025.xyz/application-webview/vix.html?id=adst82m0dZw8aEnv",
+        "start_utc": "2026-10-10T19:00:00Z",
+        "end_utc": "2026-10-10T20:00:00Z",
+        "img": "https://images.vix.com/prd/league/card/67e45fdb45d70d5e9989c71b/024ce4425766ba8040091334499736f8?tr=w-1800,h-1020:l-image,i-/prd/team/default-logo/663e678c4f65444d866bfe08/39861acccba4243b9487575c9d837ecc,lx-243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end:l-image,i-/prd/team/default-logo/663e678c4f65444d866bfe08/39861acccba4243b9487575c9d837ecc,lx-N243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end",
+        "live": false,
+        "date": "10 de Octubre"
+    },
+    {
+        "id": 5,
+        "title": "Chicago White Sox vs. Cleveland Guardians",
+        "desc": "MLB - ALDS",
+        "url": "https://shplus.240025.xyz/application-webview/vix.html?id=adst9BQ6dLA1axO0",
+        "start_utc": "2026-10-10T20:45:00Z",
+        "end_utc": "2026-10-10T23:59:00Z",
+        "img": "https://images.vix.com/prd/league/card/6abfd3ccbaf2c86ce31fb5aa/adaa25833f27195c6e3b619e399739d0?tr=w-1800,h-1020:l-image,i-/prd/team-logo/6a6679212461a5bd04923e2e/cab224849ac9fcd958338a22aadb39ab,lx-243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end:l-image,i-/prd/team-logo/69fcf3695172114904092876/726f9dd5ec3c01bca410eee3d4dafbf5,lx-N243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end",
+        "live": false,
+        "date": "10 de Octubre",
+        "opciones": {
+            "ViX USA": "https://shplus.240025.xyz/application-webview/vix.html?id=adst9BQ6dLA1axO0",
+            "ViX MEX": "https://shplus.240025.xyz/application-webview/vix.html?id=adstZLQ9aP85a0pW"
+        }
+    },
+    {
+        "id": 6,
+        "title": "Querétaro vs. Atlante",
+        "desc": "Liga MX (Apertura)",
+        "url": "https://shplus.240025.xyz/application-webview/vix.html?id=adst9QBkNWBXa2Zo",
+        "start_utc": "2026-10-10T22:45:00Z",
+        "end_utc": "2026-10-11T01:20:00Z",
+        "img": "https://images.vix.com/prd/league/card/6a4da1114b3c83f297cbee8f/c66d5f513a69a298168283811027475f?tr=w-1800,h-1020:l-image,i-/prd/team-logo/6a6be8ecc09dad5e109c9872/96343fbb1ff46dfc61e2c0fcd0ede10b,lx-243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end:l-image,i-/prd/team-logo/6a6be8128b54329ec15542d3/8bd23b93e229f24d0ed5b69c5cef122e,lx-N243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end",
+        "live": false,
+        "date": "10 de Octubre"
+    },
+    {
+        "id": 7,
+        "title": "Atlas vs. Chivas",
+        "desc": "Liga MX (Apertura)",
+        "url": "https://shplus.240025.xyz/application-webview/vix.html?id=adstlArXq73Gqe2v",
+        "start_utc": "2026-10-11T00:00:00Z",
+        "end_utc": "2026-10-11T03:20:00Z",
+        "img": "https://images.vix.com/prd/league/card/6a4da1114b3c83f297cbee8f/c66d5f513a69a298168283811027475f?tr=w-1800,h-1020:l-image,i-/prd/team-logo/6a6be823658c4878465ba20f/f8e5405fb32ae4cb73495411ee3b4b24,lx-243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end:l-image,i-/prd/team-logo/6a6be843f901cc1eb59894c9/1524449cc0a0abcf2f53d9a6f06dbe9a,lx-N243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end",
+        "live": false,
+        "date": "10 de Octubre",
+        "opciones": {
+            "ViX USA": "https://shplus.240025.xyz/application-webview/vix.html?id=adstlArXq73Gqe2v",
+            "ViX MEX": "https://shplus.240025.xyz/application-webview/vix.html?id=adst0J4VNVBKN2zX"
+        }
+    },
+    {
+        "id": 8,
+        "title": "NY Yankees vs. Tampa Bay Rays",
+        "desc": "MLB - ALDS",
+        "url": "https://shplus.240025.xyz/application-webview/vix.html?id=adst82m0dZw8aEnv",
+        "start_utc": "2026-10-11T00:00:00Z",
+        "end_utc": "2026-10-11T03:00:00Z",
+        "img": "https://images.vix.com/prd/league/card/6abfd3ccbaf2c86ce31fb5aa/adaa25833f27195c6e3b619e399739d0?tr=w-1800,h-1020:l-image,i-/prd/team-logo/69fcf335e6111438e8416fe0/926c76fc1ea209a3c50525d580f25a84,lx-243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end:l-image,i-/prd/team-logo/6a3d3b9d36f2ab93894ab371/9c2d1ca5b5439557e35e71828d22d404,lx-N243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end",
+        "live": false,
+        "date": "10 de Octubre",
+        "opciones": {
+            "ViX USA": "https://shplus.240025.xyz/application-webview/vix.html?id=adst82m0dZw8aEnv",
+            "ViX MEX": "https://shplus.240025.xyz/application-webview/vix.html?id=adstZLQ9aP85a0pW"
+        }
+    },
+    {
+        "id": 9,
+        "title": "River Plate vs. Estudiantes de Río Cuarto",
+        "desc": "Liga Profesional de Fútbol - Torneo Clausura",
+        "url": "https://shplus.240025.xyz/application-webview/vix.html?id=adstYRQVa8POaw4n",
+        "start_utc": "2026-10-11T00:15:00Z",
+        "end_utc": "2026-10-11T02:50:00Z",
+        "img": "https://images.vix.com/prd/league/card/69e4061c9903c7032ff37339/38b6184310862968ee262b837d2e9113?tr=w-1800,h-1020:l-image,i-/prd/team-logo/69e40b82b9ab5fa86d7aec5d/82e8b8b31ea38e359a0835455a706910,lx-243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end:l-image,i-/prd/team-logo/69e40a2150dec2835dbd47d7/8fdc17ce23e4bd4b618d07b0fe56b8da,lx-N243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end",
+        "live": false,
+        "date": "10 de Octubre"
+    },
+    {
+        "id": 10,
+        "title": "América vs. Monterrey",
+        "desc": "Liga MX (Apertura)",
+        "url": "https://shplus.240025.xyz/application-webview/vix.html?id=adstWMwraRrBaZzR",
+        "start_utc": "2026-10-11T02:55:00Z",
+        "end_utc": "2026-10-11T05:30:00Z",
+        "img": "https://images.vix.com/prd/league/card/6a4da1114b3c83f297cbee8f/c66d5f513a69a298168283811027475f?tr=w-1800,h-1020:l-image,i-/prd/team-logo/6a6be804ca5e15f72b13e617/87c840204302f9487819141f5630acfd,lx-243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end:l-image,i-/prd/team-logo/6a6be89e239646cf5b70ae2b/95c2633ded73c23140ac4289aa571471,lx-N243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end",
+        "live": false,
+        "date": "10 de Octubre",
+        "opciones": {
+            "ViX USA": "https://shplus.240025.xyz/application-webview/vix.html?id=adstWMwraRrBaZzR",
+            "ViX MEX": "https://shplus.240025.xyz/application-webview/vix.html?id=adstklx7qmBrd4Bp"
+        }
+    },
+    {
+        "id": 11,
+        "title": "BOX: Gohan Rodriguez vs Joe Shiraishi",
+        "desc": "Box Televisa",
+        "url": "https://shplus.240025.xyz/application-webview/vix.html?id=adstOZ5RqeVVd9EG",
+        "start_utc": "2026-10-11T04:55:00Z",
+        "end_utc": "2026-10-10T06:55:00Z",
+        "img": "https://images.vix.com/prd/league/card/6645469c9ba07f83da26757e/f737c8b794820cb4d75601422d4eafb0?tr=w-1800,h-1020:l-image,i-/prd/team/default-logo/663e678c4f65444d866bfe08/39861acccba4243b9487575c9d837ecc,lx-243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end:l-image,i-/prd/team/default-logo/663e678c4f65444d866bfe08/39861acccba4243b9487575c9d837ecc,lx-N243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end",
+        "live": false,
+        "date": "10 de Octubre"
+    },
+    {
+        "id": 12,
+        "title": "Elche vs. Celta de Vigo",
+        "desc": "LaLiga",
+        "url": "https://shplus.240025.xyz/application-webview/vix.html?id=adst7ol0q4V3a5pB",
+        "start_utc": "2026-10-11T11:45:00Z",
+        "end_utc": "2026-10-11T14:20:00Z",
+        "img": "https://images.vix.com/prd/league/card/6a7e11e2c08ec89b5ae18c35/fd17e697e1878e5da5ea9d62172521c6?tr=w-1800,h-1020:l-image,i-/prd/team-logo/6a921f20f4e969bde0d6b11a/7c38452b9ba0c48afad0b4bb0219d8b9,lx-243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end:l-image,i-/prd/team-logo/6a921fdcc4d217eec8d87bf9/3cc9a1353991d13f6042ac5da37599a9,lx-N243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end",
+        "live": false,
+        "date": "11 de Octubre"
+    },
+    {
+        "id": 13,
+        "title": "Episodio #123",
+        "desc": "Lucha Libre CMLL",
+        "url": "https://shplus.240025.xyz/application-webview/vix.html?id=adstOZ5RqeVVd9EG",
+        "start_utc": "2026-10-11T16:00:00Z",
+        "end_utc": "2026-10-11T17:30:00Z",
+        "img": "https://images.vix.com/prd/league/card/66a17f318ca1509fe05884b0/8b5b7b7740bac4619850e7eb2c6fe4ec?tr=w-1800,h-1020:l-image,i-/prd/team/default-logo/663e678c4f65444d866bfe08/39861acccba4243b9487575c9d837ecc,lx-243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end:l-image,i-/prd/team/default-logo/663e678c4f65444d866bfe08/39861acccba4243b9487575c9d837ecc,lx-N243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end",
+        "live": false,
+        "date": "11 de Octubre"
+    },
+    {
+        "id": 14,
+        "title": "NFL Blitz",
+        "desc": "NFL Blitz",
+        "url": "https://shplus.240025.xyz/application-webview/vix.html?id=adstklx7qmBrd4Bp",
+        "start_utc": "2026-10-11T16:45:00Z",
+        "end_utc": "2026-10-11T20:00:00Z",
+        "img": "https://images.vix.com/prd/league/card/6a9ee3584c5204a789a17b8f/4eeda8d6c210641586e6e93e71eb4d76?tr=w-1800,h-1020:l-image,i-/prd/team/default-logo/663e678c4f65444d866bfe08/39861acccba4243b9487575c9d837ecc,lx-243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end:l-image,i-/prd/team/default-logo/663e678c4f65444d866bfe08/39861acccba4243b9487575c9d837ecc,lx-N243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end",
+        "live": false,
+        "date": "11 de Octubre"
+    },
+    {
+        "id": 15,
+        "title": "Las Vegas Raiders vs. New England Patriots",
+        "desc": "NFL",
+        "url": "https://shplus.240025.xyz/application-webview/vix.html?id=adstYRQVa8jKqw4n",
+        "start_utc": "2026-10-11T17:00:00Z",
+        "end_utc": "2026-10-11T20:20:00Z",
+        "img": "https://images.vix.com/prd/league/card/6ab29fc74ed9bcf0dfd8e99b/0c6c330a6372265a83f0bb9e760eb93a?tr=w-1800,h-1020:l-image,i-/prd/team-logo/66bc2dde166382c145cc0316/708674deb93bfa2595fa8cbdca280f86,lx-243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end:l-image,i-/prd/team-logo/6a9f4820b48ed966b3c6ca33/e29da5cbc6c1f9b0d38b97e6fbfd4755,lx-N243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end",
+        "live": false,
+        "date": "11 de Octubre"
+    },
+    {
+        "id": 16,
+        "title": "Rosario Central vs. Independiente Rivadavia",
+        "desc": "Liga Profesional de Fútbol - Torneo Clausura",
+        "url": "https://shplus.240025.xyz/application-webview/vix.html?id=adstlArXq7jyNe2v",
+        "start_utc": "2026-10-11T19:45:00Z",
+        "end_utc": "2026-10-11T22:20:00Z",
+        "img": "https://images.vix.com/prd/league/card/69e4061c9903c7032ff37339/38b6184310862968ee262b837d2e9113?tr=w-1800,h-1020:l-image,i-/prd/team-logo/69e40be246bb438316429277/d63c7188410b57ef79bc93828683a9b6,lx-243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end:l-image,i-/prd/team-logo/69e40ab4fc655f3b837fb719/4c4f802d7de85a847a983f9084d555b3,lx-N243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end",
+        "live": false,
+        "date": "11 de Octubre",
+        "NoKey": "adstlArXq7jyNe2v"
+    },
+    {
+        "id": 17,
+        "title": "San Francisco 49ers vs. Seattle Seahawks",
+        "desc": "NFL",
+        "url": "https://shplus.240025.xyz/application-webview/vix.html?id=adstV2v5NBjvN1EZ",
+        "start_utc": "2026-10-11T20:00:00Z",
+        "end_utc": "2026-10-11T23:45:00Z",
+        "img": "https://images.vix.com/prd/league/card/6ab29fc74ed9bcf0dfd8e99b/0c6c330a6372265a83f0bb9e760eb93a?tr=w-1800,h-1020:l-image,i-/prd/team-logo/66eb2b4a6bb623b49c84a2af/9cc43aeb4e3f25bc0a7464616b780dd7,lx-243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end:l-image,i-/prd/team-logo/6a9f480e66d1c6be8c9e28c3/cc529e3f6e8c05e3f066ee6cee131cff,lx-N243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end",
+        "live": false,
+        "date": "11 de Octubre"
+    },
+    {
+        "id": 18,
+        "title": "Racing Club vs. Belgrano de Cordoba",
+        "desc": "Liga Profesional de Fútbol - Torneo Clausura",
+        "url": "https://shplus.240025.xyz/application-webview/vix.html?id=adstYRQVa8POaw4n",
+        "start_utc": "2026-10-11T22:00:00Z",
+        "end_utc": "2026-10-12T00:35:00Z",
+        "img": "https://images.vix.com/prd/league/card/69e4061c9903c7032ff37339/38b6184310862968ee262b837d2e9113?tr=w-1800,h-1020:l-image,i-/prd/team-logo/6a63d96fad6538b354d003b1/db78b5a6410029b9314463a4afeea29c,lx-243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end:l-image,i-/prd/team-logo/69e40ce4990e38f53db38d6a/1232a1ddc77dc2ed2ebec28656fb1784,lx-N243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end",
+        "live": false,
+        "date": "11 de Octubre"
+    },
+    {
+        "id": 19,
+        "title": "Atlético de San Luis vs. Santos Laguna",
+        "desc": "Liga MX (Apertura)",
+        "url": "https://shplus.240025.xyz/application-webview/vix.html?id=adstklx7qmBrd4Bp",
+        "start_utc": "2026-10-11T22:45:00Z",
+        "end_utc": "2026-10-12T01:20:00Z",
+        "img": "https://images.vix.com/prd/league/card/6a4da1114b3c83f297cbee8f/c66d5f513a69a298168283811027475f?tr=w-1800,h-1020:l-image,i-/prd/team-logo/6a6be8330a9a047bf412dc07/b68a0a45e4cee69f95cd7df3b39d7e0c,lx-243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end:l-image,i-/prd/team-logo/6a6be8ffa49ef9386e031227/864747c5b74e7e456d6a27f815f40587,lx-N243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end",
+        "live": false,
+        "date": "11 de Octubre"
+    },
+    {
+        "id": 20,
+        "title": "Pumas UNAM vs. Cruz Azul",
+        "desc": "Liga MX (Apertura)",
+        "url": "https://shplus.240025.xyz/application-webview/vix.html?id=adst0J4VNVBKN2zX",
+        "start_utc": "2026-10-12T00:00:00Z",
+        "end_utc": "2026-10-12T03:30:00Z",
+        "img": "https://images.vix.com/prd/league/card/6a4da1114b3c83f297cbee8f/c66d5f513a69a298168283811027475f?tr=w-1800,h-1020:l-image,i-/prd/team-logo/6a6be8dd678f4b8a4629d168/5f57e799db82af7ad19a83ebf07107af,lx-243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end:l-image,i-/prd/team-logo/6a6be8656bf9509f9fc325b7/c9f231c7d5600109cf48b5c07b15f221,lx-N243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end",
+        "live": false,
+        "date": "11 de Octubre"
+    },
+    {
+        "id": 21,
+        "title": "Corea del Norte (F) vs. Puerto Rico (F)",
+        "desc": "Mundial Femenil Sub17",
+        "url": "https://shplus.240025.xyz/application-webview/vix.html?id=adstYRQVa8jKqw4n",
+        "start_utc": "2026-10-17T14:45:00Z",
+        "end_utc": "2026-10-17T17:20:00Z",
+        "img": "https://images.vix.com/prd/league/card/68f16d6f4f9682f246647158/8b243a10fc3fb7fc564a9aa8dfa9fba9?tr=w-1800,h-1020:l-image,i-/prd/team-logo/670d3dd6ae15bf3e6094c9b5/28fbf6e5d7f1fde3c3a4477b24c27648,lx-243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end:l-image,i-/prd/team-logo/691fcb980ebb0a7074356b06/f4b5eafb856036733d139eb1404f3de1,lx-N243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end",
+        "live": false,
+        "date": "17 de Octubre"
+    },
+    {
+        "id": 22,
+        "title": "Marruecos (F) vs. Nueva Zelanda (F)",
+        "desc": "Mundial Femenil Sub17",
+        "url": "https://shplus.240025.xyz/application-webview/vix.html?id=adst0J4VNVBKN2zX",
+        "start_utc": "2026-10-17T17:45:00Z",
+        "end_utc": "2026-10-17T20:20:00Z",
+        "img": "https://images.vix.com/prd/league/card/68f16d6f4f9682f246647158/8b243a10fc3fb7fc564a9aa8dfa9fba9?tr=w-1800,h-1020:l-image,i-/prd/team-logo/68f155c64f9682f246637d76/6db9bc1b092ec8ece6e2ceda6fb51d53,lx-243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end:l-image,i-/prd/team-logo/6a91177b73c9d508779285a2/57c96d0057da6abb854e7b07577347ef,lx-N243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end",
+        "live": false,
+        "date": "17 de Octubre"
+    },
+    {
+        "id": 23,
+        "title": "Polonia (F) vs. Nigeria (F)",
+        "desc": "Mundial Femenil Sub17",
+        "url": "https://shplus.240025.xyz/application-webview/vix.html?id=adstYRQVa8jKqw4n",
+        "start_utc": "2026-10-17T17:45:00Z",
+        "end_utc": "2026-10-17T20:20:00Z",
+        "img": "https://images.vix.com/prd/league/card/68f16d6f4f9682f246647158/8b243a10fc3fb7fc564a9aa8dfa9fba9?tr=w-1800,h-1020:l-image,i-/prd/team-logo/6a9115b081bcda6ce5491d8e/1b4ff9354457481f0ce1cca4a6e2fade,lx-243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end:l-image,i-/prd/team-logo/6a9119248d5278356808b669/2cb607f675d89327c6ce0f8981230efa,lx-N243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end",
+        "live": false,
+        "date": "17 de Octubre"
+    },
+    {
+        "id": 24,
+        "title": "Santos Laguna vs. Querétaro",
+        "desc": "Liga MX (Apertura)",
+        "url": "https://shplus.240025.xyz/application-webview/vix.html?id=adstOZ5RqeVVd9EG",
+        "start_utc": "2026-10-17T22:45:00Z",
+        "end_utc": "2026-10-18T01:20:00Z",
+        "img": "https://images.vix.com/prd/league/card/6a4da1114b3c83f297cbee8f/c66d5f513a69a298168283811027475f?tr=w-1800,h-1020:l-image,i-/prd/team-logo/6a6be8ffa49ef9386e031227/864747c5b74e7e456d6a27f815f40587,lx-243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end:l-image,i-/prd/team-logo/6a6be8ecc09dad5e109c9872/96343fbb1ff46dfc61e2c0fcd0ede10b,lx-N243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end",
+        "live": false,
+        "date": "17 de Octubre"
+    },
+    {
+        "id": 25,
+        "title": "Toluca vs. Atlético de San Luis",
+        "desc": "Liga MX (Apertura)",
+        "url": "https://shplus.240025.xyz/application-webview/vix.html?id=adst0J4VNVBKN2zX",
+        "start_utc": "2026-10-18T00:00:00Z",
+        "end_utc": "2026-10-18T03:20:00Z",
+        "img": "https://images.vix.com/prd/league/card/6a4da1114b3c83f297cbee8f/c66d5f513a69a298168283811027475f?tr=w-1800,h-1020:l-image,i-/prd/team-logo/6a6be9210f754fb68e9a18a1/45363a68b106b55c26de01e05d908a64,lx-243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end:l-image,i-/prd/team-logo/6a6be8330a9a047bf412dc07/b68a0a45e4cee69f95cd7df3b39d7e0c,lx-N243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end",
+        "live": false,
+        "date": "17 de Octubre"
+    },
+    {
+        "id": 26,
+        "title": "Cruz Azul vs. FC Juárez",
+        "desc": "Liga MX (Apertura)",
+        "url": "https://shplus.240025.xyz/application-webview/vix.html?id=adstOZ5RqeVVd9EG",
+        "start_utc": "2026-10-18T02:50:00Z",
+        "end_utc": "2026-10-18T05:25:00Z",
+        "img": "https://images.vix.com/prd/league/card/6a4da1114b3c83f297cbee8f/c66d5f513a69a298168283811027475f?tr=w-1800,h-1020:l-image,i-/prd/team-logo/6a6be8656bf9509f9fc325b7/c9f231c7d5600109cf48b5c07b15f221,lx-243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end:l-image,i-/prd/team-logo/6a6be873b1b675913692b50c/87ae91e094c08f5bd71203da1e611ab6,lx-N243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end",
+        "live": false,
+        "date": "17 de Octubre"
+    },
+    {
+        "id": 27,
+        "title": "Osasuna vs. Racing de Santander",
+        "desc": "LaLiga",
+        "url": "https://shplus.240025.xyz/application-webview/vix.html?id=adst7ol0q4V3a5pB",
+        "start_utc": "2026-10-18T11:45:00Z",
+        "end_utc": "2026-10-18T14:20:00Z",
+        "img": "https://images.vix.com/prd/league/card/6a7e11e2c08ec89b5ae18c35/fd17e697e1878e5da5ea9d62172521c6?tr=w-1800,h-1020:l-image,i-/prd/team-logo/6a921edc354a4bbb6e7fe6a3/0089588b0772730c06794d7e93f974a7,lx-243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end:l-image,i-/prd/team-logo/6a921fb60f4a6cd4cc418767/8795ce62c5397ca3c9e74f16a0e44057,lx-N243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end",
+        "live": false,
+        "date": "18 de Octubre"
+    },
+    {
+        "id": 28,
+        "title": "Canadá (F) vs. Brasil (F)",
+        "desc": "Mundial Femenil Sub17",
+        "url": "https://shplus.240025.xyz/application-webview/vix.html?id=adst0J4VNVBKN2zX",
+        "start_utc": "2026-10-18T14:45:00Z",
+        "end_utc": "2026-10-18T17:20:00Z",
+        "img": "https://images.vix.com/prd/league/card/68f16d6f4f9682f246647158/8b243a10fc3fb7fc564a9aa8dfa9fba9?tr=w-1800,h-1020:l-image,i-/prd/team-logo/6a9116e26ba1d622c43d7b1b/48880eec9e2148e3d95afd28030842bf,lx-243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end:l-image,i-/prd/team-logo/6aadbfde9759a877325fe290/e453d3a439e873678cfde8e261ffbcd2,lx-N243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end",
+        "live": false,
+        "date": "18 de Octubre"
+    },
+    {
+        "id": 29,
+        "title": "Japón (F) vs. Zambia (F)",
+        "desc": "Mundial Femenil Sub17",
+        "url": "https://shplus.240025.xyz/application-webview/vix.html?id=adstOZ5RqeVVd9EG",
+        "start_utc": "2026-10-18T14:45:00Z",
+        "end_utc": "2026-10-18T17:20:00Z",
+        "img": "https://images.vix.com/prd/league/card/68f16d6f4f9682f246647158/8b243a10fc3fb7fc564a9aa8dfa9fba9?tr=w-1800,h-1020:l-image,i-/prd/team-logo/6a911760ff87161193caa919/2dc916cef76729cbe423097d418bc0c5,lx-243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end:l-image,i-/prd/team-logo/68f16ff84f9682f246648bb0/1157ca5571c93c6a66dada1862982680,lx-N243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end",
+        "live": false,
+        "date": "18 de Octubre"
+    },
+    {
+        "id": 30,
+        "title": "Episodio #124",
+        "desc": "Lucha Libre CMLL",
+        "url": "https://shplus.240025.xyz/application-webview/vix.html?id=adstAjPoNMPQaZvm",
+        "start_utc": "2026-10-18T16:00:00Z",
+        "end_utc": "2026-10-18T17:30:00Z",
+        "img": "https://images.vix.com/prd/league/card/66a17f318ca1509fe05884b0/8b5b7b7740bac4619850e7eb2c6fe4ec?tr=w-1800,h-1020:l-image,i-/prd/team/default-logo/663e678c4f65444d866bfe08/39861acccba4243b9487575c9d837ecc,lx-243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end:l-image,i-/prd/team/default-logo/663e678c4f65444d866bfe08/39861acccba4243b9487575c9d837ecc,lx-N243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end",
+        "live": false,
+        "date": "18 de Octubre"
+    },
+    {
+        "id": 31,
+        "title": "Pittsburgh Steelers vs. Tampa Bay Buccaneers",
+        "desc": "NFL",
+        "url": "https://shplus.240025.xyz/application-webview/vix.html?id=adstYRQVa8jKqw4n",
+        "start_utc": "2026-10-18T16:45:00Z",
+        "end_utc": "2026-10-18T20:20:00Z",
+        "img": "https://images.vix.com/prd/league/card/6ab29fc74ed9bcf0dfd8e99b/0c6c330a6372265a83f0bb9e760eb93a?tr=w-1800,h-1020:l-image,i-/prd/team-logo/67566a918092fe91f20a471d/8e479da759d8d262f50d84a65d47484b,lx-243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end:l-image,i-/prd/team-logo/672a6c3c07eb421fc0de628c/b892bd3b335e8248f994ae70974c3d2a,lx-N243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end",
+        "live": false,
+        "date": "18 de Octubre"
+    },
+    {
+        "id": 32,
+        "title": "Francia (F) vs. Venezuela (F)",
+        "desc": "Mundial Femenil Sub17",
+        "url": "https://shplus.240025.xyz/application-webview/vix.html?id=adst0J4VNVBKN2zX",
+        "start_utc": "2026-10-18T17:45:00Z",
+        "end_utc": "2026-10-18T20:20:00Z",
+        "img": "https://images.vix.com/prd/league/card/68f16d6f4f9682f246647158/8b243a10fc3fb7fc564a9aa8dfa9fba9?tr=w-1800,h-1020:l-image,i-/prd/team-logo/6a911722c1a93434c06cf46e/27a380ed83dafca156eb28db690e9804,lx-243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end:l-image,i-/prd/team-logo/6aadc0729e1240471855d5ad/937f8ce6be8ceb1927a561b30d1edefe,lx-N243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end",
+        "live": false,
+        "date": "18 de Octubre"
+    },
+    {
+        "id": 33,
+        "title": "Noruega (F) vs. Ghana (F)",
+        "desc": "Mundial Femenil Sub17",
+        "url": "https://shplus.240025.xyz/application-webview/vix.html?id=adst9QBkNWBXa2Zo",
+        "start_utc": "2026-10-18T17:45:00Z",
+        "end_utc": "2026-10-18T20:20:00Z",
+        "img": "https://images.vix.com/prd/league/card/68f16d6f4f9682f246647158/8b243a10fc3fb7fc564a9aa8dfa9fba9?tr=w-1800,h-1020:l-image,i-/prd/team-logo/68f1562f08277c45e76d6c67/c9eed27a864ed8758ab1000ddd45f5d5,lx-243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end:l-image,i-/prd/team-logo/6a9117b3534647ac9c47950b/d7143e6a0afe95706c25b5d2d12afa3d,lx-N243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end",
+        "live": false,
+        "date": "18 de Octubre"
+    },
+    {
+        "id": 34,
+        "title": "L.A. Chargers vs. Kansas City Chiefs",
+        "desc": "NFL",
+        "url": "https://shplus.240025.xyz/application-webview/vix.html?id=adstV2v5NBjvN1EZ",
+        "start_utc": "2026-10-18T20:00:00Z",
+        "end_utc": "2026-10-18T23:45:00Z",
+        "img": "https://images.vix.com/prd/league/card/6ab29fc74ed9bcf0dfd8e99b/0c6c330a6372265a83f0bb9e760eb93a?tr=w-1800,h-1020:l-image,i-/prd/team-logo/66bcdccb1b2c0eaca1863646/6865735c0cdea8181650c9bc5a8d5bbe,lx-243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end:l-image,i-/prd/team-logo/66d894198d2d3d7136fa05ab/8f2279a9bf98195aa9fce67df8e9010b,lx-N243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end",
+        "live": false,
+        "date": "18 de Octubre"
+    },
+    {
+        "id": 35,
+        "title": "América (F) vs. Pachuca (F)",
+        "desc": "Liga MX Femenil (Apertura)",
+        "url": "https://shplus.240025.xyz/application-webview/vix.html?id=adst0J4VNVBKN2zX",
+        "start_utc": "2026-10-19T00:40:00Z",
+        "end_utc": "2026-10-19T03:20:00Z",
+        "img": "https://images.vix.com/prd/league/card/6a6a3f8cd88bd439e056e660/e8c92d631378646e9878088b5a89323e?tr=w-1800,h-1020:l-image,i-/prd/team-logo/6a9225e900ca4d5042941e8d/d35d61bf40930ddfa0bab4dcb04fe3d9,lx-243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end:l-image,i-/prd/team-logo/6a92267a2ff95120d7b62ab5/a90cb258fa6b7b6a7c736663e4f8c31e,lx-N243,c-at_max,t-false,cm-pad_resize,h-684,w-588,ly-168,l-end",
+        "live": false,
+        "date": "18 de Octubre"
+    }
+]
