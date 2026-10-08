@@ -11,7 +11,7 @@ HEADERS = {
     "Referer": "https://shplus.240025.xyz/"
 }
 
-# Configuración de cabeceras requeridas para ViX
+# Encabezados de transmisión
 REFERER = "https://vix.com/"
 ORIGIN = "https://vix.com/"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
@@ -28,7 +28,7 @@ def extract_id_from_url(raw_url):
     return None
 
 def fetch_event_data(event_id):
-    """Consulta la API ver.php?id=... y retorna el objeto de datos completo."""
+    """Consulta la API ver.php?id=..."""
     if not event_id:
         return None
     
@@ -36,7 +36,6 @@ def fetch_event_data(event_id):
     try:
         res = requests.get(api_url, headers=HEADERS, impersonate="chrome", timeout=12)
         print(f"  [-] Consultando API ID '{event_id}' -> HTTP {res.status_code}")
-        
         if res.status_code == 200:
             return res.json()
     except Exception as e:
@@ -81,59 +80,63 @@ def main():
             print(f"-> [{idx}/{len(events)}] Procesando: '{item_title}' | ID: {event_id}")
             
             data = fetch_event_data(event_id)
-            if not data:
+            if not data or not isinstance(data, dict):
                 continue
 
             stream_url = None
-            license_key = None
+            license_url = None
 
-            # 1. Intentar obtener datos desde el nodo 'content' -> 'media'
+            # Buscar dentro de content -> media (Estructura de Lura Player / ViX)
             content = data.get("content", {})
             if isinstance(content, dict):
                 media_list = content.get("media", [])
+                
+                # Prioridad 1: Buscar DASH (.mpd) con DRM Widevine
                 for item in media_list:
-                    if isinstance(item, dict):
-                        stream_url = item.get("url") or stream_url
-                        license_key = item.get("license_key") or item.get("key") or license_key
+                    if isinstance(item, dict) and item.get("type") == "application/dash+xml":
+                        stream_url = item.get("url")
+                        license_url = item.get("licenseUrl")
+                        break
+                
+                # Prioridad 2: Si no hay DASH, buscar HLS (.m3u8)
+                if not stream_url:
+                    for item in media_list:
+                        if isinstance(item, dict) and item.get("type") == "application/x-mpegURL":
+                            stream_url = item.get("url")
+                            license_url = item.get("licenseUrl")
+                            break
 
-            # 2. Si no están en media, buscar directamente en el nivel raíz del JSON
-            if not stream_url and isinstance(data, dict):
-                stream_url = data.get("url") or data.get("stream")
-            if not license_key and isinstance(data, dict):
-                license_key = data.get("license_key") or data.get("license") or data.get("key")
-
-            # Si no hay license_key retornado explícitamente pero la URL ya trae token embebido o es un endpoint directo
             if stream_url:
                 valid_count += 1
                 
-                # Adjuntar sufijos HTTP si no venían en la URL principal
-                if "|Referer=" not in stream_url:
-                    full_stream_url = f"{stream_url}|Referer={REFERER}|Origin={ORIGIN}|User-Agent={USER_AGENT}"
+                # Formatear stream_url con cabeceras
+                full_stream_url = f"{stream_url}|Referer={REFERER}|Origin={ORIGIN}|User-Agent={USER_AGENT}"
+                
+                # Formatear license_key con cabeceras
+                if license_url:
+                    full_license_key = f"{license_url}|Referer={REFERER}|Origin={ORIGIN}|User-Agent={USER_AGENT}"
                 else:
-                    full_stream_url = stream_url
+                    full_license_key = ""
 
-                # Formatear license_key con encabezados Kodi/IPTV
-                if license_key and "|Referer=" not in license_key:
-                    full_license_key = f"{license_key}|Referer={REFERER}|Origin={ORIGIN}|User-Agent={USER_AGENT}"
-                else:
-                    full_license_key = license_key or f"https://drm.mp.lura.live/fp?eqp=...|Referer={REFERER}|Origin={ORIGIN}|User-Agent={USER_AGENT}"
-
-                # Construcción exacta del bloque M3U
+                # Escribir la estructura M3U exacta
                 m3u_lines.append(f'#EXTINF:-1 tvg-id="" tvg-name="{item_title}" tvg-logo="{logo}" group-title="{category}",{item_title}\n')
-                m3u_lines.append('#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha\n')
-                m3u_lines.append(f'#KODIPROP:inputstream.adaptive.license_key={full_license_key}\n')
+                
+                if full_license_key:
+                    m3u_lines.append('#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha\n')
+                    m3u_lines.append(f'#KODIPROP:inputstream.adaptive.license_key={full_license_key}\n')
+                
                 m3u_lines.append(f'#KODIPROP:inputstream.adaptive.stream_headers=Referer={REFERER}&Origin={ORIGIN}\n')
                 m3u_lines.append(f'#EXTVLCOPT:http-referrer={REFERER}\n')
                 m3u_lines.append(f'#EXTVLCOPT:http-origin={ORIGIN}\n')
                 m3u_lines.append(f'#EXTVLCOPT:http-user-agent={USER_AGENT}\n')
                 m3u_lines.append(f'{full_stream_url}\n\n')
 
-    print(f"\n[+] Total de canales guardados con estructura DRM/KODIPROP: {valid_count}")
+    print(f"\n[+] Total de canales procesados con éxito: {valid_count}")
 
     with open("eventos.m3u", "w", encoding="utf-8") as f:
         f.writelines(m3u_lines)
 
-    print("[+] Archivo 'eventos.m3u' actualizado exitosamente.")
+    print("[+] Archivo 'eventos.m3u' generado correctamente.")
 
 if __name__ == "__main__":
     main()
