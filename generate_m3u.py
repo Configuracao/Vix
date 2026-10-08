@@ -2,7 +2,7 @@ import json
 import urllib.parse
 import requests
 
-EVENTS_URL = "https://shplus.240025.xyz/application-webview/eventos.json"
+EVENTS_URL = "https://raw.githubusercontent.com/Configuracao/Vix/refs/heads/main/eventos.json"
 API_BASE_URL = "https://shplus.240025.xyz/application-webview/vixplus/json/api/ver.php?id="
 
 HEADERS = {
