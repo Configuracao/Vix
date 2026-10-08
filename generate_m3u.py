@@ -2,7 +2,7 @@ import json
 import urllib.parse
 import requests
 
-EVENTS_URL = "https://shplus.240025.xyz/application-config/json/config.json"
+EVENTS_URL = "https://shplus.240025.xyz/application-webview/eventos.json?"
 API_BASE_URL = "https://shplus.240025.xyz/application-webview/vixplus/json/api/ver.php?id="
 
 # Encabezados para evitar bloqueos por parte del servidor PHP
