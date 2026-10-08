@@ -2,8 +2,11 @@ name: Actualizar Lista M3U
 
 on:
   schedule:
-    - cron: '0 */2 * * *'  # Ejecuta cada 2 horas
-  workflow_dispatch:
+    - cron: '0 */2 * * *'  # Se ejecuta cada 2 horas
+  workflow_dispatch:        # Permite ejecutarlo manualmente desde GitHub
+
+permissions:
+  contents: write           # Permiso necesario para guardar el .m3u en el repo
 
 jobs:
   build:
@@ -11,12 +14,12 @@ jobs:
 
     steps:
     - name: Checkout del código
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Configurar Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
-        python-version: '3.x'
+        python-version: '3.11'
 
     - name: Instalar dependencias
       run: |
@@ -26,10 +29,9 @@ jobs:
     - name: Ejecutar script de conversión
       run: python generate_m3u.py
 
-    - name: Commit y push de cambios
+    - name: Commit y push del archivo M3U
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add eventos.m3u
-        git commit -m "Auto-update eventos.m3u" || exit 0
-        git push
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update eventos.m3u" && git push)
