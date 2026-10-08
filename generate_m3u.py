@@ -2,10 +2,11 @@ import json
 import urllib.parse
 import requests
 
-EVENTS_URL = "https://shplus.240025.xyz/application-webview/eventos.json?"
+# URL correcta de eventos
+EVENTS_URL = "https://shplus.240025.xyz/application-webview/eventos.json"
 API_BASE_URL = "https://shplus.240025.xyz/application-webview/vixplus/json/api/ver.php?id="
 
-# Encabezados para evitar bloqueos por parte del servidor PHP
+# Encabezados HTTP para evitar bloqueos del servidor PHP
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     "Accept": "application/json, text/plain, */*"
@@ -14,9 +15,8 @@ HEADERS = {
 def get_event_id(url):
     if not url:
         return None
-    # Si la URL es simplemente el ID
-    if url.isdigit():
-        return url
+    if isinstance(url, int) or url.isdigit():
+        return str(url)
     
     parsed_url = urllib.parse.urlparse(url)
     query_params = urllib.parse.parse_qs(parsed_url.query)
@@ -24,7 +24,6 @@ def get_event_id(url):
     if "id" in query_params:
         return query_params["id"][0]
     
-    # En caso de que la URL termine en /id_del_evento
     path_parts = parsed_url.path.strip("/").split("/")
     if path_parts and path_parts[-1].isdigit():
         return path_parts[-1]
@@ -38,16 +37,16 @@ def extract_m3u8(event_id):
     api_url = f"{API_BASE_URL}{event_id}"
     try:
         response = requests.get(api_url, headers=HEADERS, timeout=12)
-        print(f"[-] Peticion ID {event_id} - HTTP Status: {response.status_code}")
+        print(f"  [-] Petición API ID {event_id} -> HTTP Status: {response.status_code}")
         
         if response.status_code == 200:
             try:
                 data = response.json()
             except Exception:
-                print(f"[!] La respuesta de ID {event_id} no es un JSON válido.")
+                print(f"  [!] La respuesta para el ID {event_id} no es un JSON válido.")
                 return None
             
-            # 1. Intentar buscar en content -> media
+            # Buscar en content -> media
             content = data.get("content", {})
             media_list = content.get("media", []) if isinstance(content, dict) else []
             
@@ -55,7 +54,7 @@ def extract_m3u8(event_id):
                 if isinstance(item, dict) and item.get("type") in ["application/x-mpegURL", "hls"]:
                     return item.get("url")
             
-            # 2. Si no esta en content.media, buscar directamente en el nivel raiz o en 'stream' / 'url'
+            # Búsqueda alternativa en niveles raíz
             if isinstance(data, dict):
                 if "url" in data and str(data["url"]).endswith(".m3u8"):
                     return data["url"]
@@ -63,22 +62,22 @@ def extract_m3u8(event_id):
                     return data["stream"]
 
     except Exception as e:
-        print(f"[!] Error procesando ID {event_id}: {e}")
+        print(f"  [!] Error al obtener M3U8 para ID {event_id}: {e}")
     return None
 
 def main():
-    print("[+] Obteniendo eventos...")
+    print(f"[+] Obteniendo eventos desde: {EVENTS_URL}")
     try:
         res = requests.get(EVENTS_URL, headers=HEADERS, timeout=12)
         if res.status_code != 200:
-            print(f"[!] Error al descargar config.json. Status HTTP: {res.status_code}")
+            print(f"[!] Error al descargar eventos.json. Código HTTP: {res.status_code}")
             return
         events = res.json()
     except Exception as e:
-        print(f"[!] Error descargando o parseando el JSON de eventos: {e}")
+        print(f"[!] Error al descargar o parsear el JSON de eventos: {e}")
         return
 
-    print(f"[+] Se encontraron {len(events)} eventos en el JSON.")
+    print(f"[+] Se obtuvieron {len(events)} eventos.")
     m3u_lines = ["#EXTM3U\n"]
     valid_streams = 0
 
@@ -89,7 +88,7 @@ def main():
         event_url = event.get("url", "")
         
         event_id = get_event_id(event_url)
-        print(f"-> Procesando [{idx}/{len(events)}]: '{title}' (ID: {event_id})")
+        print(f"-> [{idx}/{len(events)}] Procesando '{title}' (ID: {event_id})")
         
         stream_url = extract_m3u8(event_id)
         
@@ -98,13 +97,12 @@ def main():
             m3u_lines.append(f'#EXTINF:-1 tvg-logo="{logo}" group-title="{category}", {title}\n')
             m3u_lines.append(f'{stream_url}\n\n')
 
-    print(f"[+] Total de transmisiones extraídas: {valid_streams}")
+    print(f"[+] Total de eventos con enlace .m3u8 válido: {valid_streams}")
 
-    # Guardar el archivo eventos.m3u
     with open("eventos.m3u", "w", encoding="utf-8") as f:
         f.writelines(m3u_lines)
 
-    print("[+] Archivo 'eventos.m3u' generado exitosamente.")
+    print("[+] Archivo 'eventos.m3u' generado correctamente.")
 
 if __name__ == "__main__":
     main()
