@@ -1,6 +1,5 @@
 import os
 import json
-import re
 import requests
 import unicodedata
 
@@ -19,6 +18,7 @@ MAPEO_EXCEPCIONES = {
     "tigres uanl": "8305",
     "tigres": "8305",
     "boca juniors": "8305",
+    # Agrega más excepciones si un equipo usa un ID específico que no coincida con su nombre
 }
 
 def normalizar_texto(texto):
@@ -35,6 +35,9 @@ def buscar_imagen(nombre_equipo):
     1. Revisa excepciones manuales.
     2. Revisa si existe un archivo .png numérico o con el nombre normalizado.
     """
+    if not nombre_equipo:
+        return ""
+
     nombre_norm = normalizar_texto(nombre_equipo)
     
     # 1. Verificar si existe en excepciones
@@ -55,18 +58,22 @@ def buscar_imagen(nombre_equipo):
 
     return ""
 
-def extraer_equipo_local(titulo):
+def extraer_equipos(titulo):
     """
-    Extrae el equipo que juega en casa (el primero antes del 'vs').
-    Ejemplo: 'Liga MX: Puebla vs León' -> 'Puebla'
-             'F1 | GP de Singapur...' -> None
+    Extrae el equipo local (casa) y el visitante (fuera) del título.
+    Ejemplo: 'Liga MX: Puebla vs León' -> ('Puebla', 'León')
+             'F1 | GP de Singapur...' -> (None, None)
     """
     if " vs " in titulo:
         partes = titulo.split(":")
         match_str = partes[-1] if len(partes) > 1 else titulo
-        equipo_local = match_str.split(" vs ")[0].strip()
-        return equipo_local
-    return None
+        equipos = match_str.split(" vs ")
+        
+        home = equipos[0].strip() if len(equipos) > 0 else None
+        away = equipos[1].strip() if len(equipos) > 1 else None
+        
+        return home, away
+    return None, None
 
 def procesar_agenda():
     print("Descargando JSON desde streamx305.sbs...")
@@ -82,13 +89,24 @@ def procesar_agenda():
 
     for evento in agenda:
         titulo = evento.get("title", "")
-        equipo_local = extraer_equipo_local(titulo)
+        home_team, away_team = extraer_equipos(titulo)
         
-        if equipo_local:
-            img_url = buscar_imagen(equipo_local)
-            evento["home_team"] = equipo_local
-            evento["img"] = img_url
+        if home_team and away_team:
+            home_img = buscar_imagen(home_team)
+            away_img = buscar_imagen(away_team)
+            
+            evento["home_team"] = home_team
+            evento["home_img"] = home_img
+            evento["away_team"] = away_team
+            evento["away_img"] = away_img
+            
+            # Mantener 'img' igual a 'home_img' para no romper compatibilidad previa
+            evento["img"] = home_img
         else:
+            evento["home_team"] = ""
+            evento["home_img"] = ""
+            evento["away_team"] = ""
+            evento["away_img"] = ""
             evento["img"] = ""
 
     # Guardar el JSON actualizado
