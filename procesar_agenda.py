@@ -2,6 +2,8 @@ import os
 import json
 import requests
 import unicodedata
+import re
+import urllib.parse
 from datetime import datetime, timedelta
 
 # URL del JSON original
@@ -138,6 +140,9 @@ MAPEO_NOMBRES_API = {
     "tottenham hotspur": "tottenham",
     "bayern munchen": "bayern munich",
     "bayern munich": "bayern munich",
+    "diriyah": "al diriyah",
+    "al draih": "al diriyah",
+    "al draiah": "al diriyah",
 }
 
 def normalizar_texto(texto):
@@ -210,9 +215,65 @@ def simplificar_nombre_equipo(nombre):
         norm = MAPEO_NOMBRES_API[norm]
     return norm.replace(" ", "_")
 
+def obtener_event_id_por_browse(home_team, away_team, fecha_str=""):
+    """
+    Realiza una búsqueda web a https://www.thesportsdb.com/browse?s=home+vs+away
+    y extrae el ID numérico del partido respetando la localía y la fecha.
+    """
+    home_clean = normalizar_texto(home_team)
+    away_clean = normalizar_texto(away_team)
+
+    if not home_clean or not away_clean:
+        return None
+
+    # Normalizar si hay alias
+    if home_clean in MAPEO_NOMBRES_API:
+        home_clean = MAPEO_NOMBRES_API[home_clean]
+    if away_clean in MAPEO_NOMBRES_API:
+        away_clean = MAPEO_NOMBRES_API[away_clean]
+
+    fecha_clean = fecha_str[:10] if fecha_str and len(fecha_str) >= 10 else ""
+
+    query_str = f"{home_clean} vs {away_clean}"
+    query_encoded = urllib.parse.quote(query_str)
+    url_browse = f"https://www.thesportsdb.com/browse?s={query_encoded}"
+
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+
+    try:
+        res = requests.get(url_browse, headers=headers, timeout=5)
+        if res.status_code == 200:
+            coincidencias = re.findall(r'/event/(\d+)-([a-z0-9\-]+)', res.text.lower())
+            
+            home_slug = home_clean.replace(" ", "-")
+            away_slug = away_clean.replace(" ", "-")
+
+            for event_id, slug in coincidencias:
+                # Comprobar que el slug contenga ambos equipos en el orden correcto
+                if slug.startswith(home_slug) or (home_slug in slug and away_slug in slug):
+                    if fecha_clean:
+                        url_lookup = f"https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id={event_id}"
+                        try:
+                            data_ev = requests.get(url_lookup, timeout=3).json()
+                            if data_ev and data_ev.get("events"):
+                                ev_date = data_ev["events"][0].get("dateEvent", "")
+                                if ev_date == fecha_clean:
+                                    return event_id
+                        except Exception:
+                            pass
+                    
+                    return event_id
+    except Exception as e:
+        print(f"Error al consultar browse en TheSportsDB: {e}")
+
+    return None
+
 def obtener_api_url_evento(home_team, away_team, fecha_str=""):
     """
-    Genera directamente la URL de la API usando searchevents.php con equipos y fecha.
+    Genera la URL de la API probando primero por búsqueda web directa (extrae idEvent)
+    y en caso de fallo cae al endpoint searchevents.php.
     """
     home_norm = simplificar_nombre_equipo(home_team)
     away_norm = simplificar_nombre_equipo(away_team)
@@ -222,6 +283,12 @@ def obtener_api_url_evento(home_team, away_team, fecha_str=""):
 
     fecha_clean = fecha_str[:10] if fecha_str and len(fecha_str) >= 10 else ""
 
+    # 1. Intentar resolver el ID real a través del buscador web de TheSportsDB
+    event_id_web = obtener_event_id_por_browse(home_team, away_team, fecha_str)
+    if event_id_web:
+        return f"https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id={event_id_web}"
+
+    # 2. Fallback: Usar la API genérica de búsqueda por texto
     if fecha_clean:
         return f"https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e={home_norm}_vs_{away_norm}&d={fecha_clean}"
     
