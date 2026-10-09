@@ -182,8 +182,8 @@ def obtener_duracion_estimada(titulo):
     elif "tenis" in txt or "tennis" in txt:
         return 180  # Tenis
     return 120  # Fútbol y por defecto
-    
-    def obtener_api_url_evento(home_team, away_team, fecha_str=""):
+
+def obtener_api_url_evento(home_team, away_team, fecha_str=""):
     """
     Busca el evento en TheSportsDB por el nombre de los equipos 
     y retorna la URL de la API para consultar en tiempo real.
@@ -192,11 +192,9 @@ def obtener_duracion_estimada(titulo):
         return ""
     
     try:
-        # 1. Limpiar/normalizar los nombres
         home = normalizar_texto(home_team)
         away = normalizar_texto(away_team)
         
-        # 2. Consultar partidos del día o por búsqueda en TheSportsDB (API pública gratuita)
         url_search = f"https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e={home}_vs_{away}"
         res = requests.get(url_search, timeout=4).json()
         
@@ -204,7 +202,7 @@ def obtener_duracion_estimada(titulo):
             event_id = res["event"][0]["idEvent"]
             return f"https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id={event_id}"
             
-    except Exception as e:
+    except Exception:
         pass
         
     return ""
@@ -212,20 +210,16 @@ def obtener_duracion_estimada(titulo):
 def procesar_horarios_y_api(evento):
     """Calcula hora inicio, hora fin estimada y asigna la URL de API en tiempo real."""
     
-    # 1. Intentar obtener por ID directo si viene en el JSON
     event_id = evento.get("id") or evento.get("event_id") or ""
     
     if event_id:
         evento["api_url"] = f"https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id={event_id}"
     else:
-        # 2. Si no hay ID, buscar automáticamente por nombre de equipos
         home = evento.get("home_team", "")
         away = evento.get("away_team", "")
         fecha = evento.get("date", "")
-        
         evento["api_url"] = obtener_api_url_evento(home, away, fecha)
 
-    # 3. Asignar hora de inicio y fin estimada
     time_str = evento.get("time") or evento.get("hora") or ""
     date_str = evento.get("date") or evento.get("fecha") or ""
     
@@ -249,7 +243,7 @@ def procesar_horarios_y_api(evento):
         evento["hora_fin"] = evento.get("hora_fin", "")
 
 def procesar_agenda():
-    print("Descargando JSON desde streamx305.sbs...")
+    print("Descargando JSON actualizado desde streamx305.sbs...")
     try:
         response = requests.get(JSON_URL, timeout=10)
         if response.status_code != 200:
@@ -259,6 +253,10 @@ def procesar_agenda():
     except Exception as e:
         print(f"Error en la petición: {e}")
         return
+
+    # Eliminar archivo antiguo para garantizar reemplazo total
+    if os.path.exists(OUTPUT_JSON):
+        os.remove(OUTPUT_JSON)
 
     for evento in agenda:
         home_val, away_val, home_name, away_name = extraer_equipos(evento)
@@ -271,7 +269,7 @@ def procesar_agenda():
             evento["home_img"] = home_img
             evento["away_team"] = away_name
             evento["away_img"] = away_img
-            evento["img"] = home_img  # Compatibilidad
+            evento["img"] = home_img
         else:
             evento["home_team"] = ""
             evento["home_img"] = ""
@@ -279,14 +277,13 @@ def procesar_agenda():
             evento["away_img"] = ""
             evento["img"] = ""
 
-        # Procesar la API en tiempo real y horarios
         procesar_horarios_y_api(evento)
 
-    # Guardar el JSON actualizado
+    # Reemplazo total creando el archivo desde cero
     with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
         json.dump(agenda, f, ensure_ascii=False, indent=4)
 
-    print(f"JSON procesado con éxito y guardado en {OUTPUT_JSON}")
+    print(f"JSON procesado con éxito y reemplazado completamente en {OUTPUT_JSON}")
 
 if __name__ == "__main__":
     procesar_agenda()
