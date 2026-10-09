@@ -182,26 +182,56 @@ def obtener_duracion_estimada(titulo):
     elif "tenis" in txt or "tennis" in txt:
         return 180  # Tenis
     return 120  # Fútbol y por defecto
+    
+    def obtener_api_url_evento(home_team, away_team, fecha_str=""):
+    """
+    Busca el evento en TheSportsDB por el nombre de los equipos 
+    y retorna la URL de la API para consultar en tiempo real.
+    """
+    if not home_team or not away_team:
+        return ""
+    
+    try:
+        # 1. Limpiar/normalizar los nombres
+        home = normalizar_texto(home_team)
+        away = normalizar_texto(away_team)
+        
+        # 2. Consultar partidos del día o por búsqueda en TheSportsDB (API pública gratuita)
+        url_search = f"https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e={home}_vs_{away}"
+        res = requests.get(url_search, timeout=4).json()
+        
+        if res.get("event") and len(res["event"]) > 0:
+            event_id = res["event"][0]["idEvent"]
+            return f"https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id={event_id}"
+            
+    except Exception as e:
+        pass
+        
+    return ""
 
 def procesar_horarios_y_api(evento):
-    """Calcula hora inicio, hora fin estimada y añade la URL de API en tiempo real."""
+    """Calcula hora inicio, hora fin estimada y asigna la URL de API en tiempo real."""
     
-    # 1. Mapear o extraer la URL de la API (Si el JSON original trae un ID de evento)
+    # 1. Intentar obtener por ID directo si viene en el JSON
     event_id = evento.get("id") or evento.get("event_id") or ""
+    
     if event_id:
         evento["api_url"] = f"https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id={event_id}"
     else:
-        evento["api_url"] = ""
+        # 2. Si no hay ID, buscar automáticamente por nombre de equipos
+        home = evento.get("home_team", "")
+        away = evento.get("away_team", "")
+        fecha = evento.get("date", "")
+        
+        evento["api_url"] = obtener_api_url_evento(home, away, fecha)
 
-    # 2. Asignar hora de inicio y fin estimada
+    # 3. Asignar hora de inicio y fin estimada
     time_str = evento.get("time") or evento.get("hora") or ""
     date_str = evento.get("date") or evento.get("fecha") or ""
     
     if time_str:
         evento["hora_inicio"] = time_str
-        
         try:
-            # Calcular hora fin estimada usando datetime
             duracion_min = obtener_duracion_estimada(evento.get("title", ""))
             
             if date_str and "T" in date_str:
