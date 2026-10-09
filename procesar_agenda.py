@@ -184,34 +184,41 @@ def obtener_duracion_estimada(titulo):
     return 120  # Fútbol y por defecto
 
 def obtener_api_url_evento(home_team, away_team, fecha_str=""):
-    """
-    Busca el evento en TheSportsDB. Si no lo encuentra individualmente,
-    genera la URL usando la fecha exacta que viene en el JSON para el evento.
-    """
-    home = normalizar_texto(home_team)
-    away = normalizar_texto(away_team)
+    home_norm = normalizar_texto(home_team)
+    away_norm = normalizar_texto(away_team)
     
-    # 1. Intentar búsqueda individual en la API por nombres
-    if home and away:
+    if fecha_str and len(fecha_str) >= 10:
+        fecha_clean = fecha_str[:10]
+        # 1. Consultar todos los eventos de ese día
+        url_day = f"https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d={fecha_clean}&s=Soccer"
         try:
-            url_search = f"https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e={home}_vs_{away}"
-            res = requests.get(url_search, timeout=3).json()
+            res = requests.get(url_day, timeout=4).json()
+            eventos_dia = res.get("events") or []
             
+            for ev in eventos_dia:
+                str_event = normalizar_texto(ev.get("strEvent", ""))
+                # Verificar si ambos equipos están en el nombre del partido
+                if home_norm in str_event and away_norm in str_event:
+                    event_id = ev.get("idEvent")
+                    if event_id:
+                        return f"https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id={event_id}"
+        except Exception:
+            pass
+
+    # 2. Reintento secundario con searchevents.php
+    if home_norm and away_norm:
+        try:
+            url_search = f"https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e={home_norm}_vs_{away_norm}"
+            res = requests.get(url_search, timeout=3).json()
             if res.get("event") and len(res["event"]) > 0:
                 event_id = res["event"][0]["idEvent"]
                 return f"https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id={event_id}"
         except Exception:
             pass
 
-    # 2. Fallback: Usar la fecha propia del objeto (ej. "2026-10-10", "2026-10-11")
-    if fecha_str and len(fecha_str) >= 10:
-        # Extraer solo la parte YYYY-MM-DD en caso de que venga con hora ISO
-        fecha_clean = fecha_str[:10]
-        return f"https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d={fecha_clean}&s=Soccer"
-    
-    # 3. Si por alguna razón el evento no trae fecha, usar la fecha actual
-    fecha_hoy = datetime.now().strftime("%Y-%m-%d")
-    return f"https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d={fecha_hoy}&s=Soccer"
+    # Fallback final si no se encuentra ID
+    fecha_clean = fecha_str[:10] if fecha_str else datetime.now().strftime("%Y-%m-%d")
+    return f"https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d={fecha_clean}&s=Soccer"
 
 def procesar_horarios_y_api(evento):
     """Calcula hora inicio, hora fin estimada y asigna la URL de API en tiempo real."""
