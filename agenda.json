@@ -10,7 +10,10 @@
         "home_img": "",
         "away_team": "",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "03:30",
+        "hora_fin": "05:30"
     },
     {
         "category": "Fútbol",
@@ -23,7 +26,10 @@
         "home_img": "",
         "away_team": "",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "03:30",
+        "hora_fin": "05:30"
     },
     {
         "category": "Fútbol",
@@ -36,7 +42,10 @@
         "home_img": "",
         "away_team": "Rockets",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "07:00",
+        "hora_fin": "09:30"
     },
     {
         "category": "Fútbol",
@@ -49,7 +58,10 @@
         "home_img": "",
         "away_team": "",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "07:30",
+        "hora_fin": "09:30"
     },
     {
         "category": "Fútbol",
@@ -62,7 +74,10 @@
         "home_img": "",
         "away_team": "",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "07:30",
+        "hora_fin": "09:30"
     },
     {
         "category": "Fútbol",
@@ -75,7 +90,10 @@
         "home_img": "",
         "away_team": "",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "07:30",
+        "hora_fin": "09:30"
     },
     {
         "category": "Fútbol",
@@ -88,7 +106,10 @@
         "home_img": "",
         "away_team": "Al Quadisiya",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "08:50",
+        "hora_fin": "10:50"
     },
     {
         "category": "Fútbol",
@@ -101,7 +122,10 @@
         "home_img": "",
         "away_team": "Al Quadisiya",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "08:50",
+        "hora_fin": "10:50"
     },
     {
         "category": "Fútbol",
@@ -114,7 +138,10 @@
         "home_img": "",
         "away_team": "Al Quadisiya",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "08:50",
+        "hora_fin": "10:50"
     },
     {
         "category": "Fútbol",
@@ -127,7 +154,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8637.png",
         "away_team": "Kasımpaşa",
         "away_img": "",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8637.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8637.png",
+        "api_url": "",
+        "hora_inicio": "12:00",
+        "hora_fin": "14:00"
     },
     {
         "category": "Fútbol",
@@ -140,7 +170,10 @@
         "home_img": "",
         "away_team": "Sarmiento",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "12:30",
+        "hora_fin": "14:30"
     },
     {
         "category": "Fútbol",
@@ -153,7 +186,10 @@
         "home_img": "",
         "away_team": "Diriyah",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "13:00",
+        "hora_fin": "15:00"
     },
     {
         "category": "Fútbol",
@@ -166,7 +202,10 @@
         "home_img": "",
         "away_team": "Diriyah",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "13:00",
+        "hora_fin": "15:00"
     },
     {
         "category": "Fútbol",
@@ -179,7 +218,10 @@
         "home_img": "",
         "away_team": "Diriyah",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "13:00",
+        "hora_fin": "15:00"
     },
     {
         "category": "Fútbol",
@@ -192,7 +234,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8640.png",
         "away_team": "Heerenveen",
         "away_img": "",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8640.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8640.png",
+        "api_url": "",
+        "hora_inicio": "13:00",
+        "hora_fin": "15:00"
     },
     {
         "category": "Fútbol",
@@ -205,7 +250,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8640.png",
         "away_team": "Heerenveen",
         "away_img": "",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8640.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8640.png",
+        "api_url": "",
+        "hora_inicio": "13:00",
+        "hora_fin": "15:00"
     },
     {
         "category": "Fútbol",
@@ -218,7 +266,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8640.png",
         "away_team": "Heerenveen",
         "away_img": "",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8640.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8640.png",
+        "api_url": "",
+        "hora_inicio": "13:00",
+        "hora_fin": "15:00"
     },
     {
         "category": "Fútbol",
@@ -231,7 +282,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9789.png",
         "away_team": "Werder Bremen",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8697.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9789.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9789.png",
+        "api_url": "",
+        "hora_inicio": "13:30",
+        "hora_fin": "15:30"
     },
     {
         "category": "Fútbol",
@@ -244,7 +298,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9789.png",
         "away_team": "Werder Bremen",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8697.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9789.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9789.png",
+        "api_url": "",
+        "hora_inicio": "13:30",
+        "hora_fin": "15:30"
     },
     {
         "category": "Fútbol",
@@ -257,7 +314,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9789.png",
         "away_team": "Werder Bremen",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8697.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9789.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9789.png",
+        "api_url": "",
+        "hora_inicio": "13:30",
+        "hora_fin": "15:30"
     },
     {
         "category": "Fútbol",
@@ -270,7 +330,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9789.png",
         "away_team": "Werder Bremen",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8697.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9789.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9789.png",
+        "api_url": "",
+        "hora_inicio": "13:30",
+        "hora_fin": "15:30"
     },
     {
         "category": "Fútbol",
@@ -283,7 +346,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8588.png",
         "away_team": "Olympique Lyonnais",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9748.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8588.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8588.png",
+        "api_url": "",
+        "hora_inicio": "13:30",
+        "hora_fin": "15:30"
     },
     {
         "category": "Fútbol",
@@ -296,7 +362,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8588.png",
         "away_team": "Olympique Lyonnais",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9748.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8588.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8588.png",
+        "api_url": "",
+        "hora_inicio": "13:30",
+        "hora_fin": "15:30"
     },
     {
         "category": "Fútbol",
@@ -309,7 +378,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8588.png",
         "away_team": "Olympique Lyonnais",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9748.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8588.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8588.png",
+        "api_url": "",
+        "hora_inicio": "13:30",
+        "hora_fin": "15:30"
     },
     {
         "category": "Fútbol",
@@ -322,7 +394,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png",
         "away_team": "Espanyol",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8558.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png",
+        "api_url": "",
+        "hora_inicio": "14:00",
+        "hora_fin": "16:00"
     },
     {
         "category": "Fútbol",
@@ -335,7 +410,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png",
         "away_team": "Espanyol",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8558.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png",
+        "api_url": "",
+        "hora_inicio": "14:00",
+        "hora_fin": "16:00"
     },
     {
         "category": "Fútbol",
@@ -348,7 +426,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png",
         "away_team": "Espanyol",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8558.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png",
+        "api_url": "",
+        "hora_inicio": "14:00",
+        "hora_fin": "16:00"
     },
     {
         "category": "Fútbol",
@@ -361,7 +442,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png",
         "away_team": "Espanyol",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8558.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png",
+        "api_url": "",
+        "hora_inicio": "14:00",
+        "hora_fin": "16:00"
     },
     {
         "category": "Fútbol",
@@ -374,7 +458,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png",
         "away_team": "Espanyol",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8558.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png",
+        "api_url": "",
+        "hora_inicio": "14:00",
+        "hora_fin": "16:00"
     },
     {
         "category": "Fútbol",
@@ -387,7 +474,10 @@
         "home_img": "",
         "away_team": "Queens Park Rangers",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "14:00",
+        "hora_fin": "16:00"
     },
     {
         "category": "Fútbol",
@@ -400,7 +490,10 @@
         "home_img": "",
         "away_team": "Sporting CP",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9768.png",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "14:15",
+        "hora_fin": "16:15"
     },
     {
         "category": "Fútbol",
@@ -413,7 +506,10 @@
         "home_img": "",
         "away_team": "Danubio",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "15:00",
+        "hora_fin": "17:00"
     },
     {
         "category": "Fútbol",
@@ -426,7 +522,10 @@
         "home_img": "",
         "away_team": "Atlético Tucumán",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "16:00",
+        "hora_fin": "18:00"
     },
     {
         "category": "Fútbol",
@@ -439,7 +538,10 @@
         "home_img": "",
         "away_team": "Boca Juniors",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "17:30",
+        "hora_fin": "19:30"
     },
     {
         "category": "Fútbol",
@@ -452,7 +554,10 @@
         "home_img": "",
         "away_team": "Boca Juniors",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "17:30",
+        "hora_fin": "19:30"
     },
     {
         "category": "Fútbol",
@@ -465,7 +570,10 @@
         "home_img": "",
         "away_team": "Boca Juniors",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "17:30",
+        "hora_fin": "19:30"
     },
     {
         "category": "Fútbol",
@@ -478,7 +586,10 @@
         "home_img": "",
         "away_team": "Boca Juniors",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "17:30",
+        "hora_fin": "19:30"
     },
     {
         "category": "Fútbol",
@@ -491,7 +602,10 @@
         "home_img": "",
         "away_team": "Rionegro Águilas",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "18:00",
+        "hora_fin": "20:00"
     },
     {
         "category": "Fútbol",
@@ -504,7 +618,10 @@
         "home_img": "",
         "away_team": "Liverpool",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8650.png",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "18:00",
+        "hora_fin": "20:00"
     },
     {
         "category": "Fútbol",
@@ -517,7 +634,10 @@
         "home_img": "",
         "away_team": "Defensa y Justicia",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "19:45",
+        "hora_fin": "21:45"
     },
     {
         "category": "Fútbol",
@@ -530,7 +650,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/920788.png",
         "away_team": "Sport Huancayo",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/165148.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/920788.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/920788.png",
+        "api_url": "",
+        "hora_inicio": "20:00",
+        "hora_fin": "22:00"
     },
     {
         "category": "Fútbol",
@@ -543,7 +666,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/7847.png",
         "away_team": "León",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/1841.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/7847.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/7847.png",
+        "api_url": "",
+        "hora_inicio": "20:00",
+        "hora_fin": "22:00"
     },
     {
         "category": "Fútbol",
@@ -556,7 +682,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/7847.png",
         "away_team": "León",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/1841.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/7847.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/7847.png",
+        "api_url": "",
+        "hora_inicio": "20:00",
+        "hora_fin": "22:00"
     },
     {
         "category": "Fútbol",
@@ -569,7 +698,10 @@
         "home_img": "",
         "away_team": "Llaneros",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "20:10",
+        "hora_fin": "22:10"
     },
     {
         "category": "Fútbol",
@@ -582,7 +714,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8561.png",
         "away_team": "Toluca",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6618.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8561.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8561.png",
+        "api_url": "",
+        "hora_inicio": "22:00",
+        "hora_fin": "00:00"
     },
     {
         "category": "Fútbol",
@@ -595,7 +730,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8561.png",
         "away_team": "Toluca",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6618.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8561.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8561.png",
+        "api_url": "",
+        "hora_inicio": "22:00",
+        "hora_fin": "00:00"
     },
     {
         "category": "Fútbol",
@@ -608,7 +746,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8561.png",
         "away_team": "Toluca",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6618.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8561.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8561.png",
+        "api_url": "",
+        "hora_inicio": "22:00",
+        "hora_fin": "00:00"
     },
     {
         "category": "Fútbol",
@@ -621,7 +762,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8561.png",
         "away_team": "Toluca",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6618.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8561.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8561.png",
+        "api_url": "",
+        "hora_inicio": "22:00",
+        "hora_fin": "00:00"
     },
     {
         "category": "Fútbol",
@@ -634,7 +778,10 @@
         "home_img": "",
         "away_team": "",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "04:00",
+        "hora_fin": "06:00"
     },
     {
         "category": "Fútbol",
@@ -647,7 +794,10 @@
         "home_img": "",
         "away_team": "",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "04:00",
+        "hora_fin": "06:00"
     },
     {
         "category": "Fútbol",
@@ -660,7 +810,10 @@
         "home_img": "",
         "away_team": "",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "04:00",
+        "hora_fin": "06:00"
     },
     {
         "category": "Fútbol",
@@ -673,7 +826,10 @@
         "home_img": "",
         "away_team": "",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "04:00",
+        "hora_fin": "06:00"
     },
     {
         "category": "Fútbol",
@@ -686,7 +842,10 @@
         "home_img": "",
         "away_team": "Hannover 96",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "06:00",
+        "hora_fin": "08:00"
     },
     {
         "category": "Fútbol",
@@ -699,7 +858,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9825.png",
         "away_team": "Leeds United",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8463.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9825.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9825.png",
+        "api_url": "",
+        "hora_inicio": "06:30",
+        "hora_fin": "08:30"
     },
     {
         "category": "Fútbol",
@@ -712,7 +874,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9825.png",
         "away_team": "Leeds United",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8463.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9825.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9825.png",
+        "api_url": "",
+        "hora_inicio": "06:30",
+        "hora_fin": "08:30"
     },
     {
         "category": "Fútbol",
@@ -725,7 +890,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9825.png",
         "away_team": "Leeds United",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8463.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9825.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9825.png",
+        "api_url": "",
+        "hora_inicio": "06:30",
+        "hora_fin": "08:30"
     },
     {
         "category": "Fútbol",
@@ -738,7 +906,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9825.png",
         "away_team": "Leeds United",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8463.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9825.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9825.png",
+        "api_url": "",
+        "hora_inicio": "06:30",
+        "hora_fin": "08:30"
     },
     {
         "category": "Fútbol",
@@ -751,7 +922,10 @@
         "home_img": "",
         "away_team": "Birmingham City",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "06:30",
+        "hora_fin": "08:30"
     },
     {
         "category": "Fútbol",
@@ -764,7 +938,10 @@
         "home_img": "",
         "away_team": "Birmingham City",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "06:30",
+        "hora_fin": "08:30"
     },
     {
         "category": "Fútbol",
@@ -777,7 +954,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8370.png",
         "away_team": "Athletic Club",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8315.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8370.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8370.png",
+        "api_url": "",
+        "hora_inicio": "07:00",
+        "hora_fin": "09:00"
     },
     {
         "category": "Fútbol",
@@ -791,7 +971,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8370.png",
         "away_team": "Athletic Club",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8315.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8370.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8370.png",
+        "api_url": "",
+        "hora_inicio": "07:00",
+        "hora_fin": "09:00"
     },
     {
         "category": "Fútbol",
@@ -804,7 +987,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8370.png",
         "away_team": "Athletic Club",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8315.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8370.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8370.png",
+        "api_url": "",
+        "hora_inicio": "07:00",
+        "hora_fin": "09:00"
     },
     {
         "category": "Fútbol",
@@ -817,7 +1003,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8370.png",
         "away_team": "Athletic Club",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8315.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8370.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8370.png",
+        "api_url": "",
+        "hora_inicio": "07:00",
+        "hora_fin": "09:00"
     },
     {
         "category": "Fútbol",
@@ -830,7 +1019,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8370.png",
         "away_team": "Athletic Club",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8315.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8370.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8370.png",
+        "api_url": "",
+        "hora_inicio": "07:00",
+        "hora_fin": "09:00"
     },
     {
         "category": "Fútbol",
@@ -843,7 +1035,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10233.png",
         "away_team": "Fiorentina",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8535.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10233.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10233.png",
+        "api_url": "",
+        "hora_inicio": "08:00",
+        "hora_fin": "10:00"
     },
     {
         "category": "Fútbol",
@@ -856,7 +1051,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10233.png",
         "away_team": "Fiorentina",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8535.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10233.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10233.png",
+        "api_url": "",
+        "hora_inicio": "08:00",
+        "hora_fin": "10:00"
     },
     {
         "category": "Fútbol",
@@ -869,7 +1067,10 @@
         "home_img": "",
         "away_team": "Trabzonspor",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "08:00",
+        "hora_fin": "10:00"
     },
     {
         "category": "Fútbol",
@@ -882,7 +1083,10 @@
         "home_img": "",
         "away_team": "Trabzonspor",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "08:00",
+        "hora_fin": "10:00"
     },
     {
         "category": "Fútbol",
@@ -895,7 +1099,10 @@
         "home_img": "",
         "away_team": "",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "08:00",
+        "hora_fin": "10:00"
     },
     {
         "category": "Fútbol",
@@ -908,7 +1115,10 @@
         "home_img": "",
         "away_team": "",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "08:00",
+        "hora_fin": "10:00"
     },
     {
         "category": "Fútbol",
@@ -921,7 +1131,10 @@
         "home_img": "",
         "away_team": "",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "08:00",
+        "hora_fin": "10:00"
     },
     {
         "category": "Fútbol",
@@ -934,7 +1147,10 @@
         "home_img": "",
         "away_team": "",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "08:00",
+        "hora_fin": "10:00"
     },
     {
         "category": "Fútbol",
@@ -947,7 +1163,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8406.png",
         "away_team": "Bayern München",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9823.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8406.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8406.png",
+        "api_url": "",
+        "hora_inicio": "08:30",
+        "hora_fin": "10:30"
     },
     {
         "category": "Fútbol",
@@ -960,7 +1179,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8406.png",
         "away_team": "Bayern München",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9823.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8406.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8406.png",
+        "api_url": "",
+        "hora_inicio": "08:30",
+        "hora_fin": "10:30"
     },
     {
         "category": "Fútbol",
@@ -973,7 +1195,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8406.png",
         "away_team": "Bayern München",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9823.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8406.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8406.png",
+        "api_url": "",
+        "hora_inicio": "08:30",
+        "hora_fin": "10:30"
     },
     {
         "category": "Fútbol",
@@ -986,7 +1211,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8226.png",
         "away_team": "Hamburger SV",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9790.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8226.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8226.png",
+        "api_url": "",
+        "hora_inicio": "08:30",
+        "hora_fin": "10:30"
     },
     {
         "category": "Fútbol",
@@ -999,7 +1227,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9905.png",
         "away_team": "Bayer Leverkusen",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8178.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9905.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9905.png",
+        "api_url": "",
+        "hora_inicio": "08:30",
+        "hora_fin": "10:30"
     },
     {
         "category": "Fútbol",
@@ -1012,7 +1243,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9905.png",
         "away_team": "Bayer Leverkusen",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8178.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9905.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9905.png",
+        "api_url": "",
+        "hora_inicio": "08:30",
+        "hora_fin": "10:30"
     },
     {
         "category": "Fútbol",
@@ -1025,7 +1259,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9905.png",
         "away_team": "Bayer Leverkusen",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8178.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9905.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9905.png",
+        "api_url": "",
+        "hora_inicio": "08:30",
+        "hora_fin": "10:30"
     },
     {
         "category": "Fútbol",
@@ -1038,7 +1275,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8460.png",
         "away_team": "Stuttgart",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10269.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8460.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8460.png",
+        "api_url": "",
+        "hora_inicio": "08:30",
+        "hora_fin": "10:30"
     },
     {
         "category": "Fútbol",
@@ -1051,7 +1291,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8460.png",
         "away_team": "Stuttgart",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10269.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8460.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8460.png",
+        "api_url": "",
+        "hora_inicio": "08:30",
+        "hora_fin": "10:30"
     },
     {
         "category": "Fútbol",
@@ -1064,7 +1307,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8149.png",
         "away_team": "Elversberg",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8232.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8149.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8149.png",
+        "api_url": "",
+        "hora_inicio": "08:30",
+        "hora_fin": "10:30"
     },
     {
         "category": "Fútbol",
@@ -1077,7 +1323,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8149.png",
         "away_team": "Elversberg",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8232.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8149.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8149.png",
+        "api_url": "",
+        "hora_inicio": "08:30",
+        "hora_fin": "10:30"
     },
     {
         "category": "Fútbol",
@@ -1090,7 +1339,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10252.png",
         "away_team": "Brentford",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9937.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10252.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10252.png",
+        "api_url": "",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
     },
     {
         "category": "Fútbol",
@@ -1103,7 +1355,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10252.png",
         "away_team": "Brentford",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9937.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10252.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10252.png",
+        "api_url": "",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
     },
     {
         "category": "Fútbol",
@@ -1116,7 +1371,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10252.png",
         "away_team": "Brentford",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9937.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10252.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10252.png",
+        "api_url": "",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
     },
     {
         "category": "Fútbol",
@@ -1129,7 +1387,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8455.png",
         "away_team": "AFC Bournemouth",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8678.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8455.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8455.png",
+        "api_url": "",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
     },
     {
         "category": "Fútbol",
@@ -1142,7 +1403,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8455.png",
         "away_team": "AFC Bournemouth",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8678.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8455.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8455.png",
+        "api_url": "",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
     },
     {
         "category": "Fútbol",
@@ -1155,7 +1419,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8455.png",
         "away_team": "AFC Bournemouth",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8678.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8455.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8455.png",
+        "api_url": "",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
     },
     {
         "category": "Fútbol",
@@ -1168,7 +1435,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9902.png",
         "away_team": "Fulham",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9879.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9902.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9902.png",
+        "api_url": "",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
     },
     {
         "category": "Fútbol",
@@ -1181,7 +1451,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9902.png",
         "away_team": "Fulham",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9879.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9902.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9902.png",
+        "api_url": "",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
     },
     {
         "category": "Fútbol",
@@ -1194,7 +1467,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8472.png",
         "away_team": "Brighton & Hove Albion",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10204.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8472.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8472.png",
+        "api_url": "",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
     },
     {
         "category": "Fútbol",
@@ -1207,7 +1483,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8472.png",
         "away_team": "Brighton & Hove Albion",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10204.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8472.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8472.png",
+        "api_url": "",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
     },
     {
         "category": "Fútbol",
@@ -1220,7 +1499,10 @@
         "home_img": "",
         "away_team": "Stoke City",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
     },
     {
         "category": "Fútbol",
@@ -1233,7 +1515,10 @@
         "home_img": "",
         "away_team": "Stoke City",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
     },
     {
         "category": "Fútbol",
@@ -1246,7 +1531,10 @@
         "home_img": "",
         "away_team": "Wrexham",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
     },
     {
         "category": "Fútbol",
@@ -1259,7 +1547,10 @@
         "home_img": "",
         "away_team": "Burnley",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
     },
     {
         "category": "Fútbol",
@@ -1272,7 +1563,10 @@
         "home_img": "",
         "away_team": "Cerro",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
     },
     {
         "category": "Fútbol",
@@ -1285,7 +1579,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9866.png",
         "away_team": "Atlético Madrid",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9906.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9866.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9866.png",
+        "api_url": "",
+        "hora_inicio": "09:15",
+        "hora_fin": "11:15"
     },
     {
         "category": "Fútbol",
@@ -1299,7 +1596,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9866.png",
         "away_team": "Atlético Madrid",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9906.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9866.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9866.png",
+        "api_url": "",
+        "hora_inicio": "09:15",
+        "hora_fin": "11:15"
     },
     {
         "category": "Fútbol",
@@ -1312,7 +1612,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9866.png",
         "away_team": "Atlético Madrid",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9906.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9866.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9866.png",
+        "api_url": "",
+        "hora_inicio": "09:15",
+        "hora_fin": "11:15"
     },
     {
         "category": "Fútbol",
@@ -1325,7 +1628,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9866.png",
         "away_team": "Atlético Madrid",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9906.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9866.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9866.png",
+        "api_url": "",
+        "hora_inicio": "09:15",
+        "hora_fin": "11:15"
     },
     {
         "category": "Fútbol",
@@ -1338,7 +1644,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9866.png",
         "away_team": "Atlético Madrid",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9906.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9866.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9866.png",
+        "api_url": "",
+        "hora_inicio": "09:15",
+        "hora_fin": "11:15"
     },
     {
         "category": "Fútbol",
@@ -1351,7 +1660,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/357259.png",
         "away_team": "Sabadell",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/4033.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/357259.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/357259.png",
+        "api_url": "",
+        "hora_inicio": "09:15",
+        "hora_fin": "11:15"
     },
     {
         "category": "Fútbol",
@@ -1364,7 +1676,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8639.png",
         "away_team": "Le Havre",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9746.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8639.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8639.png",
+        "api_url": "",
+        "hora_inicio": "10:15",
+        "hora_fin": "12:15"
     },
     {
         "category": "Fútbol",
@@ -1377,7 +1692,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8639.png",
         "away_team": "Le Havre",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9746.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8639.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8639.png",
+        "api_url": "",
+        "hora_inicio": "10:15",
+        "hora_fin": "12:15"
     },
     {
         "category": "Fútbol",
@@ -1390,7 +1708,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8636.png",
         "away_team": "Parma",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10167.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8636.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8636.png",
+        "api_url": "",
+        "hora_inicio": "11:00",
+        "hora_fin": "13:00"
     },
     {
         "category": "Fútbol",
@@ -1403,7 +1724,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8636.png",
         "away_team": "Parma",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10167.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8636.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8636.png",
+        "api_url": "",
+        "hora_inicio": "11:00",
+        "hora_fin": "13:00"
     },
     {
         "category": "Fútbol",
@@ -1416,7 +1740,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8636.png",
         "away_team": "Parma",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10167.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8636.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8636.png",
+        "api_url": "",
+        "hora_inicio": "11:00",
+        "hora_fin": "13:00"
     },
     {
         "category": "Fútbol",
@@ -1429,7 +1756,10 @@
         "home_img": "",
         "away_team": "Fenerbahçe",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8695.png",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "11:00",
+        "hora_fin": "13:00"
     },
     {
         "category": "Fútbol",
@@ -1442,7 +1772,10 @@
         "home_img": "",
         "away_team": "Fenerbahçe",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8695.png",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "11:00",
+        "hora_fin": "13:00"
     },
     {
         "category": "Fútbol",
@@ -1455,7 +1788,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8634.png",
         "away_team": "Getafe",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8305.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8634.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8634.png",
+        "api_url": "",
+        "hora_inicio": "11:30",
+        "hora_fin": "13:30"
     },
     {
         "category": "Fútbol",
@@ -1469,7 +1805,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8634.png",
         "away_team": "Getafe",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8305.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8634.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8634.png",
+        "api_url": "",
+        "hora_inicio": "11:30",
+        "hora_fin": "13:30"
     },
     {
         "category": "Fútbol",
@@ -1482,7 +1821,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8634.png",
         "away_team": "Getafe",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8305.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8634.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8634.png",
+        "api_url": "",
+        "hora_inicio": "11:30",
+        "hora_fin": "13:30"
     },
     {
         "category": "Fútbol",
@@ -1495,7 +1837,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8634.png",
         "away_team": "Getafe",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8305.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8634.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8634.png",
+        "api_url": "",
+        "hora_inicio": "11:30",
+        "hora_fin": "13:30"
     },
     {
         "category": "Fútbol",
@@ -1508,7 +1853,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8634.png",
         "away_team": "Getafe",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8305.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8634.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8634.png",
+        "api_url": "",
+        "hora_inicio": "11:30",
+        "hora_fin": "13:30"
     },
     {
         "category": "Fútbol",
@@ -1521,7 +1869,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8288.png",
         "away_team": "Córdoba",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/7869.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8288.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8288.png",
+        "api_url": "",
+        "hora_inicio": "11:30",
+        "hora_fin": "13:30"
     },
     {
         "category": "Fútbol",
@@ -1534,7 +1885,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10260.png",
         "away_team": "Tottenham Hotspur",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8586.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10260.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10260.png",
+        "api_url": "",
+        "hora_inicio": "11:30",
+        "hora_fin": "13:30"
     },
     {
         "category": "Fútbol",
@@ -1547,7 +1901,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10260.png",
         "away_team": "Tottenham Hotspur",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8586.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10260.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10260.png",
+        "api_url": "",
+        "hora_inicio": "11:30",
+        "hora_fin": "13:30"
     },
     {
         "category": "Fútbol",
@@ -1560,7 +1917,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10260.png",
         "away_team": "Tottenham Hotspur",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8586.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10260.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10260.png",
+        "api_url": "",
+        "hora_inicio": "11:30",
+        "hora_fin": "13:30"
     },
     {
         "category": "Fútbol",
@@ -1573,7 +1933,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10260.png",
         "away_team": "Tottenham Hotspur",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8586.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10260.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10260.png",
+        "api_url": "",
+        "hora_inicio": "11:30",
+        "hora_fin": "13:30"
     },
     {
         "category": "Fútbol",
@@ -1586,7 +1949,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/178475.png",
         "away_team": "Eintracht Frankfurt",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9810.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/178475.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/178475.png",
+        "api_url": "",
+        "hora_inicio": "11:30",
+        "hora_fin": "13:30"
     },
     {
         "category": "Fútbol",
@@ -1599,7 +1965,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/178475.png",
         "away_team": "Eintracht Frankfurt",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9810.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/178475.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/178475.png",
+        "api_url": "",
+        "hora_inicio": "11:30",
+        "hora_fin": "13:30"
     },
     {
         "category": "Fútbol",
@@ -1612,7 +1981,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10235.png",
         "away_team": "AZ",
         "away_img": "",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10235.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10235.png",
+        "api_url": "",
+        "hora_inicio": "11:45",
+        "hora_fin": "13:45"
     },
     {
         "category": "Fútbol",
@@ -1625,7 +1997,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10235.png",
         "away_team": "AZ",
         "away_img": "",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10235.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10235.png",
+        "api_url": "",
+        "hora_inicio": "11:45",
+        "hora_fin": "13:45"
     },
     {
         "category": "Fútbol",
@@ -1638,7 +2013,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10235.png",
         "away_team": "AZ",
         "away_img": "",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10235.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10235.png",
+        "api_url": "",
+        "hora_inicio": "11:45",
+        "hora_fin": "13:45"
     },
     {
         "category": "Fútbol",
@@ -1651,7 +2029,10 @@
         "home_img": "",
         "away_team": "Porto",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "12:00",
+        "hora_fin": "14:00"
     },
     {
         "category": "Fútbol",
@@ -1664,7 +2045,10 @@
         "home_img": "",
         "away_team": "CF Montréal",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "12:00",
+        "hora_fin": "14:00"
     },
     {
         "category": "Fútbol",
@@ -1677,7 +2061,10 @@
         "home_img": "",
         "away_team": "Univ. Concepción",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "13:00",
+        "hora_fin": "15:00"
     },
     {
         "category": "Fútbol",
@@ -1690,7 +2077,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/1104719.png",
         "away_team": "FC Cajamarca",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/1696744.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/1104719.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/1104719.png",
+        "api_url": "",
+        "hora_inicio": "13:00",
+        "hora_fin": "15:00"
     },
     {
         "category": "Fútbol",
@@ -1703,7 +2093,10 @@
         "home_img": "",
         "away_team": "Boston River",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "13:00",
+        "hora_fin": "15:00"
     },
     {
         "category": "Fútbol",
@@ -1716,7 +2109,10 @@
         "home_img": "",
         "away_team": "Al Ittihad",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "13:00",
+        "hora_fin": "15:00"
     },
     {
         "category": "Fútbol",
@@ -1729,7 +2125,10 @@
         "home_img": "",
         "away_team": "Al Ittihad",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "13:00",
+        "hora_fin": "15:00"
     },
     {
         "category": "Fútbol",
@@ -1742,7 +2141,10 @@
         "home_img": "",
         "away_team": "Al Ittihad",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "13:00",
+        "hora_fin": "15:00"
     },
     {
         "category": "Fútbol",
@@ -1755,7 +2157,10 @@
         "home_img": "",
         "away_team": "Wolfsburg",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "13:30",
+        "hora_fin": "15:30"
     },
     {
         "category": "Fútbol",
@@ -1768,7 +2173,10 @@
         "home_img": "",
         "away_team": "New York City",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "13:30",
+        "hora_fin": "15:30"
     },
     {
         "category": "Fútbol",
@@ -1781,7 +2189,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9875.png",
         "away_team": "Frosinone",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9891.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9875.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9875.png",
+        "api_url": "",
+        "hora_inicio": "13:45",
+        "hora_fin": "15:45"
     },
     {
         "category": "Fútbol",
@@ -1794,7 +2205,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9875.png",
         "away_team": "Frosinone",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9891.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9875.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9875.png",
+        "api_url": "",
+        "hora_inicio": "13:45",
+        "hora_fin": "15:45"
     },
     {
         "category": "Fútbol",
@@ -1807,7 +2221,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8521.png",
         "away_team": "Angers SCO",
         "away_img": "",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8521.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8521.png",
+        "api_url": "",
+        "hora_inicio": "13:45",
+        "hora_fin": "15:45"
     },
     {
         "category": "Fútbol",
@@ -1820,7 +2237,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8521.png",
         "away_team": "Angers SCO",
         "away_img": "",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8521.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8521.png",
+        "api_url": "",
+        "hora_inicio": "13:45",
+        "hora_fin": "15:45"
     },
     {
         "category": "Fútbol",
@@ -1833,7 +2253,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8689.png",
         "away_team": "Paris",
         "away_img": "",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8689.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8689.png",
+        "api_url": "",
+        "hora_inicio": "13:45",
+        "hora_fin": "15:45"
     },
     {
         "category": "Fútbol",
@@ -1846,7 +2269,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8689.png",
         "away_team": "Paris",
         "away_img": "",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8689.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8689.png",
+        "api_url": "",
+        "hora_inicio": "13:45",
+        "hora_fin": "15:45"
     },
     {
         "category": "Fútbol",
@@ -1859,7 +2285,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9829.png",
         "away_team": "Toulouse",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9941.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9829.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9829.png",
+        "api_url": "",
+        "hora_inicio": "13:45",
+        "hora_fin": "15:45"
     },
     {
         "category": "Fútbol",
@@ -1872,7 +2301,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9829.png",
         "away_team": "Toulouse",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9941.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9829.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9829.png",
+        "api_url": "",
+        "hora_inicio": "13:45",
+        "hora_fin": "15:45"
     },
     {
         "category": "Fútbol",
@@ -1885,7 +2317,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9847.png",
         "away_team": "Le Mans",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8682.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9847.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9847.png",
+        "api_url": "",
+        "hora_inicio": "13:45",
+        "hora_fin": "15:45"
     },
     {
         "category": "Fútbol",
@@ -1898,7 +2333,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9847.png",
         "away_team": "Le Mans",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8682.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9847.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9847.png",
+        "api_url": "",
+        "hora_inicio": "13:45",
+        "hora_fin": "15:45"
     },
     {
         "category": "Fútbol",
@@ -1911,7 +2349,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9847.png",
         "away_team": "Le Mans",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8682.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9847.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9847.png",
+        "api_url": "",
+        "hora_inicio": "13:45",
+        "hora_fin": "15:45"
     },
     {
         "category": "Fútbol",
@@ -1924,7 +2365,10 @@
         "home_img": "",
         "away_team": "Huracán",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "13:45",
+        "hora_fin": "15:45"
     },
     {
         "category": "Fútbol",
@@ -1937,7 +2381,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8633.png",
         "away_team": "Villarreal",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10205.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8633.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8633.png",
+        "api_url": "",
+        "hora_inicio": "14:00",
+        "hora_fin": "16:00"
     },
     {
         "category": "Fútbol",
@@ -1951,7 +2398,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8633.png",
         "away_team": "Villarreal",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10205.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8633.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8633.png",
+        "api_url": "",
+        "hora_inicio": "14:00",
+        "hora_fin": "16:00"
     },
     {
         "category": "Fútbol",
@@ -1964,7 +2414,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8633.png",
         "away_team": "Villarreal",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10205.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8633.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8633.png",
+        "api_url": "",
+        "hora_inicio": "14:00",
+        "hora_fin": "16:00"
     },
     {
         "category": "Fútbol",
@@ -1977,7 +2430,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8633.png",
         "away_team": "Villarreal",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10205.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8633.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8633.png",
+        "api_url": "",
+        "hora_inicio": "14:00",
+        "hora_fin": "16:00"
     },
     {
         "category": "Fútbol",
@@ -1990,7 +2446,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8633.png",
         "away_team": "Villarreal",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10205.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8633.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8633.png",
+        "api_url": "",
+        "hora_inicio": "14:00",
+        "hora_fin": "16:00"
     },
     {
         "category": "Fútbol",
@@ -2003,7 +2462,10 @@
         "home_img": "",
         "away_team": "Real Sociedad II",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "14:00",
+        "hora_fin": "16:00"
     },
     {
         "category": "Fútbol",
@@ -2016,7 +2478,10 @@
         "home_img": "",
         "away_team": "NEC",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "14:00",
+        "hora_fin": "16:00"
     },
     {
         "category": "Fútbol",
@@ -2029,7 +2494,10 @@
         "home_img": "",
         "away_team": "NEC",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "14:00",
+        "hora_fin": "16:00"
     },
     {
         "category": "Fútbol",
@@ -2042,7 +2510,10 @@
         "home_img": "",
         "away_team": "Estudiantes LP",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "15:00",
+        "hora_fin": "17:00"
     },
     {
         "category": "Fútbol",
@@ -2057,7 +2528,10 @@
         "home_img": "",
         "away_team": "Christian Leroy Duncan",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "15:00",
+        "hora_fin": "18:00"
     },
     {
         "category": "Fútbol",
@@ -2072,7 +2546,10 @@
         "home_img": "",
         "away_team": "Christian Leroy Duncan",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "15:00",
+        "hora_fin": "18:00"
     },
     {
         "category": "Fútbol",
@@ -2087,7 +2564,10 @@
         "home_img": "",
         "away_team": "Christian Leroy Duncan",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "15:00",
+        "hora_fin": "18:00"
     },
     {
         "category": "Fútbol",
@@ -2100,7 +2580,10 @@
         "home_img": "",
         "away_team": "O'Higgins",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "15:30",
+        "hora_fin": "17:30"
     },
     {
         "category": "Fútbol",
@@ -2113,7 +2596,10 @@
         "home_img": "",
         "away_team": "Deportivo Cali",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "15:30",
+        "hora_fin": "17:30"
     },
     {
         "category": "Fútbol",
@@ -2126,7 +2612,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/536945.png",
         "away_team": "Juan Pablo II College",
         "away_img": "",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/536945.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/536945.png",
+        "api_url": "",
+        "hora_inicio": "15:30",
+        "hora_fin": "17:30"
     },
     {
         "category": "Fútbol",
@@ -2139,7 +2628,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10276.png",
         "away_team": "Remo",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/1626.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10276.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10276.png",
+        "api_url": "",
+        "hora_inicio": "16:00",
+        "hora_fin": "18:00"
     },
     {
         "category": "Fútbol",
@@ -2152,7 +2644,10 @@
         "home_img": "",
         "away_team": "Progreso",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "16:30",
+        "hora_fin": "18:30"
     },
     {
         "category": "Fútbol",
@@ -2165,7 +2660,10 @@
         "home_img": "",
         "away_team": "Banfield",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "17:15",
+        "hora_fin": "19:15"
     },
     {
         "category": "Fútbol",
@@ -2178,7 +2676,10 @@
         "home_img": "",
         "away_team": "Audax Italiano",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "18:00",
+        "hora_fin": "20:00"
     },
     {
         "category": "Fútbol",
@@ -2191,7 +2692,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/649424.png",
         "away_team": "Tijuana",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/162418.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/649424.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/649424.png",
+        "api_url": "",
+        "hora_inicio": "18:00",
+        "hora_fin": "20:00"
     },
     {
         "category": "Fútbol",
@@ -2204,7 +2708,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/649424.png",
         "away_team": "Tijuana",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/162418.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/649424.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/649424.png",
+        "api_url": "",
+        "hora_inicio": "18:00",
+        "hora_fin": "20:00"
     },
     {
         "category": "Fútbol",
@@ -2217,7 +2724,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/649424.png",
         "away_team": "Tijuana",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/162418.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/649424.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/649424.png",
+        "api_url": "",
+        "hora_inicio": "18:00",
+        "hora_fin": "20:00"
     },
     {
         "category": "Fútbol",
@@ -2230,7 +2740,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/649424.png",
         "away_team": "Tijuana",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/162418.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/649424.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/649424.png",
+        "api_url": "",
+        "hora_inicio": "18:00",
+        "hora_fin": "20:00"
     },
     {
         "category": "Fútbol",
@@ -2243,7 +2756,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/649424.png",
         "away_team": "Tijuana",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/162418.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/649424.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/649424.png",
+        "api_url": "",
+        "hora_inicio": "18:00",
+        "hora_fin": "20:00"
     },
     {
         "category": "Fútbol",
@@ -2256,7 +2772,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/1943.png",
         "away_team": "Atlante",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/1942.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/1943.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/1943.png",
+        "api_url": "",
+        "hora_inicio": "18:00",
+        "hora_fin": "20:00"
     },
     {
         "category": "Fútbol",
@@ -2269,7 +2788,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/1943.png",
         "away_team": "Atlante",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/1942.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/1943.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/1943.png",
+        "api_url": "",
+        "hora_inicio": "18:00",
+        "hora_fin": "20:00"
     },
     {
         "category": "Fútbol",
@@ -2282,7 +2804,10 @@
         "home_img": "",
         "away_team": "Inter Bogotá",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "18:10",
+        "hora_fin": "20:10"
     },
     {
         "category": "Fútbol",
@@ -2295,7 +2820,10 @@
         "home_img": "",
         "away_team": "DC United",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "18:30",
+        "hora_fin": "20:30"
     },
     {
         "category": "Fútbol",
@@ -2308,7 +2836,10 @@
         "home_img": "",
         "away_team": "Cincinnati",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "18:30",
+        "hora_fin": "20:30"
     },
     {
         "category": "Fútbol",
@@ -2321,7 +2852,10 @@
         "home_img": "",
         "away_team": "Columbus Crew",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "18:30",
+        "hora_fin": "20:30"
     },
     {
         "category": "Fútbol",
@@ -2334,7 +2868,10 @@
         "home_img": "",
         "away_team": "Columbus Crew",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "18:30",
+        "hora_fin": "20:30"
     },
     {
         "category": "Fútbol",
@@ -2347,7 +2884,10 @@
         "home_img": "",
         "away_team": "San Diego",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "18:30",
+        "hora_fin": "20:30"
     },
     {
         "category": "Fútbol",
@@ -2360,7 +2900,10 @@
         "home_img": "",
         "away_team": "Dallas",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "18:30",
+        "hora_fin": "20:30"
     },
     {
         "category": "Fútbol",
@@ -2373,7 +2916,10 @@
         "home_img": "",
         "away_team": "Real Salt Lake",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "18:30",
+        "hora_fin": "20:30"
     },
     {
         "category": "Fútbol",
@@ -2386,7 +2932,10 @@
         "home_img": "",
         "away_team": "Seattle Sounders FC",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "18:30",
+        "hora_fin": "20:30"
     },
     {
         "category": "Fútbol",
@@ -2399,7 +2948,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10277.png",
         "away_team": "Vitória",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/7733.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10277.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10277.png",
+        "api_url": "",
+        "hora_inicio": "19:00",
+        "hora_fin": "21:00"
     },
     {
         "category": "Fútbol",
@@ -2412,7 +2964,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/4409.png",
         "away_team": "Melgar",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/4417.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/4409.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/4409.png",
+        "api_url": "",
+        "hora_inicio": "19:00",
+        "hora_fin": "21:00"
     },
     {
         "category": "Fútbol",
@@ -2425,7 +2980,10 @@
         "home_img": "",
         "away_team": "Estudiantes Río Cuarto",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "19:30",
+        "hora_fin": "21:30"
     },
     {
         "category": "Fútbol",
@@ -2438,7 +2996,10 @@
         "home_img": "",
         "away_team": "Estudiantes Río Cuarto",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "19:30",
+        "hora_fin": "21:30"
     },
     {
         "category": "Fútbol",
@@ -2451,7 +3012,10 @@
         "home_img": "",
         "away_team": "Estudiantes Río Cuarto",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "19:30",
+        "hora_fin": "21:30"
     },
     {
         "category": "Fútbol",
@@ -2464,7 +3028,10 @@
         "home_img": "",
         "away_team": "Estudiantes Río Cuarto",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "19:30",
+        "hora_fin": "21:30"
     },
     {
         "category": "Fútbol",
@@ -2477,7 +3044,10 @@
         "home_img": "",
         "away_team": "Nashville SC",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "19:30",
+        "hora_fin": "21:30"
     },
     {
         "category": "Fútbol",
@@ -2490,7 +3060,10 @@
         "home_img": "",
         "away_team": "Houston Dynamo",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "19:30",
+        "hora_fin": "21:30"
     },
     {
         "category": "Fútbol",
@@ -2503,7 +3076,10 @@
         "home_img": "",
         "away_team": "Portland Timbers",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "19:30",
+        "hora_fin": "21:30"
     },
     {
         "category": "Fútbol",
@@ -2516,7 +3092,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6577.png",
         "away_team": "Guadalajara",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/7807.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6577.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6577.png",
+        "api_url": "",
+        "hora_inicio": "20:00",
+        "hora_fin": "22:00"
     },
     {
         "category": "Fútbol",
@@ -2529,7 +3108,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6577.png",
         "away_team": "Guadalajara",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/7807.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6577.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6577.png",
+        "api_url": "",
+        "hora_inicio": "20:00",
+        "hora_fin": "22:00"
     },
     {
         "category": "Fútbol",
@@ -2542,7 +3124,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6577.png",
         "away_team": "Guadalajara",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/7807.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6577.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6577.png",
+        "api_url": "",
+        "hora_inicio": "20:00",
+        "hora_fin": "22:00"
     },
     {
         "category": "Fútbol",
@@ -2555,7 +3140,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6577.png",
         "away_team": "Guadalajara",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/7807.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6577.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6577.png",
+        "api_url": "",
+        "hora_inicio": "20:00",
+        "hora_fin": "22:00"
     },
     {
         "category": "Fútbol",
@@ -2568,7 +3156,10 @@
         "home_img": "",
         "away_team": "SJ Earthquakes",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "20:30",
+        "hora_fin": "22:30"
     },
     {
         "category": "Fútbol",
@@ -2581,7 +3172,10 @@
         "home_img": "",
         "away_team": "Vancouver Whitecaps",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "21:30",
+        "hora_fin": "23:30"
     },
     {
         "category": "Fútbol",
@@ -2594,7 +3188,10 @@
         "home_img": "",
         "away_team": "Vancouver Whitecaps",
         "away_img": "",
-        "img": ""
+        "img": "",
+        "api_url": "",
+        "hora_inicio": "21:30",
+        "hora_fin": "23:30"
     },
     {
         "category": "Fútbol",
@@ -2607,7 +3204,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6576.png",
         "away_team": "Monterrey",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/7849.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6576.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6576.png",
+        "api_url": "",
+        "hora_inicio": "22:10",
+        "hora_fin": "00:10"
     },
     {
         "category": "Fútbol",
@@ -2620,7 +3220,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6576.png",
         "away_team": "Monterrey",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/7849.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6576.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6576.png",
+        "api_url": "",
+        "hora_inicio": "22:10",
+        "hora_fin": "00:10"
     },
     {
         "category": "Fútbol",
@@ -2633,7 +3236,10 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6576.png",
         "away_team": "Monterrey",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/7849.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6576.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6576.png",
+        "api_url": "",
+        "hora_inicio": "22:10",
+        "hora_fin": "00:10"
     },
     {
         "category": "Fútbol",
@@ -2646,6 +3252,9 @@
         "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6576.png",
         "away_team": "Monterrey",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/7849.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6576.png"
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6576.png",
+        "api_url": "",
+        "hora_inicio": "22:10",
+        "hora_fin": "00:10"
     }
 ]
