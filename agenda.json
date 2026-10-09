@@ -6,6 +6,10 @@
         "time": "03:30",
         "status": "En vivo",
         "date": "2026-10-09",
+        "home_team": "",
+        "home_img": "",
+        "away_team": "",
+        "away_img": "",
         "img": ""
     },
     {
@@ -15,6 +19,10 @@
         "time": "03:30",
         "status": "En vivo",
         "date": "2026-10-09",
+        "home_team": "",
+        "home_img": "",
+        "away_team": "",
+        "away_img": "",
         "img": ""
     },
     {
@@ -25,6 +33,9 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "Mavericks",
+        "home_img": "",
+        "away_team": "Rockets",
+        "away_img": "",
         "img": ""
     },
     {
@@ -34,6 +45,10 @@
         "time": "07:30",
         "status": "En vivo",
         "date": "2026-10-09",
+        "home_team": "",
+        "home_img": "",
+        "away_team": "",
+        "away_img": "",
         "img": ""
     },
     {
@@ -43,6 +58,10 @@
         "time": "07:30",
         "status": "En vivo",
         "date": "2026-10-09",
+        "home_team": "",
+        "home_img": "",
+        "away_team": "",
+        "away_img": "",
         "img": ""
     },
     {
@@ -52,6 +71,10 @@
         "time": "07:30",
         "status": "En vivo",
         "date": "2026-10-09",
+        "home_team": "",
+        "home_img": "",
+        "away_team": "",
+        "away_img": "",
         "img": ""
     },
     {
@@ -62,6 +85,9 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "Al Kholood",
+        "home_img": "",
+        "away_team": "Al Quadisiya",
+        "away_img": "",
         "img": ""
     },
     {
@@ -72,6 +98,9 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "Al Kholood",
+        "home_img": "",
+        "away_team": "Al Quadisiya",
+        "away_img": "",
         "img": ""
     },
     {
@@ -82,6 +111,9 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "Al Kholood",
+        "home_img": "",
+        "away_team": "Al Quadisiya",
+        "away_img": "",
         "img": ""
     },
     {
@@ -92,7 +124,10 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "Galatasaray",
-        "img": ""
+        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8637.png",
+        "away_team": "Kasımpaşa",
+        "away_img": "",
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8637.png"
     },
     {
         "category": "Fútbol",
@@ -102,36 +137,48 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "Aldosivi",
+        "home_img": "",
+        "away_team": "Sarmiento",
+        "away_img": "",
         "img": ""
     },
     {
         "category": "Fútbol",
         "link": "https://streamx305.sbs/global1.php?channel=foxone2",
-        "title": "Liga Profesional Saudí: Al Kholood vs Al Quadisiya",
+        "title": "Liga Profesional Saudí: Al Nassr vs Diriyah",
         "time": "13:00",
         "status": "En vivo",
         "date": "2026-10-09",
-        "home_team": "Al Kholood",
+        "home_team": "Al Nassr",
+        "home_img": "",
+        "away_team": "Diriyah",
+        "away_img": "",
         "img": ""
     },
     {
         "category": "Fútbol",
         "link": "https://streamx305.sbs/global1.php?channel=foxdeportes",
-        "title": "Liga Profesional Saudí: Al Kholood vs Al Quadisiya",
+        "title": "Liga Profesional Saudí: Al Nassr vs Diriyah",
         "time": "13:00",
         "status": "En vivo",
         "date": "2026-10-09",
-        "home_team": "Al Kholood",
+        "home_team": "Al Nassr",
+        "home_img": "",
+        "away_team": "Diriyah",
+        "away_img": "",
         "img": ""
     },
     {
         "category": "Fútbol",
         "link": "https://streamx305.sbs/global1.php?channel=sportv1",
-        "title": "Liga Profesional Saudí: Al Kholood vs Al Quadisiya",
+        "title": "Liga Profesional Saudí: Al Nassr vs Diriyah",
         "time": "13:00",
         "status": "En vivo",
         "date": "2026-10-09",
-        "home_team": "Al Kholood",
+        "home_team": "Al Nassr",
+        "home_img": "",
+        "away_team": "Diriyah",
+        "away_img": "",
         "img": ""
     },
     {
@@ -142,7 +189,10 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "PSV",
-        "img": ""
+        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8640.png",
+        "away_team": "Heerenveen",
+        "away_img": "",
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8640.png"
     },
     {
         "category": "Fútbol",
@@ -152,7 +202,10 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "PSV",
-        "img": ""
+        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8640.png",
+        "away_team": "Heerenveen",
+        "away_img": "",
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8640.png"
     },
     {
         "category": "Fútbol",
@@ -162,7 +215,10 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "PSV",
-        "img": ""
+        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8640.png",
+        "away_team": "Heerenveen",
+        "away_img": "",
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8640.png"
     },
     {
         "category": "Fútbol",
@@ -172,7 +228,10 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "Borussia Dortmund",
-        "img": ""
+        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9789.png",
+        "away_team": "Werder Bremen",
+        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8697.png",
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9789.png"
     },
     {
         "category": "Fútbol",
@@ -182,7 +241,10 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "Borussia Dortmund",
-        "img": ""
+        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9789.png",
+        "away_team": "Werder Bremen",
+        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8697.png",
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9789.png"
     },
     {
         "category": "Fútbol",
@@ -192,7 +254,10 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "Borussia Dortmund",
-        "img": ""
+        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9789.png",
+        "away_team": "Werder Bremen",
+        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8697.png",
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9789.png"
     },
     {
         "category": "Fútbol",
@@ -202,7 +267,10 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "Borussia Dortmund",
-        "img": ""
+        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9789.png",
+        "away_team": "Werder Bremen",
+        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8697.png",
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9789.png"
     },
     {
         "category": "Fútbol",
@@ -212,7 +280,10 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "Lens",
-        "img": ""
+        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8588.png",
+        "away_team": "Olympique Lyonnais",
+        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9748.png",
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8588.png"
     },
     {
         "category": "Fútbol",
@@ -222,7 +293,10 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "Lens",
-        "img": ""
+        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8588.png",
+        "away_team": "Olympique Lyonnais",
+        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9748.png",
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8588.png"
     },
     {
         "category": "Fútbol",
@@ -232,7 +306,10 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "Lens",
-        "img": ""
+        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8588.png",
+        "away_team": "Olympique Lyonnais",
+        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9748.png",
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8588.png"
     },
     {
         "category": "Fútbol",
@@ -242,7 +319,10 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "Málaga",
-        "img": ""
+        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png",
+        "away_team": "Espanyol",
+        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8558.png",
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png"
     },
     {
         "category": "Fútbol",
@@ -252,7 +332,10 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "Málaga",
-        "img": ""
+        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png",
+        "away_team": "Espanyol",
+        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8558.png",
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png"
     },
     {
         "category": "Fútbol",
@@ -262,7 +345,10 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "Málaga",
-        "img": ""
+        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png",
+        "away_team": "Espanyol",
+        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8558.png",
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png"
     },
     {
         "category": "Fútbol",
@@ -272,7 +358,10 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "Málaga",
-        "img": ""
+        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png",
+        "away_team": "Espanyol",
+        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8558.png",
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png"
     },
     {
         "category": "Fútbol",
@@ -282,7 +371,10 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "Málaga",
-        "img": ""
+        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png",
+        "away_team": "Espanyol",
+        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8558.png",
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png"
     },
     {
         "category": "Fútbol",
@@ -292,6 +384,9 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "West Ham United",
+        "home_img": "",
+        "away_team": "Queens Park Rangers",
+        "away_img": "",
         "img": ""
     },
     {
@@ -302,6 +397,9 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "Sporting Braga",
+        "home_img": "",
+        "away_team": "Sporting CP",
+        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9768.png",
         "img": ""
     },
     {
@@ -312,6 +410,9 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "Torque",
+        "home_img": "",
+        "away_team": "Danubio",
+        "away_img": "",
         "img": ""
     },
     {
@@ -322,6 +423,9 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "Gimnasia La Plata",
+        "home_img": "",
+        "away_team": "Atlético Tucumán",
+        "away_img": "",
         "img": ""
     },
     {
@@ -332,6 +436,9 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "Instituto",
+        "home_img": "",
+        "away_team": "Boca Juniors",
+        "away_img": "",
         "img": ""
     },
     {
@@ -342,6 +449,9 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "Instituto",
+        "home_img": "",
+        "away_team": "Boca Juniors",
+        "away_img": "",
         "img": ""
     },
     {
@@ -352,6 +462,9 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "Instituto",
+        "home_img": "",
+        "away_team": "Boca Juniors",
+        "away_img": "",
         "img": ""
     },
     {
@@ -362,6 +475,9 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "Instituto",
+        "home_img": "",
+        "away_team": "Boca Juniors",
+        "away_img": "",
         "img": ""
     },
     {
@@ -372,6 +488,9 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "Alianza",
+        "home_img": "",
+        "away_team": "Rionegro Águilas",
+        "away_img": "",
         "img": ""
     },
     {
@@ -382,6 +501,9 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "Deportivo Maldonado",
+        "home_img": "",
+        "away_team": "Liverpool",
+        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8650.png",
         "img": ""
     },
     {
@@ -392,6 +514,9 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "Unión Santa Fe",
+        "home_img": "",
+        "away_team": "Defensa y Justicia",
+        "away_img": "",
         "img": ""
     },
     {
@@ -402,7 +527,10 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "Deportivo Garcilaso",
-        "img": ""
+        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/920788.png",
+        "away_team": "Sport Huancayo",
+        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/165148.png",
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/920788.png"
     },
     {
         "category": "Fútbol",
@@ -412,7 +540,10 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "Puebla",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8634.png"
+        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/7847.png",
+        "away_team": "León",
+        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/1841.png",
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/7847.png"
     },
     {
         "category": "Fútbol",
@@ -422,7 +553,10 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "Puebla",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8634.png"
+        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/7847.png",
+        "away_team": "León",
+        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/1841.png",
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/7847.png"
     },
     {
         "category": "Fútbol",
@@ -432,6 +566,9 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "Once Caldas",
+        "home_img": "",
+        "away_team": "Llaneros",
+        "away_img": "",
         "img": ""
     },
     {
@@ -442,7 +579,10 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "Tigres UANL",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8305.png"
+        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8561.png",
+        "away_team": "Toluca",
+        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6618.png",
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8561.png"
     },
     {
         "category": "Fútbol",
@@ -452,7 +592,10 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "Tigres UANL",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8305.png"
+        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8561.png",
+        "away_team": "Toluca",
+        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6618.png",
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8561.png"
     },
     {
         "category": "Fútbol",
@@ -462,7 +605,10 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "Tigres UANL",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8305.png"
+        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8561.png",
+        "away_team": "Toluca",
+        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6618.png",
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8561.png"
     },
     {
         "category": "Fútbol",
@@ -472,6 +618,9 @@
         "status": "En vivo",
         "date": "2026-10-09",
         "home_team": "Tigres UANL",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8305.png"
+        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8561.png",
+        "away_team": "Toluca",
+        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6618.png",
+        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8561.png"
     }
 ]
