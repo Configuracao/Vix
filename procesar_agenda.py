@@ -120,6 +120,26 @@ MAPEO_EQUIPOS = {
     "Aldosivi": "5001", "Sarmiento": "5002"
 }
 
+# Mapeo de nombres locales/completos al nombre simplificado esperado por TheSportsDB
+MAPEO_NOMBRES_API = {
+    "olympique lyonnais": "lyon",
+    "olympique de lyon": "lyon",
+    "olympique marseille": "marseille",
+    "olympique de marseille": "marseille",
+    "paris saint-germain": "psg",
+    "paris saint germain": "psg",
+    "atletico de madrid": "atletico madrid",
+    "athletic bilbao": "athletic club",
+    "chivas guadalajara": "chivas",
+    "club america": "america",
+    "cf america": "america",
+    "tigres uanl": "tigres",
+    "brighton & hove albion": "brighton",
+    "tottenham hotspur": "tottenham",
+    "bayern munchen": "bayern munich",
+    "bayern munich": "bayern munich",
+}
+
 def normalizar_texto(texto):
     if not texto:
         return ""
@@ -183,12 +203,19 @@ def obtener_duracion_estimada(titulo):
         return 180  # Tenis
     return 120  # Fútbol y por defecto
 
+def simplificar_nombre_equipo(nombre):
+    """Normaliza texto y reemplaza nombres compuestos por su alias para TheSportsDB."""
+    norm = normalizar_texto(nombre)
+    if norm in MAPEO_NOMBRES_API:
+        norm = MAPEO_NOMBRES_API[norm]
+    return norm.replace(" ", "_")
+
 def obtener_api_url_evento(home_team, away_team, fecha_str=""):
     """
     Genera directamente la URL de la API usando searchevents.php con equipos y fecha.
     """
-    home_norm = normalizar_texto(home_team).replace(" ", "_")
-    away_norm = normalizar_texto(away_team).replace(" ", "_")
+    home_norm = simplificar_nombre_equipo(home_team)
+    away_norm = simplificar_nombre_equipo(away_team)
 
     if not home_norm or not away_norm:
         return ""
