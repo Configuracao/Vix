@@ -264,6 +264,7 @@ MAPEO_EQUIPOS = {
     "sporting cp": "9768",
     "viking": "8478",
     "galatasaray": "8637",
+    "Kasımpaşa": "8630",
     "psv eindhoven": "8640",
     "psv": "8640",
     "club brugge": "8342",
@@ -294,6 +295,7 @@ MAPEO_EQUIPOS = {
     "olympiacos": "8638",
     "benfica": "9772",
     "celtic": "9925",
+    "Heerenveen": "9926",
 
     # --- Selecciones Nacionales ---
     "mexico": "6710",
@@ -322,7 +324,17 @@ MAPEO_EQUIPOS = {
     "denmark": "8238",
     "andorra": "10045",
     "azerbaijan": "8566",
-    "jordan": "5816"
+    "jordan": "5816",
+    
+    # --- LIGA SAUDI ---
+    "Al Quadisiya": "1013",
+    "Al Kholood": "1014",
+    "Al Nassr": "6001",
+    "Al Draih": "6002",
+    
+    # --- LIGA ARGENTINA ---
+    "Aldosivi": "5001",
+    "Sarmiento": "5002"
 }
 
 def normalizar_texto(texto):
