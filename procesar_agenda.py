@@ -185,27 +185,33 @@ def obtener_duracion_estimada(titulo):
 
 def obtener_api_url_evento(home_team, away_team, fecha_str=""):
     """
-    Busca el evento en TheSportsDB por el nombre de los equipos 
-    y retorna la URL de la API para consultar en tiempo real.
+    Busca el evento en TheSportsDB. Si no lo encuentra individualmente,
+    genera la URL usando la fecha exacta que viene en el JSON para el evento.
     """
-    if not home_team or not away_team:
-        return ""
+    home = normalizar_texto(home_team)
+    away = normalizar_texto(away_team)
     
-    try:
-        home = normalizar_texto(home_team)
-        away = normalizar_texto(away_team)
-        
-        url_search = f"https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e={home}_vs_{away}"
-        res = requests.get(url_search, timeout=4).json()
-        
-        if res.get("event") and len(res["event"]) > 0:
-            event_id = res["event"][0]["idEvent"]
-            return f"https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id={event_id}"
+    # 1. Intentar búsqueda individual en la API por nombres
+    if home and away:
+        try:
+            url_search = f"https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e={home}_vs_{away}"
+            res = requests.get(url_search, timeout=3).json()
             
-    except Exception:
-        pass
-        
-    return ""
+            if res.get("event") and len(res["event"]) > 0:
+                event_id = res["event"][0]["idEvent"]
+                return f"https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id={event_id}"
+        except Exception:
+            pass
+
+    # 2. Fallback: Usar la fecha propia del objeto (ej. "2026-10-10", "2026-10-11")
+    if fecha_str and len(fecha_str) >= 10:
+        # Extraer solo la parte YYYY-MM-DD en caso de que venga con hora ISO
+        fecha_clean = fecha_str[:10]
+        return f"https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d={fecha_clean}&s=Soccer"
+    
+    # 3. Si por alguna razón el evento no trae fecha, usar la fecha actual
+    fecha_hoy = datetime.now().strftime("%Y-%m-%d")
+    return f"https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d={fecha_hoy}&s=Soccer"
 
 def procesar_horarios_y_api(evento):
     """Calcula hora inicio, hora fin estimada y asigna la URL de API en tiempo real."""
