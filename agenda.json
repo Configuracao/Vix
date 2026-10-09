@@ -347,7 +347,7 @@
         "away_team": "Olympique Lyonnais",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9748.png",
         "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8588.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=lens_vs_olympique_lyonnais&d=2026-10-09",
+        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=lens_vs_lyon&d=2026-10-09",
         "hora_inicio": "13:30",
         "hora_fin": "15:30"
     },
@@ -363,7 +363,7 @@
         "away_team": "Olympique Lyonnais",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9748.png",
         "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8588.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=lens_vs_olympique_lyonnais&d=2026-10-09",
+        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=lens_vs_lyon&d=2026-10-09",
         "hora_inicio": "13:30",
         "hora_fin": "15:30"
     },
@@ -379,7 +379,7 @@
         "away_team": "Olympique Lyonnais",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9748.png",
         "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8588.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=lens_vs_olympique_lyonnais&d=2026-10-09",
+        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=lens_vs_lyon&d=2026-10-09",
         "hora_inicio": "13:30",
         "hora_fin": "15:30"
     },
@@ -715,7 +715,7 @@
         "away_team": "Toluca",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6618.png",
         "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8561.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=tigres_uanl_vs_toluca&d=2026-10-09",
+        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=tigres_vs_toluca&d=2026-10-09",
         "hora_inicio": "22:00",
         "hora_fin": "00:00"
     },
@@ -731,7 +731,7 @@
         "away_team": "Toluca",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6618.png",
         "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8561.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=tigres_uanl_vs_toluca&d=2026-10-09",
+        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=tigres_vs_toluca&d=2026-10-09",
         "hora_inicio": "22:00",
         "hora_fin": "00:00"
     },
@@ -747,7 +747,7 @@
         "away_team": "Toluca",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6618.png",
         "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8561.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=tigres_uanl_vs_toluca&d=2026-10-09",
+        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=tigres_vs_toluca&d=2026-10-09",
         "hora_inicio": "22:00",
         "hora_fin": "00:00"
     },
@@ -763,7 +763,7 @@
         "away_team": "Toluca",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6618.png",
         "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8561.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=tigres_uanl_vs_toluca&d=2026-10-09",
+        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=tigres_vs_toluca&d=2026-10-09",
         "hora_inicio": "22:00",
         "hora_fin": "00:00"
     },
@@ -1164,7 +1164,7 @@
         "away_team": "Bayern München",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9823.png",
         "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8406.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=augsburg_vs_bayern_munchen&d=2026-10-10",
+        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=augsburg_vs_bayern_munich&d=2026-10-10",
         "hora_inicio": "08:30",
         "hora_fin": "10:30"
     },
@@ -1180,7 +1180,7 @@
         "away_team": "Bayern München",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9823.png",
         "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8406.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=augsburg_vs_bayern_munchen&d=2026-10-10",
+        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=augsburg_vs_bayern_munich&d=2026-10-10",
         "hora_inicio": "08:30",
         "hora_fin": "10:30"
     },
@@ -1196,7 +1196,7 @@
         "away_team": "Bayern München",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9823.png",
         "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8406.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=augsburg_vs_bayern_munchen&d=2026-10-10",
+        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=augsburg_vs_bayern_munich&d=2026-10-10",
         "hora_inicio": "08:30",
         "hora_fin": "10:30"
     },
@@ -1468,7 +1468,7 @@
         "away_team": "Brighton & Hove Albion",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10204.png",
         "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8472.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=sunderland_vs_brighton_&_hove_albion&d=2026-10-10",
+        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=sunderland_vs_brighton&d=2026-10-10",
         "hora_inicio": "09:00",
         "hora_fin": "11:00"
     },
@@ -1484,7 +1484,7 @@
         "away_team": "Brighton & Hove Albion",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10204.png",
         "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8472.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=sunderland_vs_brighton_&_hove_albion&d=2026-10-10",
+        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=sunderland_vs_brighton&d=2026-10-10",
         "hora_inicio": "09:00",
         "hora_fin": "11:00"
     },
@@ -1886,7 +1886,7 @@
         "away_team": "Tottenham Hotspur",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8586.png",
         "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10260.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=manchester_united_vs_tottenham_hotspur&d=2026-10-10",
+        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=manchester_united_vs_tottenham&d=2026-10-10",
         "hora_inicio": "11:30",
         "hora_fin": "13:30"
     },
@@ -1902,7 +1902,7 @@
         "away_team": "Tottenham Hotspur",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8586.png",
         "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10260.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=manchester_united_vs_tottenham_hotspur&d=2026-10-10",
+        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=manchester_united_vs_tottenham&d=2026-10-10",
         "hora_inicio": "11:30",
         "hora_fin": "13:30"
     },
@@ -1918,7 +1918,7 @@
         "away_team": "Tottenham Hotspur",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8586.png",
         "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10260.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=manchester_united_vs_tottenham_hotspur&d=2026-10-10",
+        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=manchester_united_vs_tottenham&d=2026-10-10",
         "hora_inicio": "11:30",
         "hora_fin": "13:30"
     },
@@ -1934,7 +1934,7 @@
         "away_team": "Tottenham Hotspur",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8586.png",
         "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10260.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=manchester_united_vs_tottenham_hotspur&d=2026-10-10",
+        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=manchester_united_vs_tottenham&d=2026-10-10",
         "hora_inicio": "11:30",
         "hora_fin": "13:30"
     },
