@@ -41,7 +41,7 @@ def descargar_imagen(id_equipo):
         print(f"[=] Omitida (ya existe): {id_equipo}.png")
         return
 
-    url = f"https://teledeportes.st/assets/img/ligas/fm/dark/{id_equipo}.png"
+    url = f"https://teledeportes.st/assets/img/equipos/fm//{id_equipo}.png"
     filepath = os.path.join(OUTPUT_DIR, f"{id_equipo}.png")
 
     try:
