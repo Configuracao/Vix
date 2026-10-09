@@ -11,7 +11,7 @@
         "away_team": "",
         "away_img": "",
         "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d=2026-10-09&s=Soccer",
+        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2397369",
         "hora_inicio": "03:30",
         "hora_fin": "05:30"
     },
@@ -27,7 +27,7 @@
         "away_team": "",
         "away_img": "",
         "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d=2026-10-09&s=Soccer",
+        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2397369",
         "hora_inicio": "03:30",
         "hora_fin": "05:30"
     },
@@ -59,7 +59,7 @@
         "away_team": "",
         "away_img": "",
         "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d=2026-10-09&s=Soccer",
+        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2397369",
         "hora_inicio": "07:30",
         "hora_fin": "09:30"
     },
@@ -75,7 +75,7 @@
         "away_team": "",
         "away_img": "",
         "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d=2026-10-09&s=Soccer",
+        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2397369",
         "hora_inicio": "07:30",
         "hora_fin": "09:30"
     },
@@ -91,7 +91,7 @@
         "away_team": "",
         "away_img": "",
         "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d=2026-10-09&s=Soccer",
+        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2397369",
         "hora_inicio": "07:30",
         "hora_fin": "09:30"
     },
@@ -299,7 +299,7 @@
         "away_team": "Werder Bremen",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8697.png",
         "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9789.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2600205",
+        "api_url": "https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d=2026-10-09&s=Soccer",
         "hora_inicio": "13:30",
         "hora_fin": "15:30"
     },
@@ -315,7 +315,7 @@
         "away_team": "Werder Bremen",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8697.png",
         "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9789.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2600205",
+        "api_url": "https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d=2026-10-09&s=Soccer",
         "hora_inicio": "13:30",
         "hora_fin": "15:30"
     },
@@ -331,7 +331,7 @@
         "away_team": "Werder Bremen",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8697.png",
         "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9789.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2600205",
+        "api_url": "https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d=2026-10-09&s=Soccer",
         "hora_inicio": "13:30",
         "hora_fin": "15:30"
     },
@@ -395,7 +395,7 @@
         "away_team": "Espanyol",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8558.png",
         "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2506240",
+        "api_url": "https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d=2026-10-09&s=Soccer",
         "hora_inicio": "14:00",
         "hora_fin": "16:00"
     },
@@ -411,7 +411,7 @@
         "away_team": "Espanyol",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8558.png",
         "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2506240",
+        "api_url": "https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d=2026-10-09&s=Soccer",
         "hora_inicio": "14:00",
         "hora_fin": "16:00"
     },
@@ -427,7 +427,7 @@
         "away_team": "Espanyol",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8558.png",
         "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2506240",
+        "api_url": "https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d=2026-10-09&s=Soccer",
         "hora_inicio": "14:00",
         "hora_fin": "16:00"
     },
@@ -443,7 +443,7 @@
         "away_team": "Espanyol",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8558.png",
         "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2506240",
+        "api_url": "https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d=2026-10-09&s=Soccer",
         "hora_inicio": "14:00",
         "hora_fin": "16:00"
     },
@@ -459,7 +459,7 @@
         "away_team": "Espanyol",
         "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8558.png",
         "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2506240",
+        "api_url": "https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d=2026-10-09&s=Soccer",
         "hora_inicio": "14:00",
         "hora_fin": "16:00"
     },
@@ -475,7 +475,7 @@
         "away_team": "Queens Park Rangers",
         "away_img": "",
         "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2501347",
+        "api_url": "https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d=2026-10-09&s=Soccer",
         "hora_inicio": "14:00",
         "hora_fin": "16:00"
     },
@@ -539,7 +539,7 @@
         "away_team": "Boca Juniors",
         "away_img": "",
         "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2398121",
+        "api_url": "https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d=2026-10-09&s=Soccer",
         "hora_inicio": "17:30",
         "hora_fin": "19:30"
     },
@@ -555,7 +555,7 @@
         "away_team": "Boca Juniors",
         "away_img": "",
         "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2398121",
+        "api_url": "https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d=2026-10-09&s=Soccer",
         "hora_inicio": "17:30",
         "hora_fin": "19:30"
     },
