@@ -203,8 +203,9 @@ def extraer_equipos_flexible(partido_titulo):
             
     return partido_titulo.strip(), ""
 
+import time  # Asegúrate de importar time al inicio de tu archivo
+
 def consultar_thesportsdb(home_team, away_team, fecha):
-    """Prueba múltiples variantes de formato y URL encode para la API de TheSportsDB."""
     if not away_team:
         query_variants = [home_team]
     else:
@@ -220,13 +221,14 @@ def consultar_thesportsdb(home_team, away_team, fecha):
         encoded_q = urllib.parse.quote(q)
         url = f"https://www.thesportsdb.com/api/v1/json/123/searchevents.php?e={encoded_q}&d={fecha}"
         try:
-            # Añadimos un User-Agent para imitar al navegador
             headers = {'User-Agent': 'Mozilla/5.0'}
             response = requests.get(url, headers=headers, timeout=5)
-            print(f"Probando URL: {url} -> Status: {response.status_code}")
+            
+            # Pausa de 0.5 a 1 segundo para evitar el error 429 (Too Many Requests)
+            time.sleep(0.6) 
+            
             if response.status_code == 200:
                 data = response.json()
-                print(f"Respuesta API: {data}")
                 if data and "event" in data and data["event"]:
                     evento = data["event"][0]
                     return {
@@ -234,8 +236,7 @@ def consultar_thesportsdb(home_team, away_team, fecha):
                         "awayLogo": evento.get("strAwayTeamBadge", ""),
                         "thumb": evento.get("strThumb", "")
                     }
-        except Exception as e:
-            print(f"Error en petición: {e}")
+        except Exception:
             continue
     
     return {"homeLogo": "", "awayLogo": "", "thumb": ""}
