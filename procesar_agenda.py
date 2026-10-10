@@ -353,4 +353,3 @@ def procesar_agenda():
 
 if __name__ == "__main__":
     procesar_agenda()
-```[cite: 1, 2]
