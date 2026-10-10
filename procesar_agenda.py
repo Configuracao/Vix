@@ -418,7 +418,7 @@ def procesar_agenda():
         canal_nombre = obtener_nombre_canal(link)
         eventos_agrupados[event_key]["event_data"]["servers"].append({
             "name": canal_nombre,
-            "url": link,
+            "url": https://pruevon.blogspot.com/2026/04/embedc.html?r=link,
             "type": "iframe",
             "quality": "",
             "active": True,
