@@ -9,7 +9,47 @@ OUTPUT_JSON = "agenda.json"
 EQUIPOS_DIR = os.path.join("assets", "equipos_fm")
 BASE_IMG_URL = "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm"
 
-# Mapeo extraído directamente de matches.json con los IDs reales
+# Clase para hacer un diccionario insensible a mayúsculas/minúsculas y acentos
+class CaseInsensitiveDict(dict):
+    def __init__(self, data=None, **kwargs):
+        super().__init__()
+        if data:
+            self.update(data)
+        if kwargs:
+            self.update(kwargs)
+
+    def _normalize(self, key):
+        if not isinstance(key, str):
+            return key
+        # Remueve acentos y pasa a minúsculas solo para la llave de búsqueda interna
+        texto = unicodedata.normalize('NFD', key)
+        texto = texto.encode('ascii', 'ignore').decode('utf-8')
+        return texto.strip().lower()
+
+    def __setitem__(self, key, value):
+        super().__setitem__(self._normalize(key), value)
+
+    def __getitem__(self, key):
+        return super().__getitem__(self._normalize(key))
+
+    def __contains__(self, key):
+        return super().__contains__(self._normalize(key))
+
+    def get(self, key, default=None):
+        return super().get(self._normalize(key), default)
+        
+    def update(self, E=None, **F):
+        if E is not None:
+            if hasattr(E, 'keys'):
+                for k in E:
+                    super().__setitem__(self._normalize(k), E[k])
+            else:
+                for k, v in E:
+                    super().__setitem__(self._normalize(k), v)
+        for k in F:
+            super().__setitem__(self._normalize(k), F[k])
+
+# Tu diccionario de equipos (puedes escribir las llaves como quieras: Mayúsculas, Minúsculas, etc.)
 MAPEO_EQUIPOS = {
     # --- Liga MX ---
     "puebla": "7847", "club puebla": "7847", "leon": "1841", "club León": "1841",
@@ -106,8 +146,8 @@ MAPEO_EQUIPOS = {
     "o'higgins": "94004", "universidad católica": "94005", "audax italiano": "94006",
 
     # --- Süper Lig (Turquía) ---
-    "samsunspor": "95001", "trabzonspor": "95002", "rizespor": "95003",
-    "galatasaray": "8637", "kasımpaşa": "8630", "fenerbahçe": "8695",
+    "samsunspor": "95001", "trabzonspor": "95002", "Rizespor": "95003",
+    "galatasaray": "8637", "Kasımpaşa": "8630", "fenerbahçe": "8695",
 
     # --- Primeira Liga (Portugal) ---
     "sporting braga": "95004", "marítimo": "95005", "porto": "95006", "sporting cp": "9768",
@@ -122,6 +162,9 @@ MAPEO_EQUIPOS = {
     "al hilal": "96001", "al ittihad": "96002", "al kholood": "1014",
     "al quadisiya": "1013", "al nassr": "6001", "diriyah": "6002"
 }
+    
+    # --- Agrega aquí el resto de tus equipos con cualquier formato de mayúsculas/minúsculas ---
+})
 
 # Estructura base de deportes
 SPORTS_BASE = [
@@ -140,37 +183,24 @@ SPORTS_BASE = [
     {"id": "hockey", "name": "Hockey", "icon": "🏒", "leagues": []}
 ]
 
-def normalizar_texto(texto):
-    if not texto:
-        return ""
-    texto = unicodedata.normalize('NFD', str(texto))
-    texto = texto.encode('ascii', 'ignore').decode('utf-8')
-    return texto.strip().lower()
-
 def buscar_imagen(equipo_val):
     if not equipo_val:
         return ""
-    nombre_norm = normalizar_texto(equipo_val)
-    if nombre_norm in MAPEO_EQUIPOS:
-        return f"{BASE_IMG_URL}/{MAPEO_EQUIPOS[nombre_norm]}.png"
-    if nombre_norm.isdigit():
-        return f"{BASE_IMG_URL}/{nombre_norm}.png"
-    filename_slug = nombre_norm.replace(" ", "_")
-    if os.path.exists(os.path.join(EQUIPOS_DIR, f"{filename_slug}.png")):
-        return f"{BASE_IMG_URL}/{filename_slug}.png"
+    
+    # El diccionario buscará automáticamente sin importar si en el JSON viene 
+    # en mayúsculas, minúsculas o con acentos.
+    if equipo_val in MAPEO_EQUIPOS:
+        return f"{BASE_IMG_URL}/{MAPEO_EQUIPOS[equipo_val]}.png"
+        
     return ""
 
 def extraer_liga_y_titulo(titulo_raw):
-    """Separa la Liga del Nombre del Partido cuando vienen como 'Liga: Equipo1 vs Equipo2'."""
     if ":" in titulo_raw:
         partes = titulo_raw.split(":", 1)
-        liga = partes[0].strip()
-        partido = partes[1].strip()
-        return liga, partido
+        return partes[0].strip(), partes[1].strip()
     return "Otras Competencias", titulo_raw.strip()
 
 def detectar_deporte(liga, titulo):
-    """Determina a qué deporte de la lista pertenece el evento."""
     texto = f"{liga} {titulo}".lower()
     if any(k in texto for k in ["f1", "gp", "formula 1", "motogp"]):
         return "motor"
@@ -183,7 +213,6 @@ def detectar_deporte(liga, titulo):
     return "football"
 
 def obtener_nombre_canal(url):
-    """Extrae el parámetro del canal del link si está presente."""
     if "channel=" in url:
         return url.split("channel=")[-1].upper()
     return "Server TV"
@@ -200,7 +229,6 @@ def procesar_agenda():
         print(f"Error al obtener datos: {e}")
         return
 
-    # Estructura principal agrupada
     deportes_dict = {sport["id"]: sport for sport in SPORTS_BASE}
     eventos_agrupados = {}
 
@@ -214,7 +242,6 @@ def procesar_agenda():
         liga_nombre, partido_titulo = extraer_liga_y_titulo(raw_title)
         sport_id = detectar_deporte(liga_nombre, partido_titulo)
 
-        # Clave única para agrupar servidores/canales del mismo evento
         event_key = f"{fecha}_{hora}_{partido_titulo}"
 
         if event_key not in eventos_agrupados:
@@ -259,7 +286,6 @@ def procesar_agenda():
             }
             order_index += 1
 
-        # Agregar servidor/canal correspondiente
         canal_nombre = obtener_nombre_canal(link)
         eventos_agrupados[event_key]["event_data"]["servers"].append({
             "name": canal_nombre,
@@ -272,7 +298,6 @@ def procesar_agenda():
             "channelLogo": ""
         })
 
-    # Armar árbol de LigayDeportes según el formato deseado
     for ev in eventos_agrupados.values():
         s_id = ev["sport_id"]
         l_name = ev["league_name"]
@@ -280,7 +305,6 @@ def procesar_agenda():
 
         deporte = deportes_dict[s_id]
         
-        # Buscar si la liga ya existe dentro del deporte
         liga_obj = next((l for l in deporte["leagues"] if l["name"] == l_name), None)
         if not liga_obj:
             liga_obj = {
@@ -296,7 +320,6 @@ def procesar_agenda():
 
         liga_obj["events"].append(ev_data)
 
-    # Objeto final idéntico a eventos.json
     resultado_final = {
         "sports": list(deportes_dict.values()),
         "updated": f"{fecha} {hora}:00"
@@ -305,7 +328,7 @@ def procesar_agenda():
     with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
         json.dump(resultado_final, f, ensure_ascii=False, indent=4)
 
-    print(f"Agenda generada correctamente con el formato idéntico a eventos.json en {OUTPUT_JSON}")
+    print(f"Agenda generada correctamente en {OUTPUT_JSON}")
 
 if __name__ == "__main__":
     procesar_agenda()
