@@ -334,80 +334,189 @@ MAPEO_EQUIPOS = {
     "Sarmiento": "5002"
 }
 
+# Estructura base de deportes
+SPORTS_BASE = [
+    {"id": "automovilismo", "name": "Automovilismo", "icon": "🏎️", "leagues": []},
+    {"id": "futbol", "name": "Fútbol", "icon": "⚽", "leagues": []},
+    {"id": "tenis", "name": "Tenis", "icon": "🎾", "leagues": []},
+    {"id": "beisbol", "name": "Béisbol", "icon": "⚾", "leagues": []},
+    {"id": "motor", "name": "Motor", "icon": "🏎️", "leagues": []},
+    {"id": "tennis", "name": "Tennis", "icon": "🎾", "leagues": []},
+    {"id": "football", "name": "Football", "icon": "⚽", "leagues": []},
+    {"id": "boxing", "name": "Boxing", "icon": "🥊", "leagues": []},
+    {"id": "mma", "name": "MMA / UFC", "icon": "🥋", "leagues": []},
+    {"id": "baseball", "name": "Baseball", "icon": "⚾", "leagues": []},
+    {"id": "nfl", "name": "American Football", "icon": "🏈", "leagues": []},
+    {"id": "basketball", "name": "Basketball", "icon": "🏀", "leagues": []},
+    {"id": "hockey", "name": "Hockey", "icon": "🏒", "leagues": []}
+]
+
 def normalizar_texto(texto):
-    """Elimina acentos, caracteres especiales y convierte a minúsculas."""
     if not texto:
         return ""
     texto = unicodedata.normalize('NFD', str(texto))
     texto = texto.encode('ascii', 'ignore').decode('utf-8')
     return texto.strip().lower()
 
-def buscar_imagen(equipo_val, logo_fallback=""):
-    """
-    Busca la imagen del equipo en el mapeo local o mediante ID/Slug.
-    Si no encuentra ninguna, utiliza el 'logo_fallback' proporcionado en el evento original.
-    """
-    if not equipo_val and not logo_fallback:
+def buscar_imagen(equipo_val):
+    if not equipo_val:
         return ""
-
     nombre_norm = normalizar_texto(equipo_val)
-
-    # 1. Buscar en el mapeo por nombre
     if nombre_norm in MAPEO_EQUIPOS:
-        id_img = MAPEO_EQUIPOS[nombre_norm]
-        return f"{BASE_IMG_URL}/{id_img}.png"
-
-    # 2. Si es un ID numérico directo
+        return f"{BASE_IMG_URL}/{MAPEO_EQUIPOS[nombre_norm]}.png"
     if nombre_norm.isdigit():
         return f"{BASE_IMG_URL}/{nombre_norm}.png"
-
-    # 3. Fallback por slug en carpeta local
     filename_slug = nombre_norm.replace(" ", "_")
     if os.path.exists(os.path.join(EQUIPOS_DIR, f"{filename_slug}.png")):
         return f"{BASE_IMG_URL}/{filename_slug}.png"
+    return ""
 
-    # 4. Usar la URL que ya traía el evento si no se encontró coincidencia local
-    return logo_fallback
+def extraer_liga_y_titulo(titulo_raw):
+    """Separa la Liga del Nombre del Partido cuando vienen como 'Liga: Equipo1 vs Equipo2'."""
+    if ":" in titulo_raw:
+        partes = titulo_raw.split(":", 1)
+        liga = partes[0].strip()
+        partido = partes[1].strip()
+        return liga, partido
+    return "Otras Competencias", titulo_raw.strip()
 
-def procesar_agenda_estructurada():
-    print("Obteniendo JSON de eventos...")
+def detectar_deporte(liga, titulo):
+    """Determina a qué deporte de la lista pertenece el evento."""
+    texto = f"{liga} {titulo}".lower()
+    if any(k in texto for k in ["f1", "gp", "formula 1", "motogp"]):
+        return "motor"
+    if any(k in texto for k in ["nba", "wnba", "baloncesto"]):
+        return "basketball"
+    if any(k in texto for k in ["ufc", "boxing", "boxe", "mma"]):
+        return "boxing" if "boxing" in texto else "mma"
+    if any(k in texto for k in ["nhl", "hockey"]):
+        return "hockey"
+    return "football"
+
+def obtener_nombre_canal(url):
+    """Extrae el parámetro del canal del link si está presente."""
+    if "channel=" in url:
+        return url.split("channel=")[-1].upper()
+    return "Server TV"
+
+def procesar_agenda():
+    print("Descargando JSON desde streamx305.sbs...")
     try:
         response = requests.get(JSON_URL, timeout=10)
-        data = response.json()
+        if response.status_code != 200:
+            print(f"Error al descargar: Status {response.status_code}")
+            return
+        agenda_raw = response.json()
     except Exception as e:
-        print(f"Error al cargar datos: {e}")
+        print(f"Error al obtener datos: {e}")
         return
 
-    # Si la respuesta es una lista directa de eventos o contiene 'sports'
-    sports = data.get("sports", []) if isinstance(data, dict) else []
+    # Estructura principal agrupada
+    deportes_dict = {sport["id"]: sport for sport in SPORTS_BASE}
+    eventos_agrupados = {}
 
-    for sport in sports:
-        for league in sport.get("leagues", []):
-            for evento in league.get("events", []):
-                home_team = evento.get("homeTeam", "")
-                away_team = evento.get("awayTeam", "")
-                
-                # Mapear/procesar imágenes de equipos
-                home_img = buscar_imagen(home_team, evento.get("homeLogo", ""))
-                away_img = buscar_imagen(away_team, evento.get("awayLogo", ""))
-                
-                # Asignar propiedades al evento
-                evento["home_team"] = home_team
-                evento["home_img"] = home_img
-                evento["away_team"] = away_team
-                evento["away_img"] = away_img
-                
-                # Mantener compatibilidad de URLs asignadas
-                if home_img:
-                    evento["homeLogo"] = home_img
-                if away_img:
-                    evento["awayLogo"] = away_img
+    order_index = 1
+    for item in agenda_raw:
+        raw_title = item.get("title", "")
+        link = item.get("link", "")
+        fecha = item.get("date", "")
+        hora = item.get("time", "")
 
-    # Guardar resultado
+        liga_nombre, partido_titulo = extraer_liga_y_titulo(raw_title)
+        sport_id = detectar_deporte(liga_nombre, partido_titulo)
+
+        # Clave única para agrupar servidores/canales del mismo evento
+        event_key = f"{fecha}_{hora}_{partido_titulo}"
+
+        if event_key not in eventos_agrupados:
+            home_team, away_team = "", ""
+            if " vs " in partido_titulo:
+                equipos = partido_titulo.split(" vs ")
+                home_team = equipos[0].strip()
+                away_team = equipos[1].strip()
+            else:
+                home_team = partido_titulo
+
+            home_logo = buscar_imagen(home_team)
+            away_logo = buscar_imagen(away_team)
+
+            eventos_agrupados[event_key] = {
+                "sport_id": sport_id,
+                "league_name": liga_nombre,
+                "event_data": {
+                    "title": partido_titulo,
+                    "league": liga_nombre,
+                    "code": "",
+                    "time": f"{fecha} {hora}",
+                    "timezone": "America/Lima",
+                    "agendaOrder": order_index,
+                    "image": "",
+                    "logo": "",
+                    "homeTeam": home_team,
+                    "awayTeam": away_team,
+                    "homeLogo": home_logo,
+                    "awayLogo": away_logo,
+                    "imageMode": "teams" if home_logo or away_logo else "",
+                    "duration": 130,
+                    "extraTime": 0,
+                    "status": item.get("status", ""),
+                    "note": "",
+                    "servers": [],
+                    "flagCode": "",
+                    "flagUrl": "",
+                    "homeCountryCode": "",
+                    "awayCountryCode": ""
+                }
+            }
+            order_index += 1
+
+        # Agregar servidor/canal correspondiente
+        canal_nombre = obtener_nombre_canal(link)
+        eventos_agrupados[event_key]["event_data"]["servers"].append({
+            "name": canal_nombre,
+            "url": link,
+            "type": "iframe",
+            "quality": "",
+            "active": True,
+            "languages": [],
+            "customLanguages": "",
+            "channelLogo": ""
+        })
+
+    # Armar árbol de LigayDeportes según el formato deseado
+    for ev in eventos_agrupados.values():
+        s_id = ev["sport_id"]
+        l_name = ev["league_name"]
+        ev_data = ev["event_data"]
+
+        deporte = deportes_dict[s_id]
+        
+        # Buscar si la liga ya existe dentro del deporte
+        liga_obj = next((l for l in deporte["leagues"] if l["name"] == l_name), None)
+        if not liga_obj:
+            liga_obj = {
+                "name": l_name,
+                "logo": "",
+                "image": "",
+                "background": "",
+                "events": [],
+                "flagCode": "",
+                "flagUrl": ""
+            }
+            deporte["leagues"].append(liga_obj)
+
+        liga_obj["events"].append(ev_data)
+
+    # Objeto final idéntico a eventos.json
+    resultado_final = {
+        "sports": list(deportes_dict.values()),
+        "updated": f"{fecha} {hora}:00"
+    }
+
     with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
+        json.dump(resultado_final, f, ensure_ascii=False, indent=4)
 
-    print(f"JSON procesado con éxito y guardado en {OUTPUT_JSON}")
+    print(f"Agenda generada correctamente con el formato idéntico a eventos.json en {OUTPUT_JSON}")
 
 if __name__ == "__main__":
-    procesar_agenda_estructurada()
+    procesar_agenda()
