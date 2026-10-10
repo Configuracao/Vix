@@ -5,7 +5,7 @@ import urllib.parse
 import requests
 import unicodedata
 import time
-from datetime import datetime  # Validar la fecha actual
+from datetime import datetime, timedelta  # Importado timedelta para calcular el día siguiente
 
 # URL del JSON original o archivo local
 JSON_URL = "https://streamx305.sbs/json/agenda550.json"
@@ -51,6 +51,40 @@ class CaseInsensitiveDict(dict):
                     super().__setitem__(self._normalize(k), v)
             for k in F:
                 super().__setitem__(self._normalize(k), F[k])
+
+# Diccionario para reemplazar nombres de equipos automáticamente
+MAPEO_REEMPLAZO_NOMBRES = CaseInsensitiveDict({
+    "AFC Bournemouth": "Bournemouth",
+    "Athletic Club": "Athletic Bilbao",
+    "Inter": "Inter Milan",
+    "Bayern München": "Bayern Munich",
+    "Hamburger SV": "Hamburg",
+    "Mainz 05": "Mainz",
+    "Univ. Concepción": "Universidad de Concepción",
+    "Wanderers": "Montevideo Wanderers",
+    "Brighton & Hove Albion": "Brighton and Hove Albion",
+    "Angers SCO": "Angers",
+    "PSG": "Paris Saint-Germain",
+    "Cincinnati": "FC Cincinnati",
+    "Orlando City SC": "Orlando City",
+    "New York RB": "New York Red Bulls",
+    "Charlotter": "Charlotte FC",
+    "Dallas": "FC Dallas",
+    "New England": "New England Revolution",
+    "Seattle Sounders FC": "Seattle Sounders",
+    "Austin": "Austin FC",
+    "FC Cajamarca": "Cajamarca",
+    "Al Hilal": "Al-Ittihad",
+    "Al Ittihad": "Al-Hilal",
+    "Central Córdoba SdE": "Central Córdoba de Santiago del Estero",
+    "Estudiantes LP": "Estudiantes de La Plata",
+    "Estudiantes Río Cuarto": "Estudiantes de Río Cuarto",
+    "Brendan Allen": "Allen",
+    "Christian Leroy Duncan": "Duncan",
+    "Junior": "Atlético Junior",
+    "Inter Bogotá": "Internacional de Bogotá",
+    "Guadalajara": "CD Guadalajara",
+})
 
 # Diccionario de equipos (admite cualquier combinación de mayúsculas y minúsculas)
 MAPEO_EQUIPOS = CaseInsensitiveDict({
@@ -99,7 +133,7 @@ MAPEO_EQUIPOS = CaseInsensitiveDict({
     "psg": "9847", "le mans": "8682", "monaco": "9829", "toulouse": "9941",
 
     # --- Serie A (Italia) ---
-    "genoa": "10233", "fiorentina": "8535", "inter": "8636", "parma": "10167",
+    "genoa": "10233", "fiorentina": "8535", "inter": "8636", "inter de milan": "8636", "parma": "10167",
     "napoli": "9875", "frosinone": "9891",
 
     # --- Brasileirão (Brasil) ---
@@ -183,6 +217,14 @@ SPORTS_BASE = [
     {"id": "hockey", "name": "Hockey", "icon": "🏒", "leagues": []}
 ]
 
+def limpiar_nombre_equipo(nombre):
+    if not nombre:
+        return ""
+    nombre_limpio = nombre.strip()
+    if nombre_limpio in MAPEO_REEMPLAZO_NOMBRES:
+        return MAPEO_REEMPLAZO_NOMBRES[nombre_limpio]
+    return nombre_limpio
+
 def buscar_imagen(equipo_val):
     if not equipo_val:
         return ""
@@ -214,28 +256,37 @@ def consultar_thesportsdb(home_team, away_team, fecha):
             f"{home_team} - {away_team}"
         ]
     
-    for q in query_variants:
-        encoded_q = urllib.parse.quote(q)
-        url = f"https://www.thesportsdb.com/api/v1/json/123/searchevents.php?e={encoded_q}&d={fecha}"
-        try:
-            headers = {'User-Agent': 'Mozilla/5.0'}
-            response = requests.get(url, headers=headers, timeout=5)
-            
-            # --- PAUSA AUMENTADA ---
-            # Se aumentó a 3.0 segundos para evitar bloqueos por peticiones consecutivas
-            time.sleep(3.0) 
-            
-            if response.status_code == 200:
-                data = response.json()
-                if data and "event" in data and data["event"]:
-                    evento = data["event"][0]
-                    return {
-                        "homeLogo": evento.get("strHomeTeamBadge", ""),
-                        "awayLogo": evento.get("strAwayTeamBadge", ""),
-                        "thumb": evento.get("strThumb", "")
-                    }
-        except Exception:
-            continue
+    # Generar lista de fechas a probar: la fecha del evento y el día siguiente
+    fechas_a_probar = [fecha]
+    try:
+        dt_obj = datetime.strptime(fecha, "%Y-%m-%d")
+        fecha_siguiente = (dt_obj + timedelta(days=1)).strftime("%Y-%m-%d")
+        fechas_a_probar.append(fecha_siguiente)
+    except ValueError:
+        pass
+
+    for f_busqueda in fechas_a_probar:
+        for q in query_variants:
+            encoded_q = urllib.parse.quote(q)
+            url = f"https://www.thesportsdb.com/api/v1/json/123/searchevents.php?e={encoded_q}&d={f_busqueda}"
+            try:
+                headers = {'User-Agent': 'Mozilla/5.0'}
+                response = requests.get(url, headers=headers, timeout=5)
+                
+                # --- PAUSA AUMENTADA ---
+                time.sleep(3.0) 
+                
+                if response.status_code == 200:
+                    data = response.json()
+                    if data and "event" in data and data["event"]:
+                        evento = data["event"][0]
+                        return {
+                            "homeLogo": evento.get("strHomeTeamBadge", ""),
+                            "awayLogo": evento.get("strAwayTeamBadge", ""),
+                            "thumb": evento.get("strThumb", "")
+                        }
+            except Exception:
+                continue
     
     return {"homeLogo": "", "awayLogo": "", "thumb": ""}
 
@@ -302,14 +353,24 @@ def procesar_agenda():
         ultima_fecha_valida = fecha
         ultima_hora_valida = hora
 
-        liga_nombre, partido_titulo = extraer_liga_y_titulo(raw_title)
+        liga_nombre, partido_titulo_raw = extraer_liga_y_titulo(raw_title)
+        
+        # Extraer y aplicar mapeo de reemplazo a los nombres de los equipos
+        home_raw, away_raw = extraer_equipos_flexible(partido_titulo_raw)
+        home_team = limpiar_nombre_equipo(home_raw)
+        away_team = limpiar_nombre_equipo(away_raw)
+
+        # Reconstruir el título del partido con los nombres ya mapeados/reemplazados
+        if away_team:
+            partido_titulo = f"{home_team} vs {away_team}"
+        else:
+            partido_titulo = home_team
+
         sport_id = detectar_deporte(liga_nombre, partido_titulo)
 
         event_key = f"{fecha}_{hora}_{partido_titulo}"
 
         if event_key not in eventos_agrupados:
-            home_team, away_team = extraer_equipos_flexible(partido_titulo)
-
             api_images = consultar_thesportsdb(home_team, away_team, fecha)
             
             home_logo = api_images.get("homeLogo", "")
