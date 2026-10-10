@@ -155,7 +155,7 @@ MAPEO_EQUIPOS = CaseInsensitiveDict({
     "magdeburg": "95007", "hannover 96": "95008", "nürnberg": "95009", "wolfsburg": "95010",
 
     # --- Eredivisie (Países Bajos) ---
-    "ajax": "95011", "nec nijmegen": "8464", "psv": "8640", "heerenveen": "9926", "feyenoord": "10235", "az": "10229",
+    "ajax": "95011", "nec": "8464", "psv": "8640", "heerenveen": "9926", "feyenoord": "10235", "az": "10229",
 
     # --- Liga Profesional Saudí ---
     "al hilal": "96001", "al ittihad": "96002", "al kholood": "1014",
@@ -185,6 +185,25 @@ def buscar_imagen(equipo_val):
     if equipo_val in MAPEO_EQUIPOS:
         return f"{BASE_IMG_URL}/{MAPEO_EQUIPOS[equipo_val]}.png"
     return ""
+
+def consultar_thesportsdb(home_team, away_team, fecha):
+    """Consulta la API de TheSportsDB para obtener los escudos y la miniatura del evento."""
+    url = f"https://www.thesportsdb.com/api/v1/json/123/searchevents.php?e={home_team} vs {away_team}&d={fecha}"
+    try:
+        response = requests.get(url, timeout=5)
+        if response.status_code == 200:
+            data = response.json()
+            if data and "event" in data and data["event"]:
+                evento = data["event"][0]
+                return {
+                    "homeLogo": evento.get("strHomeTeamBadge", ""),
+                    "awayLogo": evento.get("strAwayTeamBadge", ""),
+                    "thumb": evento.get("strThumb", "")
+                }
+    except Exception as e:
+        print(f"Error consultando TheSportsDB para {home_team} vs {away_team}: {e}")
+    
+    return {"homeLogo": "", "awayLogo": "", "thumb": ""}
 
 def extraer_liga_y_titulo(titulo_raw):
     if ":" in titulo_raw:
@@ -245,8 +264,18 @@ def procesar_agenda():
             else:
                 home_team = partido_titulo
 
-            home_logo = buscar_imagen(home_team)
-            away_logo = buscar_imagen(away_team)
+            # 1. Consultar primero en la API de TheSportsDB
+            api_images = consultar_thesportsdb(home_team, away_team, fecha)
+            
+            home_logo = api_images.get("homeLogo", "")
+            away_logo = api_images.get("awayLogo", "")
+            event_thumb = api_images.get("thumb", "")
+
+            # 2. Si la API no devuelve los logos, usar respaldo local
+            if not home_logo:
+                home_logo = buscar_imagen(home_team)
+            if not away_logo:
+                away_logo = buscar_imagen(away_team)
 
             eventos_agrupados[event_key] = {
                 "sport_id": sport_id,
@@ -258,13 +287,13 @@ def procesar_agenda():
                     "time": f"{fecha} {hora}",
                     "timezone": "America/Lima",
                     "agendaOrder": order_index,
-                    "image": "",
+                    "image": event_thumb,  # Se asigna strThumb de la API aquí
                     "logo": "",
                     "homeTeam": home_team,
                     "awayTeam": away_team,
                     "homeLogo": home_logo,
                     "awayLogo": away_logo,
-                    "imageMode": "teams" if home_logo or away_logo else "",
+                    "imageMode": "banner" if event_thumb else ("teams" if home_logo or away_logo else ""),
                     "duration": 130,
                     "extraTime": 0,
                     "status": item.get("status", ""),
@@ -324,3 +353,4 @@ def procesar_agenda():
 
 if __name__ == "__main__":
     procesar_agenda()
+```[cite: 1, 2]
