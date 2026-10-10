@@ -9,7 +9,7 @@ OUTPUT_JSON = "agenda.json"
 EQUIPOS_DIR = os.path.join("assets", "equipos_fm")
 BASE_IMG_URL = "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm"
 
-# Clase para hacer un diccionario insensible a mayúsculas/minúsculas y acentos
+# Clase para hacer un diccionario insensible a mayúsculas, minúsculas y acentos
 class CaseInsensitiveDict(dict):
     def __init__(self, data=None, **kwargs):
         super().__init__()
@@ -21,7 +21,6 @@ class CaseInsensitiveDict(dict):
     def _normalize(self, key):
         if not isinstance(key, str):
             return key
-        # Remueve acentos y pasa a minúsculas solo para la llave de búsqueda interna
         texto = unicodedata.normalize('NFD', key)
         texto = texto.encode('ascii', 'ignore').decode('utf-8')
         return texto.strip().lower()
@@ -46,11 +45,11 @@ class CaseInsensitiveDict(dict):
             else:
                 for k, v in E:
                     super().__setitem__(self._normalize(k), v)
-        for k in F:
-            super().__setitem__(self._normalize(k), F[k])
+            for k in F:
+                super().__setitem__(self._normalize(k), F[k])
 
-# Tu diccionario de equipos (puedes escribir las llaves como quieras: Mayúsculas, Minúsculas, etc.)
-MAPEO_EQUIPOS = {
+# Diccionario de equipos (admite cualquier combinación de mayúsculas y minúsculas)
+MAPEO_EQUIPOS = CaseInsensitiveDict({
     # --- Liga MX ---
     "puebla": "7847", "club puebla": "7847", "leon": "1841", "club León": "1841",
     "tigres": "8561", "tigres uanl": "8561", "toluca": "6618", "fc juarez": "649424",
@@ -160,9 +159,7 @@ MAPEO_EQUIPOS = {
 
     # --- Liga Profesional Saudí ---
     "al hilal": "96001", "al ittihad": "96002", "al kholood": "1014",
-    "al quadisiya": "1013", "al nassr": "6001", "diriyah": "6002"
-    
-    # --- Agrega aquí el resto de tus equipos con cualquier formato de mayúsculas/minúsculas ---
+    "al quadisiya": "1013", "al nassr": "6001", "diriyah": "6002",
 })
 
 # Estructura base de deportes
@@ -185,12 +182,8 @@ SPORTS_BASE = [
 def buscar_imagen(equipo_val):
     if not equipo_val:
         return ""
-    
-    # El diccionario buscará automáticamente sin importar si en el JSON viene 
-    # en mayúsculas, minúsculas o con acentos.
     if equipo_val in MAPEO_EQUIPOS:
         return f"{BASE_IMG_URL}/{MAPEO_EQUIPOS[equipo_val]}.png"
-        
     return ""
 
 def extraer_liga_y_titulo(titulo_raw):
