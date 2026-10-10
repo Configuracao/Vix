@@ -204,25 +204,18 @@ def extraer_equipos_flexible(partido_titulo):
     return partido_titulo.strip(), ""
 
 def consultar_thesportsdb(home_team, away_team, fecha):
-    """Prueba múltiples variantes de formato y URL encode para la API de TheSportsDB."""
-    if not away_team:
-        query_variants = [home_team]
-    else:
-        query_variants = [
-            f"{home_team} vs {away_team}",
-            f"{home_team}-vs-{away_team}",
-            f"{home_team.lower()} vs {away_team.lower()}",
-            f"{home_team.lower()}-vs-{away_team.lower()}",
-            f"{home_team} - {away_team}"
-        ]
-    
+    # ... tus variantes ...
     for q in query_variants:
         encoded_q = urllib.parse.quote(q)
         url = f"https://www.thesportsdb.com/api/v1/json/123/searchevents.php?e={encoded_q}&d={fecha}"
         try:
-            response = requests.get(url, timeout=5)
+            # Añadimos un User-Agent para imitar al navegador
+            headers = {'User-Agent': 'Mozilla/5.0'}
+            response = requests.get(url, headers=headers, timeout=5)
+            print(f"Probando URL: {url} -> Status: {response.status_code}") # <-- Agrega esto
             if response.status_code == 200:
                 data = response.json()
+                print(f"Respuesta API: {data}") # <-- Agrega esto para ver qué trae
                 if data and "event" in data and data["event"]:
                     evento = data["event"][0]
                     return {
@@ -230,7 +223,8 @@ def consultar_thesportsdb(home_team, away_team, fecha):
                         "awayLogo": evento.get("strAwayTeamBadge", ""),
                         "thumb": evento.get("strThumb", "")
                     }
-        except Exception:
+        except Exception as e:
+            print(f"Error en petición: {e}") # <-- Agrega esto para ver si hay errores ocultos
             continue
     
     return {"homeLogo": "", "awayLogo": "", "thumb": ""}
