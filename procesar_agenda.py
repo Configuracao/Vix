@@ -4,6 +4,8 @@ import re
 import urllib.parse
 import requests
 import unicodedata
+import time
+from datetime import datetime  # <-- Importado para validar la fecha actual
 
 # URL del JSON original o archivo local
 JSON_URL = "https://streamx305.sbs/json/agenda550.json"
@@ -189,21 +191,16 @@ def buscar_imagen(equipo_val):
     return ""
 
 def extraer_equipos_flexible(partido_titulo):
-    """Extrae los equipos sin importar si usan 'vs', '-vs-', ' - ', etc."""
     patrones = [
-        r'\s+vs\.?\s+',  # " vs ", " vs. "
-        r'-vs-',         # "-vs-"
-        r'\s+-\s+'       # " - " (separado por espacios)
+        r'\s+vs\.?\s+',  
+        r'-vs-',         
+        r'\s+-\s+'       
     ]
-    
     for patron in patrones:
         partes = re.split(patron, partido_titulo, flags=re.IGNORECASE)
         if len(partes) >= 2:
             return partes[0].strip(), partes[1].strip()
-            
     return partido_titulo.strip(), ""
-
-import time  # Asegúrate de importar time al inicio de tu archivo
 
 def consultar_thesportsdb(home_team, away_team, fecha):
     if not away_team:
@@ -223,8 +220,6 @@ def consultar_thesportsdb(home_team, away_team, fecha):
         try:
             headers = {'User-Agent': 'Mozilla/5.0'}
             response = requests.get(url, headers=headers, timeout=5)
-            
-            # Pausa de 0.5 a 1 segundo para evitar el error 429 (Too Many Requests)
             time.sleep(0.6) 
             
             if response.status_code == 200:
@@ -276,15 +271,36 @@ def procesar_agenda():
         print(f"Error al obtener datos: {e}")
         return
 
+    # Obtener la fecha actual del sistema en formato YYYY-MM-DD
+    hoy = datetime.now().date()
+    print(f"Filtrando eventos desde la fecha de hoy: {hoy}")
+
     deportes_dict = {sport["id"]: sport for sport in SPORTS_BASE}
     eventos_agrupados = {}
 
     order_index = 1
+    ultima_fecha_valida = str(hoy)
+    ultima_hora_valida = "00:00"
+
     for item in agenda_raw:
+        fecha = item.get("date", "")
+        
+        # --- FILTRO DE FECHAS ---
+        try:
+            # Asumiendo que el formato de fecha en el JSON es YYYY-MM-DD
+            fecha_evento = datetime.strptime(fecha, "%Y-%m-%d").date()
+            if fecha_evento < hoy:
+                continue  # Salta los eventos anteriores a hoy
+        except ValueError:
+            # Si el formato de fecha difiere o viene vacío, puedes decidir omitirlo o pasarlo
+            continue
+
         raw_title = item.get("title", "")
         link = item.get("link", "")
-        fecha = item.get("date", "")
         hora = item.get("time", "")
+
+        ultima_fecha_valida = fecha
+        ultima_hora_valida = hora
 
         liga_nombre, partido_titulo = extraer_liga_y_titulo(raw_title)
         sport_id = detectar_deporte(liga_nombre, partido_titulo)
@@ -292,17 +308,14 @@ def procesar_agenda():
         event_key = f"{fecha}_{hora}_{partido_titulo}"
 
         if event_key not in eventos_agrupados:
-            # Extracción flexible de equipos (admite vs, -vs-, espacios, etc.)
             home_team, away_team = extraer_equipos_flexible(partido_titulo)
 
-            # 1. Consultar en la API de TheSportsDB probando variantes de formato y codificación
             api_images = consultar_thesportsdb(home_team, away_team, fecha)
             
             home_logo = api_images.get("homeLogo", "")
             away_logo = api_images.get("awayLogo", "")
             event_thumb = api_images.get("thumb", "")
 
-            # 2. Si la API no devuelve los logos, usar respaldo local
             if not home_logo:
                 home_logo = buscar_imagen(home_team)
             if not away_logo:
@@ -318,7 +331,7 @@ def procesar_agenda():
                     "time": f"{fecha} {hora}",
                     "timezone": "America/Lima",
                     "agendaOrder": order_index,
-                    "image": event_thumb,  # Se asigna strThumb de la API aquí
+                    "image": event_thumb,
                     "logo": "",
                     "homeTeam": home_team,
                     "awayTeam": away_team,
@@ -374,13 +387,13 @@ def procesar_agenda():
 
     resultado_final = {
         "sports": list(deportes_dict.values()),
-        "updated": f"{fecha} {hora}:00"
+        "updated": f"{ultima_fecha_valida} {ultima_hora_valida}:00"
     }
 
     with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
         json.dump(resultado_final, f, ensure_ascii=False, indent=4)
 
-    print(f"Agenda generada correctamente en {OUTPUT_JSON}")
+    print(f"Agenda generada correctamente en {OUTPUT_JSON} (omitiendo fechas pasadas).")
 
 if __name__ == "__main__":
     procesar_agenda()
