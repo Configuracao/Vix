@@ -1,5 +1,7 @@
 import os
 import json
+import re
+import urllib.parse
 import requests
 import unicodedata
 
@@ -186,22 +188,50 @@ def buscar_imagen(equipo_val):
         return f"{BASE_IMG_URL}/{MAPEO_EQUIPOS[equipo_val]}.png"
     return ""
 
+def extraer_equipos_flexible(partido_titulo):
+    """Extrae los equipos sin importar si usan 'vs', '-vs-', ' - ', etc."""
+    patrones = [
+        r'\s+vs\.?\s+',  # " vs ", " vs. "
+        r'-vs-',         # "-vs-"
+        r'\s+-\s+'       # " - " (separado por espacios)
+    ]
+    
+    for patron in patrones:
+        partes = re.split(patron, partido_titulo, flags=re.IGNORECASE)
+        if len(partes) >= 2:
+            return partes[0].strip(), partes[1].strip()
+            
+    return partido_titulo.strip(), ""
+
 def consultar_thesportsdb(home_team, away_team, fecha):
-    """Consulta la API de TheSportsDB para obtener los escudos y la miniatura del evento."""
-    url = f"https://www.thesportsdb.com/api/v1/json/123/searchevents.php?e={home_team} vs {away_team}&d={fecha}"
-    try:
-        response = requests.get(url, timeout=5)
-        if response.status_code == 200:
-            data = response.json()
-            if data and "event" in data and data["event"]:
-                evento = data["event"][0]
-                return {
-                    "homeLogo": evento.get("strHomeTeamBadge", ""),
-                    "awayLogo": evento.get("strAwayTeamBadge", ""),
-                    "thumb": evento.get("strThumb", "")
-                }
-    except Exception as e:
-        print(f"Error consultando TheSportsDB para {home_team} vs {away_team}: {e}")
+    """Prueba múltiples variantes de formato y URL encode para la API de TheSportsDB."""
+    if not away_team:
+        query_variants = [home_team]
+    else:
+        query_variants = [
+            f"{home_team} vs {away_team}",
+            f"{home_team}-vs-{away_team}",
+            f"{home_team.lower()} vs {away_team.lower()}",
+            f"{home_team.lower()}-vs-{away_team.lower()}",
+            f"{home_team} - {away_team}"
+        ]
+    
+    for q in query_variants:
+        encoded_q = urllib.parse.quote(q)
+        url = f"https://www.thesportsdb.com/api/v1/json/123/searchevents.php?e={encoded_q}&d={fecha}"
+        try:
+            response = requests.get(url, timeout=5)
+            if response.status_code == 200:
+                data = response.json()
+                if data and "event" in data and data["event"]:
+                    evento = data["event"][0]
+                    return {
+                        "homeLogo": evento.get("strHomeTeamBadge", ""),
+                        "awayLogo": evento.get("strAwayTeamBadge", ""),
+                        "thumb": evento.get("strThumb", "")
+                    }
+        except Exception:
+            continue
     
     return {"homeLogo": "", "awayLogo": "", "thumb": ""}
 
@@ -256,15 +286,10 @@ def procesar_agenda():
         event_key = f"{fecha}_{hora}_{partido_titulo}"
 
         if event_key not in eventos_agrupados:
-            home_team, away_team = "", ""
-            if " vs " in partido_titulo:
-                equipos = partido_titulo.split(" vs ")
-                home_team = equipos[0].strip()
-                away_team = equipos[1].strip()
-            else:
-                home_team = partido_titulo
+            # Extracción flexible de equipos (admite vs, -vs-, espacios, etc.)
+            home_team, away_team = extraer_equipos_flexible(partido_titulo)
 
-            # 1. Consultar primero en la API de TheSportsDB
+            # 1. Consultar en la API de TheSportsDB probando variantes de formato y codificación
             api_images = consultar_thesportsdb(home_team, away_team, fecha)
             
             home_logo = api_images.get("homeLogo", "")
