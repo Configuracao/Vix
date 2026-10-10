@@ -5,7 +5,7 @@ import urllib.parse
 import requests
 import unicodedata
 import time
-from datetime import datetime  # <-- Importado para validar la fecha actual
+from datetime import datetime  # Validar la fecha actual
 
 # URL del JSON original o archivo local
 JSON_URL = "https://streamx305.sbs/json/agenda550.json"
@@ -220,7 +220,10 @@ def consultar_thesportsdb(home_team, away_team, fecha):
         try:
             headers = {'User-Agent': 'Mozilla/5.0'}
             response = requests.get(url, headers=headers, timeout=5)
-            time.sleep(0.6) 
+            
+            # --- PAUSA AUMENTADA ---
+            # Se aumentó a 3.0 segundos para evitar bloqueos por peticiones consecutivas
+            time.sleep(3.0) 
             
             if response.status_code == 200:
                 data = response.json()
@@ -271,7 +274,6 @@ def procesar_agenda():
         print(f"Error al obtener datos: {e}")
         return
 
-    # Obtener la fecha actual del sistema en formato YYYY-MM-DD
     hoy = datetime.now().date()
     print(f"Filtrando eventos desde la fecha de hoy: {hoy}")
 
@@ -285,14 +287,12 @@ def procesar_agenda():
     for item in agenda_raw:
         fecha = item.get("date", "")
         
-        # --- FILTRO DE FECHAS ---
+        # Filtro: Ignorar fechas anteriores a hoy
         try:
-            # Asumiendo que el formato de fecha en el JSON es YYYY-MM-DD
             fecha_evento = datetime.strptime(fecha, "%Y-%m-%d").date()
             if fecha_evento < hoy:
-                continue  # Salta los eventos anteriores a hoy
+                continue  
         except ValueError:
-            # Si el formato de fecha difiere o viene vacío, puedes decidir omitirlo o pasarlo
             continue
 
         raw_title = item.get("title", "")
@@ -393,7 +393,7 @@ def procesar_agenda():
     with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
         json.dump(resultado_final, f, ensure_ascii=False, indent=4)
 
-    print(f"Agenda generada correctamente en {OUTPUT_JSON} (omitiendo fechas pasadas).")
+    print(f"Agenda generada correctamente en {OUTPUT_JSON} (procesamiento lento para evitar bloqueos).")
 
 if __name__ == "__main__":
     procesar_agenda()
