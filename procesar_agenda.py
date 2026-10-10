@@ -416,9 +416,13 @@ def procesar_agenda():
             order_index += 1
 
         canal_nombre = obtener_nombre_canal(link)
+        
+        # Combinar tu URL de iframe con el enlace original codificado
+        iframe_url = f"https://pruevon.blogspot.com/2026/04/embedc.html?r={urllib.parse.quote(link, safe='')}"
+
         eventos_agrupados[event_key]["event_data"]["servers"].append({
             "name": canal_nombre,
-            "url": https://pruevon.blogspot.com/2026/04/embedc.html?r=link,
+            "url": iframe_url,  # <- Aquí se usa la nueva URL del iframe
             "type": "iframe",
             "quality": "",
             "active": True,
