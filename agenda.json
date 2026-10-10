@@ -5,15 +5,7 @@
         "title": "F1 | GP de Singapur: Entrenamientos #1",
         "time": "03:30",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "",
-        "home_img": "",
-        "away_team": "",
-        "away_img": "",
-        "img": "",
-        "api_url": "",
-        "hora_inicio": "03:30",
-        "hora_fin": "05:30"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -21,15 +13,7 @@
         "title": "F1 | GP de Singapur: Entrenamientos #1",
         "time": "03:30",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "",
-        "home_img": "",
-        "away_team": "",
-        "away_img": "",
-        "img": "",
-        "api_url": "",
-        "hora_inicio": "03:30",
-        "hora_fin": "05:30"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -37,15 +21,7 @@
         "title": "NBA Pretemporada: Mavericks vs Rockets",
         "time": "07:00",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Mavericks",
-        "home_img": "",
-        "away_team": "Rockets",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2602375",
-        "hora_inicio": "07:00",
-        "hora_fin": "09:30"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -53,15 +29,7 @@
         "title": "F1 | GP de Singapur: Clasificación Sprint",
         "time": "07:30",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "",
-        "home_img": "",
-        "away_team": "",
-        "away_img": "",
-        "img": "",
-        "api_url": "",
-        "hora_inicio": "07:30",
-        "hora_fin": "09:30"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -69,15 +37,7 @@
         "title": "F1 | GP de Singapur: Clasificación Sprint",
         "time": "07:30",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "",
-        "home_img": "",
-        "away_team": "",
-        "away_img": "",
-        "img": "",
-        "api_url": "",
-        "hora_inicio": "07:30",
-        "hora_fin": "09:30"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -85,15 +45,7 @@
         "title": "F1 | GP de Singapur: Cámara On Board - Colapinto",
         "time": "07:30",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "",
-        "home_img": "",
-        "away_team": "",
-        "away_img": "",
-        "img": "",
-        "api_url": "",
-        "hora_inicio": "07:30",
-        "hora_fin": "09:30"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -101,15 +53,7 @@
         "title": "Liga Profesional Saudí: Al Kholood vs Al Quadisiya",
         "time": "08:50",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Al Kholood",
-        "home_img": "",
-        "away_team": "Al Quadisiya",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=al_kholood_vs_al_quadisiya&d=2026-10-09",
-        "hora_inicio": "08:50",
-        "hora_fin": "10:50"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -117,15 +61,7 @@
         "title": "Liga Profesional Saudí: Al Kholood vs Al Quadisiya",
         "time": "08:50",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Al Kholood",
-        "home_img": "",
-        "away_team": "Al Quadisiya",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=al_kholood_vs_al_quadisiya&d=2026-10-09",
-        "hora_inicio": "08:50",
-        "hora_fin": "10:50"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -133,15 +69,7 @@
         "title": "Liga Profesional Saudí: Al Kholood vs Al Quadisiya",
         "time": "08:50",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Al Kholood",
-        "home_img": "",
-        "away_team": "Al Quadisiya",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=al_kholood_vs_al_quadisiya&d=2026-10-09",
-        "hora_inicio": "08:50",
-        "hora_fin": "10:50"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -149,15 +77,7 @@
         "title": "Super Lig: Galatasaray vs Kasımpaşa",
         "time": "12:00",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Galatasaray",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8637.png",
-        "away_team": "Kasımpaşa",
-        "away_img": "",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8637.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=galatasaray_vs_kasmpasa&d=2026-10-09",
-        "hora_inicio": "12:00",
-        "hora_fin": "14:00"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -165,15 +85,7 @@
         "title": "Liga Profesional: Aldosivi vs Sarmiento",
         "time": "12:30",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Aldosivi",
-        "home_img": "",
-        "away_team": "Sarmiento",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2398116",
-        "hora_inicio": "12:30",
-        "hora_fin": "14:30"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -181,15 +93,7 @@
         "title": "Liga Profesional Saudí: Al Nassr vs Diriyah",
         "time": "13:00",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Al Nassr",
-        "home_img": "",
-        "away_team": "Diriyah",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2573525",
-        "hora_inicio": "13:00",
-        "hora_fin": "15:00"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -197,15 +101,7 @@
         "title": "Liga Profesional Saudí: Al Nassr vs Diriyah",
         "time": "13:00",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Al Nassr",
-        "home_img": "",
-        "away_team": "Diriyah",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2573525",
-        "hora_inicio": "13:00",
-        "hora_fin": "15:00"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -213,15 +109,7 @@
         "title": "Liga Profesional Saudí: Al Nassr vs Diriyah",
         "time": "13:00",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Al Nassr",
-        "home_img": "",
-        "away_team": "Diriyah",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2573525",
-        "hora_inicio": "13:00",
-        "hora_fin": "15:00"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -229,15 +117,7 @@
         "title": "Eredivisie: PSV vs Heerenveen",
         "time": "13:00",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "PSV",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8640.png",
-        "away_team": "Heerenveen",
-        "away_img": "",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8640.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2508501",
-        "hora_inicio": "13:00",
-        "hora_fin": "15:00"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -245,15 +125,7 @@
         "title": "Eredivisie: PSV vs Heerenveen",
         "time": "13:00",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "PSV",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8640.png",
-        "away_team": "Heerenveen",
-        "away_img": "",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8640.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2508501",
-        "hora_inicio": "13:00",
-        "hora_fin": "15:00"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -261,15 +133,7 @@
         "title": "Eredivisie: PSV vs Heerenveen",
         "time": "13:00",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "PSV",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8640.png",
-        "away_team": "Heerenveen",
-        "away_img": "",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8640.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2508501",
-        "hora_inicio": "13:00",
-        "hora_fin": "15:00"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -277,15 +141,7 @@
         "title": "Bundesliga: Borussia Dortmund vs Werder Bremen",
         "time": "13:30",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Borussia Dortmund",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9789.png",
-        "away_team": "Werder Bremen",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8697.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9789.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2600205",
-        "hora_inicio": "13:30",
-        "hora_fin": "15:30"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -293,15 +149,7 @@
         "title": "Bundesliga: Borussia Dortmund vs Werder Bremen",
         "time": "13:30",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Borussia Dortmund",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9789.png",
-        "away_team": "Werder Bremen",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8697.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9789.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2600205",
-        "hora_inicio": "13:30",
-        "hora_fin": "15:30"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -309,15 +157,7 @@
         "title": "Bundesliga: Borussia Dortmund vs Werder Bremen",
         "time": "13:30",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Borussia Dortmund",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9789.png",
-        "away_team": "Werder Bremen",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8697.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9789.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2600205",
-        "hora_inicio": "13:30",
-        "hora_fin": "15:30"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -325,15 +165,7 @@
         "title": "Bundesliga: Borussia Dortmund vs Werder Bremen",
         "time": "13:30",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Borussia Dortmund",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9789.png",
-        "away_team": "Werder Bremen",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8697.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9789.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2600205",
-        "hora_inicio": "13:30",
-        "hora_fin": "15:30"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -341,15 +173,7 @@
         "title": "Ligue 1: Lens vs Olympique Lyonnais",
         "time": "13:30",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Lens",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8588.png",
-        "away_team": "Olympique Lyonnais",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9748.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8588.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2527714",
-        "hora_inicio": "13:30",
-        "hora_fin": "15:30"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -357,15 +181,7 @@
         "title": "Ligue 1: Lens vs Olympique Lyonnais",
         "time": "13:30",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Lens",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8588.png",
-        "away_team": "Olympique Lyonnais",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9748.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8588.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2527714",
-        "hora_inicio": "13:30",
-        "hora_fin": "15:30"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -373,15 +189,7 @@
         "title": "Ligue 1: Lens vs Olympique Lyonnais",
         "time": "13:30",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Lens",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8588.png",
-        "away_team": "Olympique Lyonnais",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9748.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8588.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2527714",
-        "hora_inicio": "13:30",
-        "hora_fin": "15:30"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -389,15 +197,7 @@
         "title": "LaLiga: Málaga vs Espanyol",
         "time": "14:00",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Málaga",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png",
-        "away_team": "Espanyol",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8558.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=malaga_vs_espanyol&d=2026-10-09",
-        "hora_inicio": "14:00",
-        "hora_fin": "16:00"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -405,15 +205,7 @@
         "title": "LaLiga: Málaga vs Espanyol",
         "time": "14:00",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Málaga",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png",
-        "away_team": "Espanyol",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8558.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=malaga_vs_espanyol&d=2026-10-09",
-        "hora_inicio": "14:00",
-        "hora_fin": "16:00"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -421,15 +213,7 @@
         "title": "LaLiga: Málaga vs Espanyol",
         "time": "14:00",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Málaga",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png",
-        "away_team": "Espanyol",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8558.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=malaga_vs_espanyol&d=2026-10-09",
-        "hora_inicio": "14:00",
-        "hora_fin": "16:00"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -437,15 +221,7 @@
         "title": "LaLiga: Málaga vs Espanyol",
         "time": "14:00",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Málaga",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png",
-        "away_team": "Espanyol",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8558.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=malaga_vs_espanyol&d=2026-10-09",
-        "hora_inicio": "14:00",
-        "hora_fin": "16:00"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -453,15 +229,7 @@
         "title": "LaLiga: Málaga vs Espanyol",
         "time": "14:00",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Málaga",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png",
-        "away_team": "Espanyol",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8558.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9864.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=malaga_vs_espanyol&d=2026-10-09",
-        "hora_inicio": "14:00",
-        "hora_fin": "16:00"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -469,15 +237,7 @@
         "title": "Championship: West Ham United vs Queens Park Rangers",
         "time": "14:00",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "West Ham United",
-        "home_img": "",
-        "away_team": "Queens Park Rangers",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2501652",
-        "hora_inicio": "14:00",
-        "hora_fin": "16:00"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -485,15 +245,7 @@
         "title": "Primeira Liga: Sporting Braga vs Sporting CP",
         "time": "14:15",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Sporting Braga",
-        "home_img": "",
-        "away_team": "Sporting CP",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9768.png",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=sporting_braga_vs_sporting_cp&d=2026-10-09",
-        "hora_inicio": "14:15",
-        "hora_fin": "16:15"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -501,15 +253,7 @@
         "title": "Primera División: Torque vs Danubio",
         "time": "15:00",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Torque",
-        "home_img": "",
-        "away_team": "Danubio",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2611503",
-        "hora_inicio": "15:00",
-        "hora_fin": "17:00"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -517,15 +261,7 @@
         "title": "Liga Profesional: Gimnasia La Plata vs Atlético Tucumán",
         "time": "16:00",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Gimnasia La Plata",
-        "home_img": "",
-        "away_team": "Atlético Tucumán",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=gimnasia_la_plata_vs_atletico_tucuman&d=2026-10-09",
-        "hora_inicio": "16:00",
-        "hora_fin": "18:00"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -533,15 +269,7 @@
         "title": "Liga Profesional: Instituto vs Boca Juniors",
         "time": "17:30",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Instituto",
-        "home_img": "",
-        "away_team": "Boca Juniors",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2433865",
-        "hora_inicio": "17:30",
-        "hora_fin": "19:30"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -549,15 +277,7 @@
         "title": "Liga Profesional: Instituto vs Boca Juniors",
         "time": "17:30",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Instituto",
-        "home_img": "",
-        "away_team": "Boca Juniors",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2433865",
-        "hora_inicio": "17:30",
-        "hora_fin": "19:30"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -565,15 +285,7 @@
         "title": "Liga Profesional: Instituto vs Boca Juniors",
         "time": "17:30",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Instituto",
-        "home_img": "",
-        "away_team": "Boca Juniors",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2433865",
-        "hora_inicio": "17:30",
-        "hora_fin": "19:30"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -581,15 +293,7 @@
         "title": "Liga Profesional: Instituto vs Boca Juniors",
         "time": "17:30",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Instituto",
-        "home_img": "",
-        "away_team": "Boca Juniors",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2433865",
-        "hora_inicio": "17:30",
-        "hora_fin": "19:30"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -597,15 +301,7 @@
         "title": "Liga BetPlay: Alianza vs Rionegro Águilas",
         "time": "18:00",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Alianza",
-        "home_img": "",
-        "away_team": "Rionegro Águilas",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2481223",
-        "hora_inicio": "18:00",
-        "hora_fin": "20:00"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -613,15 +309,7 @@
         "title": "Primera División: Deportivo Maldonado vs Liverpool",
         "time": "18:00",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Deportivo Maldonado",
-        "home_img": "",
-        "away_team": "Liverpool",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8650.png",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2611499",
-        "hora_inicio": "18:00",
-        "hora_fin": "20:00"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -629,15 +317,7 @@
         "title": "Liga Profesional: Unión Santa Fe vs Defensa y Justicia",
         "time": "19:45",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Unión Santa Fe",
-        "home_img": "",
-        "away_team": "Defensa y Justicia",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=union_santa_fe_vs_defensa_y_justicia&d=2026-10-09",
-        "hora_inicio": "19:45",
-        "hora_fin": "21:45"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -645,15 +325,7 @@
         "title": "Liga 1: Deportivo Garcilaso vs Sport Huancayo",
         "time": "20:00",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Deportivo Garcilaso",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/920788.png",
-        "away_team": "Sport Huancayo",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/165148.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/920788.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2481710",
-        "hora_inicio": "20:00",
-        "hora_fin": "22:00"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -661,15 +333,7 @@
         "title": "Liga MX: Puebla vs León",
         "time": "20:00",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Puebla",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/7847.png",
-        "away_team": "León",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/1841.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/7847.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2487543",
-        "hora_inicio": "20:00",
-        "hora_fin": "22:00"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -677,15 +341,7 @@
         "title": "Liga MX: Puebla vs León",
         "time": "20:00",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Puebla",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/7847.png",
-        "away_team": "León",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/1841.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/7847.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2487543",
-        "hora_inicio": "20:00",
-        "hora_fin": "22:00"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -693,15 +349,7 @@
         "title": "Liga BetPlay: Once Caldas vs Llaneros",
         "time": "20:10",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Once Caldas",
-        "home_img": "",
-        "away_team": "Llaneros",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2481219",
-        "hora_inicio": "20:10",
-        "hora_fin": "22:10"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -709,15 +357,7 @@
         "title": "Liga MX: Tigres UANL vs Toluca",
         "time": "22:00",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Tigres UANL",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8561.png",
-        "away_team": "Toluca",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6618.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8561.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2548527",
-        "hora_inicio": "22:00",
-        "hora_fin": "00:00"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -725,15 +365,7 @@
         "title": "Liga MX: Tigres UANL vs Toluca",
         "time": "22:00",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Tigres UANL",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8561.png",
-        "away_team": "Toluca",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6618.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8561.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2548527",
-        "hora_inicio": "22:00",
-        "hora_fin": "00:00"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -741,15 +373,7 @@
         "title": "Liga MX: Tigres UANL vs Toluca",
         "time": "22:00",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Tigres UANL",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8561.png",
-        "away_team": "Toluca",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6618.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8561.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2548527",
-        "hora_inicio": "22:00",
-        "hora_fin": "00:00"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -757,15 +381,7 @@
         "title": "Liga MX: Tigres UANL vs Toluca",
         "time": "22:00",
         "status": "En vivo",
-        "date": "2026-10-09",
-        "home_team": "Tigres UANL",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8561.png",
-        "away_team": "Toluca",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6618.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8561.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2548527",
-        "hora_inicio": "22:00",
-        "hora_fin": "00:00"
+        "date": "2026-10-09"
     },
     {
         "category": "Fútbol",
@@ -773,15 +389,7 @@
         "title": "F1 | GP de Singapur: Carrera Sprint",
         "time": "04:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "",
-        "home_img": "",
-        "away_team": "",
-        "away_img": "",
-        "img": "",
-        "api_url": "",
-        "hora_inicio": "04:00",
-        "hora_fin": "06:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -789,15 +397,7 @@
         "title": "F1 | GP de Singapur: Carrera Sprint",
         "time": "04:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "",
-        "home_img": "",
-        "away_team": "",
-        "away_img": "",
-        "img": "",
-        "api_url": "",
-        "hora_inicio": "04:00",
-        "hora_fin": "06:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -805,15 +405,7 @@
         "title": "F1 | GP de Singapur: Carrera Sprint",
         "time": "04:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "",
-        "home_img": "",
-        "away_team": "",
-        "away_img": "",
-        "img": "",
-        "api_url": "",
-        "hora_inicio": "04:00",
-        "hora_fin": "06:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -821,15 +413,7 @@
         "title": "F1 | GP de Singapur: Cámara On Board - Colapinto",
         "time": "04:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "",
-        "home_img": "",
-        "away_team": "",
-        "away_img": "",
-        "img": "",
-        "api_url": "",
-        "hora_inicio": "04:00",
-        "hora_fin": "06:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -837,15 +421,7 @@
         "title": "Bundesliga 2: Magdeburg vs Hannover 96",
         "time": "06:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Magdeburg",
-        "home_img": "",
-        "away_team": "Hannover 96",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2511945",
-        "hora_inicio": "06:00",
-        "hora_fin": "08:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -853,15 +429,7 @@
         "title": "Premier League: Arsenal vs Leeds United",
         "time": "06:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Arsenal",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9825.png",
-        "away_team": "Leeds United",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8463.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9825.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2494348",
-        "hora_inicio": "06:30",
-        "hora_fin": "08:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -869,15 +437,7 @@
         "title": "Premier League: Arsenal vs Leeds United",
         "time": "06:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Arsenal",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9825.png",
-        "away_team": "Leeds United",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8463.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9825.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2494348",
-        "hora_inicio": "06:30",
-        "hora_fin": "08:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -885,15 +445,7 @@
         "title": "Premier League: Arsenal vs Leeds United",
         "time": "06:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Arsenal",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9825.png",
-        "away_team": "Leeds United",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8463.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9825.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2494348",
-        "hora_inicio": "06:30",
-        "hora_fin": "08:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -901,15 +453,7 @@
         "title": "Premier League: Arsenal vs Leeds United",
         "time": "06:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Arsenal",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9825.png",
-        "away_team": "Leeds United",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8463.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9825.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2494348",
-        "hora_inicio": "06:30",
-        "hora_fin": "08:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -917,15 +461,7 @@
         "title": "Championship: West Bromwich Albion vs Birmingham City",
         "time": "06:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "West Bromwich Albion",
-        "home_img": "",
-        "away_team": "Birmingham City",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2501648",
-        "hora_inicio": "06:30",
-        "hora_fin": "08:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -933,15 +469,7 @@
         "title": "Championship: West Bromwich Albion vs Birmingham City",
         "time": "06:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "West Bromwich Albion",
-        "home_img": "",
-        "away_team": "Birmingham City",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2501648",
-        "hora_inicio": "06:30",
-        "hora_fin": "08:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -949,15 +477,7 @@
         "title": "LaLiga: Rayo Vallecano vs Athletic Club",
         "time": "07:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Rayo Vallecano",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8370.png",
-        "away_team": "Athletic Club",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8315.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8370.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=1425356",
-        "hora_inicio": "07:00",
-        "hora_fin": "09:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -966,15 +486,7 @@
         "time": "07:00",
         "language": "es",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Rayo Vallecano",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8370.png",
-        "away_team": "Athletic Club",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8315.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8370.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=1425356",
-        "hora_inicio": "07:00",
-        "hora_fin": "09:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -982,15 +494,7 @@
         "title": "LaLiga: Rayo Vallecano vs Athletic Club",
         "time": "07:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Rayo Vallecano",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8370.png",
-        "away_team": "Athletic Club",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8315.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8370.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=1425356",
-        "hora_inicio": "07:00",
-        "hora_fin": "09:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -998,15 +502,7 @@
         "title": "LaLiga: Rayo Vallecano vs Athletic Club",
         "time": "07:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Rayo Vallecano",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8370.png",
-        "away_team": "Athletic Club",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8315.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8370.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=1425356",
-        "hora_inicio": "07:00",
-        "hora_fin": "09:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1014,15 +510,7 @@
         "title": "LaLiga: Rayo Vallecano vs Athletic Club",
         "time": "07:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Rayo Vallecano",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8370.png",
-        "away_team": "Athletic Club",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8315.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8370.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=1425356",
-        "hora_inicio": "07:00",
-        "hora_fin": "09:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1030,15 +518,7 @@
         "title": "Serie A: Genoa vs Fiorentina",
         "time": "08:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Genoa",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10233.png",
-        "away_team": "Fiorentina",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8535.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10233.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2513930",
-        "hora_inicio": "08:00",
-        "hora_fin": "10:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1046,15 +526,7 @@
         "title": "Serie A: Genoa vs Fiorentina",
         "time": "08:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Genoa",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10233.png",
-        "away_team": "Fiorentina",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8535.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10233.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2513930",
-        "hora_inicio": "08:00",
-        "hora_fin": "10:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1062,15 +534,7 @@
         "title": "Super Lig: Samsunspor vs Trabzonspor",
         "time": "08:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Samsunspor",
-        "home_img": "",
-        "away_team": "Trabzonspor",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2527934",
-        "hora_inicio": "08:00",
-        "hora_fin": "10:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1078,15 +542,7 @@
         "title": "Super Lig: Samsunspor vs Trabzonspor",
         "time": "08:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Samsunspor",
-        "home_img": "",
-        "away_team": "Trabzonspor",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2527934",
-        "hora_inicio": "08:00",
-        "hora_fin": "10:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1094,15 +550,7 @@
         "title": "F1 | GP de Singapur: Clasificación",
         "time": "08:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "",
-        "home_img": "",
-        "away_team": "",
-        "away_img": "",
-        "img": "",
-        "api_url": "",
-        "hora_inicio": "08:00",
-        "hora_fin": "10:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1110,15 +558,7 @@
         "title": "F1 | GP de Singapur: Clasificación",
         "time": "08:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "",
-        "home_img": "",
-        "away_team": "",
-        "away_img": "",
-        "img": "",
-        "api_url": "",
-        "hora_inicio": "08:00",
-        "hora_fin": "10:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1126,15 +566,7 @@
         "title": "F1 | GP de Singapur: Clasificación",
         "time": "08:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "",
-        "home_img": "",
-        "away_team": "",
-        "away_img": "",
-        "img": "",
-        "api_url": "",
-        "hora_inicio": "08:00",
-        "hora_fin": "10:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1142,15 +574,7 @@
         "title": "F1 | GP de Singapur: Cámara On Board - Colapinto",
         "time": "08:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "",
-        "home_img": "",
-        "away_team": "",
-        "away_img": "",
-        "img": "",
-        "api_url": "",
-        "hora_inicio": "08:00",
-        "hora_fin": "10:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1158,15 +582,7 @@
         "title": "Bundesliga: Augsburg vs Bayern München",
         "time": "08:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Augsburg",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8406.png",
-        "away_team": "Bayern München",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9823.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8406.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2532162",
-        "hora_inicio": "08:30",
-        "hora_fin": "10:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1174,15 +590,7 @@
         "title": "Bundesliga: Augsburg vs Bayern München",
         "time": "08:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Augsburg",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8406.png",
-        "away_team": "Bayern München",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9823.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8406.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2532162",
-        "hora_inicio": "08:30",
-        "hora_fin": "10:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1190,15 +598,7 @@
         "title": "Bundesliga: Augsburg vs Bayern München",
         "time": "08:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Augsburg",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8406.png",
-        "away_team": "Bayern München",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9823.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8406.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2532162",
-        "hora_inicio": "08:30",
-        "hora_fin": "10:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1206,15 +606,7 @@
         "title": "Bundesliga: Hoffenheim vs Hamburger SV",
         "time": "08:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Hoffenheim",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8226.png",
-        "away_team": "Hamburger SV",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9790.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8226.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=hoffenheim_vs_hamburger_sv&d=2026-10-10",
-        "hora_inicio": "08:30",
-        "hora_fin": "10:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1222,15 +614,7 @@
         "title": "Bundesliga: Mainz 05 vs Bayer Leverkusen",
         "time": "08:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Mainz 05",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9905.png",
-        "away_team": "Bayer Leverkusen",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8178.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9905.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2539602",
-        "hora_inicio": "08:30",
-        "hora_fin": "10:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1238,15 +622,7 @@
         "title": "Bundesliga: Mainz 05 vs Bayer Leverkusen",
         "time": "08:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Mainz 05",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9905.png",
-        "away_team": "Bayer Leverkusen",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8178.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9905.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2539602",
-        "hora_inicio": "08:30",
-        "hora_fin": "10:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1254,15 +630,7 @@
         "title": "Bundesliga: Mainz 05 vs Bayer Leverkusen",
         "time": "08:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Mainz 05",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9905.png",
-        "away_team": "Bayer Leverkusen",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8178.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9905.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2539602",
-        "hora_inicio": "08:30",
-        "hora_fin": "10:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1270,15 +638,7 @@
         "title": "Bundesliga: Paderborn vs Stuttgart",
         "time": "08:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Paderborn",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8460.png",
-        "away_team": "Stuttgart",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10269.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8460.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2600211",
-        "hora_inicio": "08:30",
-        "hora_fin": "10:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1286,15 +646,7 @@
         "title": "Bundesliga: Paderborn vs Stuttgart",
         "time": "08:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Paderborn",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8460.png",
-        "away_team": "Stuttgart",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10269.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8460.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2600211",
-        "hora_inicio": "08:30",
-        "hora_fin": "10:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1302,15 +654,7 @@
         "title": "Bundesliga: Union Berlin vs Elversberg",
         "time": "08:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Union Berlin",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8149.png",
-        "away_team": "Elversberg",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8232.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8149.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2508926",
-        "hora_inicio": "08:30",
-        "hora_fin": "10:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1318,15 +662,7 @@
         "title": "Bundesliga: Union Berlin vs Elversberg",
         "time": "08:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Union Berlin",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8149.png",
-        "away_team": "Elversberg",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8232.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8149.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2508926",
-        "hora_inicio": "08:30",
-        "hora_fin": "10:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1334,15 +670,7 @@
         "title": "Premier League: Aston Villa vs Brentford",
         "time": "09:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Aston Villa",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10252.png",
-        "away_team": "Brentford",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9937.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10252.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2494347",
-        "hora_inicio": "09:00",
-        "hora_fin": "11:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1350,15 +678,7 @@
         "title": "Premier League: Aston Villa vs Brentford",
         "time": "09:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Aston Villa",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10252.png",
-        "away_team": "Brentford",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9937.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10252.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2494347",
-        "hora_inicio": "09:00",
-        "hora_fin": "11:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1366,15 +686,7 @@
         "title": "Premier League: Aston Villa vs Brentford",
         "time": "09:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Aston Villa",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10252.png",
-        "away_team": "Brentford",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9937.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10252.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2494347",
-        "hora_inicio": "09:00",
-        "hora_fin": "11:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1382,15 +694,7 @@
         "title": "Premier League: Chelsea vs AFC Bournemouth",
         "time": "09:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Chelsea",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8455.png",
-        "away_team": "AFC Bournemouth",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8678.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8455.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=chelsea_vs_afc_bournemouth&d=2026-10-10",
-        "hora_inicio": "09:00",
-        "hora_fin": "11:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1398,15 +702,7 @@
         "title": "Premier League: Chelsea vs AFC Bournemouth",
         "time": "09:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Chelsea",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8455.png",
-        "away_team": "AFC Bournemouth",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8678.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8455.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=chelsea_vs_afc_bournemouth&d=2026-10-10",
-        "hora_inicio": "09:00",
-        "hora_fin": "11:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1414,15 +710,7 @@
         "title": "Premier League: Chelsea vs AFC Bournemouth",
         "time": "09:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Chelsea",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8455.png",
-        "away_team": "AFC Bournemouth",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8678.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8455.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=chelsea_vs_afc_bournemouth&d=2026-10-10",
-        "hora_inicio": "09:00",
-        "hora_fin": "11:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1430,15 +718,7 @@
         "title": "Premier League: Ipswich Town vs Fulham",
         "time": "09:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Ipswich Town",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9902.png",
-        "away_team": "Fulham",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9879.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9902.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2494342",
-        "hora_inicio": "09:00",
-        "hora_fin": "11:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1446,15 +726,7 @@
         "title": "Premier League: Ipswich Town vs Fulham",
         "time": "09:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Ipswich Town",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9902.png",
-        "away_team": "Fulham",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9879.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9902.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2494342",
-        "hora_inicio": "09:00",
-        "hora_fin": "11:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1462,15 +734,7 @@
         "title": "Premier League: Sunderland vs Brighton & Hove Albion",
         "time": "09:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Sunderland",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8472.png",
-        "away_team": "Brighton & Hove Albion",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10204.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8472.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2494346",
-        "hora_inicio": "09:00",
-        "hora_fin": "11:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1478,15 +742,7 @@
         "title": "Premier League: Sunderland vs Brighton & Hove Albion",
         "time": "09:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Sunderland",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8472.png",
-        "away_team": "Brighton & Hove Albion",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10204.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8472.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2494346",
-        "hora_inicio": "09:00",
-        "hora_fin": "11:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1494,15 +750,7 @@
         "title": "Championship: Bolton Wanderers vs Stoke City",
         "time": "09:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Bolton Wanderers",
-        "home_img": "",
-        "away_team": "Stoke City",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2501653",
-        "hora_inicio": "09:00",
-        "hora_fin": "11:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1510,15 +758,7 @@
         "title": "Championship: Bolton Wanderers vs Stoke City",
         "time": "09:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Bolton Wanderers",
-        "home_img": "",
-        "away_team": "Stoke City",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2501653",
-        "hora_inicio": "09:00",
-        "hora_fin": "11:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1526,15 +766,7 @@
         "title": "Championship: Derby County vs Wrexham",
         "time": "09:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Derby County",
-        "home_img": "",
-        "away_team": "Wrexham",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2501656",
-        "hora_inicio": "09:00",
-        "hora_fin": "11:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1542,15 +774,7 @@
         "title": "Championship: Watford vs Burnley",
         "time": "09:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Watford",
-        "home_img": "",
-        "away_team": "Burnley",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2555610",
-        "hora_inicio": "09:00",
-        "hora_fin": "11:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1558,15 +782,7 @@
         "title": "Primera División: Defensor Sporting vs Cerro",
         "time": "09:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Defensor Sporting",
-        "home_img": "",
-        "away_team": "Cerro",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2611500",
-        "hora_inicio": "09:00",
-        "hora_fin": "11:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1574,15 +790,7 @@
         "title": "LaLiga: Deportivo Alavés vs Atlético Madrid",
         "time": "09:15",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Deportivo Alavés",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9866.png",
-        "away_team": "Atlético Madrid",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9906.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9866.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=deportivo_alaves_vs_atletico_madrid&d=2026-10-10",
-        "hora_inicio": "09:15",
-        "hora_fin": "11:15"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1591,15 +799,7 @@
         "time": "09:15",
         "language": "es",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Deportivo Alavés",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9866.png",
-        "away_team": "Atlético Madrid",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9906.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9866.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=deportivo_alaves_vs_atletico_madrid&d=2026-10-10",
-        "hora_inicio": "09:15",
-        "hora_fin": "11:15"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1607,15 +807,7 @@
         "title": "LaLiga: Deportivo Alavés vs Atlético Madrid",
         "time": "09:15",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Deportivo Alavés",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9866.png",
-        "away_team": "Atlético Madrid",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9906.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9866.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=deportivo_alaves_vs_atletico_madrid&d=2026-10-10",
-        "hora_inicio": "09:15",
-        "hora_fin": "11:15"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1623,15 +815,7 @@
         "title": "LaLiga: Deportivo Alavés vs Atlético Madrid",
         "time": "09:15",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Deportivo Alavés",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9866.png",
-        "away_team": "Atlético Madrid",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9906.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9866.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=deportivo_alaves_vs_atletico_madrid&d=2026-10-10",
-        "hora_inicio": "09:15",
-        "hora_fin": "11:15"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1639,15 +823,7 @@
         "title": "LaLiga: Deportivo Alavés vs Atlético Madrid",
         "time": "09:15",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Deportivo Alavés",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9866.png",
-        "away_team": "Atlético Madrid",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9906.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9866.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=deportivo_alaves_vs_atletico_madrid&d=2026-10-10",
-        "hora_inicio": "09:15",
-        "hora_fin": "11:15"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1655,15 +831,7 @@
         "title": "LaLiga 2: Ceuta vs Sabadell",
         "time": "09:15",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Ceuta",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/357259.png",
-        "away_team": "Sabadell",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/4033.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/357259.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2505959",
-        "hora_inicio": "09:15",
-        "hora_fin": "11:15"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1671,15 +839,7 @@
         "title": "Ligue 1: Lille vs Le Havre",
         "time": "10:15",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Lille",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8639.png",
-        "away_team": "Le Havre",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9746.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8639.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2489755",
-        "hora_inicio": "10:15",
-        "hora_fin": "12:15"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1687,15 +847,7 @@
         "title": "Ligue 1: Lille vs Le Havre",
         "time": "10:15",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Lille",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8639.png",
-        "away_team": "Le Havre",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9746.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8639.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2489755",
-        "hora_inicio": "10:15",
-        "hora_fin": "12:15"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1703,15 +855,7 @@
         "title": "Serie A: Inter vs Parma",
         "time": "11:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Inter",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8636.png",
-        "away_team": "Parma",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10167.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8636.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2581126",
-        "hora_inicio": "11:00",
-        "hora_fin": "13:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1719,15 +863,7 @@
         "title": "Serie A: Inter vs Parma",
         "time": "11:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Inter",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8636.png",
-        "away_team": "Parma",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10167.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8636.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2581126",
-        "hora_inicio": "11:00",
-        "hora_fin": "13:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1735,15 +871,7 @@
         "title": "Serie A: Inter vs Parma",
         "time": "11:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Inter",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8636.png",
-        "away_team": "Parma",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10167.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8636.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2581126",
-        "hora_inicio": "11:00",
-        "hora_fin": "13:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1751,15 +879,7 @@
         "title": "Super Lig: Rizespor vs Fenerbahçe",
         "time": "11:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Rizespor",
-        "home_img": "",
-        "away_team": "Fenerbahçe",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8695.png",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2527783",
-        "hora_inicio": "11:00",
-        "hora_fin": "13:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1767,15 +887,7 @@
         "title": "Super Lig: Rizespor vs Fenerbahçe",
         "time": "11:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Rizespor",
-        "home_img": "",
-        "away_team": "Fenerbahçe",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8695.png",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2527783",
-        "hora_inicio": "11:00",
-        "hora_fin": "13:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1783,15 +895,7 @@
         "title": "LaLiga: Barcelona vs Getafe",
         "time": "11:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Barcelona",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8634.png",
-        "away_team": "Getafe",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8305.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8634.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2506545",
-        "hora_inicio": "11:30",
-        "hora_fin": "13:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1800,15 +904,7 @@
         "time": "11:30",
         "language": "es",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Barcelona",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8634.png",
-        "away_team": "Getafe",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8305.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8634.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2506545",
-        "hora_inicio": "11:30",
-        "hora_fin": "13:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1816,15 +912,7 @@
         "title": "LaLiga: Barcelona vs Getafe",
         "time": "11:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Barcelona",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8634.png",
-        "away_team": "Getafe",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8305.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8634.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2506545",
-        "hora_inicio": "11:30",
-        "hora_fin": "13:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1832,15 +920,7 @@
         "title": "LaLiga: Barcelona vs Getafe",
         "time": "11:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Barcelona",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8634.png",
-        "away_team": "Getafe",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8305.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8634.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2506545",
-        "hora_inicio": "11:30",
-        "hora_fin": "13:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1848,15 +928,7 @@
         "title": "LaLiga: Barcelona vs Getafe",
         "time": "11:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Barcelona",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8634.png",
-        "away_team": "Getafe",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8305.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8634.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2506545",
-        "hora_inicio": "11:30",
-        "hora_fin": "13:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1864,15 +936,7 @@
         "title": "LaLiga 2: Eldense vs Córdoba",
         "time": "11:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Eldense",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8288.png",
-        "away_team": "Córdoba",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/7869.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8288.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2505804",
-        "hora_inicio": "11:30",
-        "hora_fin": "13:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1880,15 +944,7 @@
         "title": "Premier League: Manchester United vs Tottenham Hotspur",
         "time": "11:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Manchester United",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10260.png",
-        "away_team": "Tottenham Hotspur",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8586.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10260.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2554448",
-        "hora_inicio": "11:30",
-        "hora_fin": "13:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1896,15 +952,7 @@
         "title": "Premier League: Manchester United vs Tottenham Hotspur",
         "time": "11:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Manchester United",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10260.png",
-        "away_team": "Tottenham Hotspur",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8586.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10260.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2554448",
-        "hora_inicio": "11:30",
-        "hora_fin": "13:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1912,15 +960,7 @@
         "title": "Premier League: Manchester United vs Tottenham Hotspur",
         "time": "11:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Manchester United",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10260.png",
-        "away_team": "Tottenham Hotspur",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8586.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10260.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2554448",
-        "hora_inicio": "11:30",
-        "hora_fin": "13:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1928,15 +968,7 @@
         "title": "Premier League: Manchester United vs Tottenham Hotspur",
         "time": "11:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Manchester United",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10260.png",
-        "away_team": "Tottenham Hotspur",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8586.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10260.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2554448",
-        "hora_inicio": "11:30",
-        "hora_fin": "13:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1944,15 +976,7 @@
         "title": "Bundesliga: RB Leipzig vs Eintracht Frankfurt",
         "time": "11:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "RB Leipzig",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/178475.png",
-        "away_team": "Eintracht Frankfurt",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9810.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/178475.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2539584",
-        "hora_inicio": "11:30",
-        "hora_fin": "13:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1960,15 +984,7 @@
         "title": "Bundesliga: RB Leipzig vs Eintracht Frankfurt",
         "time": "11:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "RB Leipzig",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/178475.png",
-        "away_team": "Eintracht Frankfurt",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9810.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/178475.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2539584",
-        "hora_inicio": "11:30",
-        "hora_fin": "13:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1976,15 +992,7 @@
         "title": "Eredivisie: Feyenoord vs AZ",
         "time": "11:45",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Feyenoord",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10235.png",
-        "away_team": "AZ",
-        "away_img": "",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10235.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2612923",
-        "hora_inicio": "11:45",
-        "hora_fin": "13:45"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -1992,15 +1000,7 @@
         "title": "Eredivisie: Feyenoord vs AZ",
         "time": "11:45",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Feyenoord",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10235.png",
-        "away_team": "AZ",
-        "away_img": "",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10235.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2612923",
-        "hora_inicio": "11:45",
-        "hora_fin": "13:45"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2008,15 +1008,7 @@
         "title": "Eredivisie: Feyenoord vs AZ",
         "time": "11:45",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Feyenoord",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10235.png",
-        "away_team": "AZ",
-        "away_img": "",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10235.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2612923",
-        "hora_inicio": "11:45",
-        "hora_fin": "13:45"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2024,15 +1016,7 @@
         "title": "Primeira Liga: Marítimo vs Porto",
         "time": "12:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Marítimo",
-        "home_img": "",
-        "away_team": "Porto",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=1878169",
-        "hora_inicio": "12:00",
-        "hora_fin": "14:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2040,15 +1024,7 @@
         "title": "MLS: Toronto FC vs CF Montréal",
         "time": "12:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Toronto FC",
-        "home_img": "",
-        "away_team": "CF Montréal",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2531758",
-        "hora_inicio": "12:00",
-        "hora_fin": "14:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2056,15 +1032,7 @@
         "title": "Primera División: Cobresal vs Univ. Concepción",
         "time": "13:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Cobresal",
-        "home_img": "",
-        "away_team": "Univ. Concepción",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2464329",
-        "hora_inicio": "13:00",
-        "hora_fin": "15:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2072,15 +1040,7 @@
         "title": "Liga 1: ADT vs FC Cajamarca",
         "time": "13:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "ADT",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/1104719.png",
-        "away_team": "FC Cajamarca",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/1696744.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/1104719.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2481709",
-        "hora_inicio": "13:00",
-        "hora_fin": "15:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2088,15 +1048,7 @@
         "title": "Primera División: Wanderers vs Boston River",
         "time": "13:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Wanderers",
-        "home_img": "",
-        "away_team": "Boston River",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2611504",
-        "hora_inicio": "13:00",
-        "hora_fin": "15:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2104,15 +1056,7 @@
         "title": "Liga Profesional Saudí: Al Hilal vs Al Ittihad",
         "time": "13:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Al Hilal",
-        "home_img": "",
-        "away_team": "Al Ittihad",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2573522",
-        "hora_inicio": "13:00",
-        "hora_fin": "15:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2120,15 +1064,7 @@
         "title": "Liga Profesional Saudí: Al Hilal vs Al Ittihad",
         "time": "13:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Al Hilal",
-        "home_img": "",
-        "away_team": "Al Ittihad",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2573522",
-        "hora_inicio": "13:00",
-        "hora_fin": "15:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2136,15 +1072,7 @@
         "title": "Liga Profesional Saudí: Al Hilal vs Al Ittihad",
         "time": "13:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Al Hilal",
-        "home_img": "",
-        "away_team": "Al Ittihad",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2573522",
-        "hora_inicio": "13:00",
-        "hora_fin": "15:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2152,15 +1080,7 @@
         "title": "Bundesliga 2: Nürnberg vs Wolfsburg",
         "time": "13:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Nürnberg",
-        "home_img": "",
-        "away_team": "Wolfsburg",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=nurnberg_vs_wolfsburg&d=2026-10-10",
-        "hora_inicio": "13:30",
-        "hora_fin": "15:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2168,15 +1088,7 @@
         "title": "MLS: Chicago Fire vs New York City",
         "time": "13:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Chicago Fire",
-        "home_img": "",
-        "away_team": "New York City",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2523965",
-        "hora_inicio": "13:30",
-        "hora_fin": "15:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2184,15 +1096,7 @@
         "title": "Serie A: Napoli vs Frosinone",
         "time": "13:45",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Napoli",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9875.png",
-        "away_team": "Frosinone",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9891.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9875.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2482394",
-        "hora_inicio": "13:45",
-        "hora_fin": "15:45"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2200,15 +1104,7 @@
         "title": "Serie A: Napoli vs Frosinone",
         "time": "13:45",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Napoli",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9875.png",
-        "away_team": "Frosinone",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9891.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9875.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2482394",
-        "hora_inicio": "13:45",
-        "hora_fin": "15:45"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2216,15 +1112,7 @@
         "title": "Ligue 1: Brest vs Angers SCO",
         "time": "13:45",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Brest",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8521.png",
-        "away_team": "Angers SCO",
-        "away_img": "",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8521.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=brest_vs_angers_sco&d=2026-10-10",
-        "hora_inicio": "13:45",
-        "hora_fin": "15:45"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2232,15 +1120,7 @@
         "title": "Ligue 1: Brest vs Angers SCO",
         "time": "13:45",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Brest",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8521.png",
-        "away_team": "Angers SCO",
-        "away_img": "",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8521.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=brest_vs_angers_sco&d=2026-10-10",
-        "hora_inicio": "13:45",
-        "hora_fin": "15:45"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2248,15 +1128,7 @@
         "title": "Ligue 1: Lorient vs Paris",
         "time": "13:45",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Lorient",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8689.png",
-        "away_team": "Paris",
-        "away_img": "",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8689.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2489719",
-        "hora_inicio": "13:45",
-        "hora_fin": "15:45"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2264,15 +1136,7 @@
         "title": "Ligue 1: Lorient vs Paris",
         "time": "13:45",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Lorient",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8689.png",
-        "away_team": "Paris",
-        "away_img": "",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8689.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2489719",
-        "hora_inicio": "13:45",
-        "hora_fin": "15:45"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2280,15 +1144,7 @@
         "title": "Ligue 1: Monaco vs Toulouse",
         "time": "13:45",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Monaco",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9829.png",
-        "away_team": "Toulouse",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9941.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9829.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2489636",
-        "hora_inicio": "13:45",
-        "hora_fin": "15:45"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2296,15 +1152,7 @@
         "title": "Ligue 1: Monaco vs Toulouse",
         "time": "13:45",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Monaco",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9829.png",
-        "away_team": "Toulouse",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9941.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9829.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2489636",
-        "hora_inicio": "13:45",
-        "hora_fin": "15:45"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2312,15 +1160,7 @@
         "title": "Ligue 1: PSG vs Le Mans",
         "time": "13:45",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "PSG",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9847.png",
-        "away_team": "Le Mans",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8682.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9847.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=psg_vs_le_mans&d=2026-10-10",
-        "hora_inicio": "13:45",
-        "hora_fin": "15:45"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2328,15 +1168,7 @@
         "title": "Ligue 1: PSG vs Le Mans",
         "time": "13:45",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "PSG",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9847.png",
-        "away_team": "Le Mans",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8682.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9847.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=psg_vs_le_mans&d=2026-10-10",
-        "hora_inicio": "13:45",
-        "hora_fin": "15:45"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2344,15 +1176,7 @@
         "title": "Ligue 1: PSG vs Le Mans",
         "time": "13:45",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "PSG",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9847.png",
-        "away_team": "Le Mans",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8682.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/9847.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=psg_vs_le_mans&d=2026-10-10",
-        "hora_inicio": "13:45",
-        "hora_fin": "15:45"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2360,15 +1184,7 @@
         "title": "Liga Profesional: Barracas Central vs Huracán",
         "time": "13:45",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Barracas Central",
-        "home_img": "",
-        "away_team": "Huracán",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2462454",
-        "hora_inicio": "13:45",
-        "hora_fin": "15:45"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2376,15 +1192,7 @@
         "title": "LaLiga: Real Madrid vs Villarreal",
         "time": "14:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Real Madrid",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8633.png",
-        "away_team": "Villarreal",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10205.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8633.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2583086",
-        "hora_inicio": "14:00",
-        "hora_fin": "16:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2393,15 +1201,7 @@
         "time": "14:00",
         "language": "es",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Real Madrid",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8633.png",
-        "away_team": "Villarreal",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10205.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8633.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2583086",
-        "hora_inicio": "14:00",
-        "hora_fin": "16:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2409,15 +1209,7 @@
         "title": "LaLiga: Real Madrid vs Villarreal",
         "time": "14:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Real Madrid",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8633.png",
-        "away_team": "Villarreal",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10205.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8633.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2583086",
-        "hora_inicio": "14:00",
-        "hora_fin": "16:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2425,15 +1217,7 @@
         "title": "LaLiga: Real Madrid vs Villarreal",
         "time": "14:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Real Madrid",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8633.png",
-        "away_team": "Villarreal",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10205.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8633.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2583086",
-        "hora_inicio": "14:00",
-        "hora_fin": "16:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2441,15 +1225,7 @@
         "title": "LaLiga: Real Madrid vs Villarreal",
         "time": "14:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Real Madrid",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8633.png",
-        "away_team": "Villarreal",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10205.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8633.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2583086",
-        "hora_inicio": "14:00",
-        "hora_fin": "16:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2457,15 +1233,7 @@
         "title": "LaLiga 2: Celta de Vigo II vs Real Sociedad II",
         "time": "14:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Celta de Vigo II",
-        "home_img": "",
-        "away_team": "Real Sociedad II",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=celta_de_vigo_ii_vs_real_sociedad_ii&d=2026-10-10",
-        "hora_inicio": "14:00",
-        "hora_fin": "16:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2473,15 +1241,7 @@
         "title": "Eredivisie: Ajax vs NEC",
         "time": "14:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Ajax",
-        "home_img": "",
-        "away_team": "NEC",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2489306",
-        "hora_inicio": "14:00",
-        "hora_fin": "16:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2489,15 +1249,7 @@
         "title": "Eredivisie: Ajax vs NEC",
         "time": "14:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Ajax",
-        "home_img": "",
-        "away_team": "NEC",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2489306",
-        "hora_inicio": "14:00",
-        "hora_fin": "16:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2505,15 +1257,7 @@
         "title": "Liga Profesional: Central Córdoba SdE vs Estudiantes LP",
         "time": "15:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Central Córdoba SdE",
-        "home_img": "",
-        "away_team": "Estudiantes LP",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=central_cordoba_sde_vs_estudiantes_lp&d=2026-10-10",
-        "hora_inicio": "15:00",
-        "hora_fin": "17:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2523,15 +1267,7 @@
         "language": "es",
         "duration": "600",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Brendan Allen",
-        "home_img": "",
-        "away_team": "Christian Leroy Duncan",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=brendan_allen_vs_christian_leroy_duncan&d=2026-10-10",
-        "hora_inicio": "15:00",
-        "hora_fin": "18:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2541,15 +1277,7 @@
         "language": "pt",
         "duration": "600",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Brendan Allen",
-        "home_img": "",
-        "away_team": "Christian Leroy Duncan",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=brendan_allen_vs_christian_leroy_duncan&d=2026-10-10",
-        "hora_inicio": "15:00",
-        "hora_fin": "18:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2559,15 +1287,7 @@
         "language": "us",
         "duration": "600",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Brendan Allen",
-        "home_img": "",
-        "away_team": "Christian Leroy Duncan",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=brendan_allen_vs_christian_leroy_duncan&d=2026-10-10",
-        "hora_inicio": "15:00",
-        "hora_fin": "18:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2575,15 +1295,7 @@
         "title": "Primera División: Huachipato vs O'Higgins",
         "time": "15:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Huachipato",
-        "home_img": "",
-        "away_team": "O'Higgins",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2413098",
-        "hora_inicio": "15:30",
-        "hora_fin": "17:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2591,15 +1303,7 @@
         "title": "Liga BetPlay: Deportivo Pereira vs Deportivo Cali",
         "time": "15:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Deportivo Pereira",
-        "home_img": "",
-        "away_team": "Deportivo Cali",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2481225",
-        "hora_inicio": "15:30",
-        "hora_fin": "17:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2607,15 +1311,7 @@
         "title": "Liga 1: Comerciantes Unidos vs Juan Pablo II College",
         "time": "15:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Comerciantes Unidos",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/536945.png",
-        "away_team": "Juan Pablo II College",
-        "away_img": "",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/536945.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2499602",
-        "hora_inicio": "15:30",
-        "hora_fin": "17:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2623,15 +1319,7 @@
         "title": "Brasileirão: Vasco da Gama vs Remo",
         "time": "16:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Vasco da Gama",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10276.png",
-        "away_team": "Remo",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/1626.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10276.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2398490",
-        "hora_inicio": "16:00",
-        "hora_fin": "18:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2639,15 +1327,7 @@
         "title": "Primera División: Peñarol vs Progreso",
         "time": "16:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Peñarol",
-        "home_img": "",
-        "away_team": "Progreso",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=penarol_vs_progreso&d=2026-10-10",
-        "hora_inicio": "16:30",
-        "hora_fin": "18:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2655,15 +1335,7 @@
         "title": "Liga Profesional: Tigre vs Banfield",
         "time": "17:15",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Tigre",
-        "home_img": "",
-        "away_team": "Banfield",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2398129",
-        "hora_inicio": "17:15",
-        "hora_fin": "19:15"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2671,15 +1343,7 @@
         "title": "Primera División: Universidad Católica vs Audax Italiano",
         "time": "18:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Universidad Católica",
-        "home_img": "",
-        "away_team": "Audax Italiano",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=universidad_catolica_vs_audax_italiano&d=2026-10-10",
-        "hora_inicio": "18:00",
-        "hora_fin": "20:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2687,15 +1351,7 @@
         "title": "Liga MX: Juárez vs Tijuana",
         "time": "18:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Juárez",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/649424.png",
-        "away_team": "Tijuana",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/162418.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/649424.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2188385",
-        "hora_inicio": "18:00",
-        "hora_fin": "20:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2703,15 +1359,7 @@
         "title": "Liga MX: Juárez vs Tijuana",
         "time": "18:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Juárez",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/649424.png",
-        "away_team": "Tijuana",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/162418.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/649424.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2188385",
-        "hora_inicio": "18:00",
-        "hora_fin": "20:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2719,15 +1367,7 @@
         "title": "Liga MX: Juárez vs Tijuana",
         "time": "18:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Juárez",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/649424.png",
-        "away_team": "Tijuana",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/162418.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/649424.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2188385",
-        "hora_inicio": "18:00",
-        "hora_fin": "20:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2735,15 +1375,7 @@
         "title": "Liga MX: Juárez vs Tijuana",
         "time": "18:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Juárez",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/649424.png",
-        "away_team": "Tijuana",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/162418.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/649424.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2188385",
-        "hora_inicio": "18:00",
-        "hora_fin": "20:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2751,15 +1383,7 @@
         "title": "Liga MX: Juárez vs Tijuana",
         "time": "18:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Juárez",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/649424.png",
-        "away_team": "Tijuana",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/162418.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/649424.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2188385",
-        "hora_inicio": "18:00",
-        "hora_fin": "20:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2767,15 +1391,7 @@
         "title": "Liga MX: Querétaro vs Atlante",
         "time": "18:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Querétaro",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/1943.png",
-        "away_team": "Atlante",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/1942.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/1943.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=queretaro_vs_atlante&d=2026-10-10",
-        "hora_inicio": "18:00",
-        "hora_fin": "20:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2783,15 +1399,7 @@
         "title": "Liga MX: Querétaro vs Atlante",
         "time": "18:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Querétaro",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/1943.png",
-        "away_team": "Atlante",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/1942.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/1943.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=queretaro_vs_atlante&d=2026-10-10",
-        "hora_inicio": "18:00",
-        "hora_fin": "20:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2799,15 +1407,7 @@
         "title": "Liga BetPlay: Junior vs Inter Bogotá",
         "time": "18:10",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Junior",
-        "home_img": "",
-        "away_team": "Inter Bogotá",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=junior_vs_inter_bogota&d=2026-10-10",
-        "hora_inicio": "18:10",
-        "hora_fin": "20:10"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2815,15 +1415,7 @@
         "title": "MLS: Inter Miami vs DC United",
         "time": "18:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Inter Miami",
-        "home_img": "",
-        "away_team": "DC United",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2217703",
-        "hora_inicio": "18:30",
-        "hora_fin": "20:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2831,15 +1423,7 @@
         "title": "MLS: Atlanta United vs Cincinnati",
         "time": "18:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Atlanta United",
-        "home_img": "",
-        "away_team": "Cincinnati",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2407116",
-        "hora_inicio": "18:30",
-        "hora_fin": "20:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2847,15 +1431,7 @@
         "title": "MLS: Orlando City SC vs Columbus Crew",
         "time": "18:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Orlando City SC",
-        "home_img": "",
-        "away_team": "Columbus Crew",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=orlando_city_sc_vs_columbus_crew&d=2026-10-10",
-        "hora_inicio": "18:30",
-        "hora_fin": "20:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2863,15 +1439,7 @@
         "title": "MLS: Orlando City SC vs Columbus Crew",
         "time": "18:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Orlando City SC",
-        "home_img": "",
-        "away_team": "Columbus Crew",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=orlando_city_sc_vs_columbus_crew&d=2026-10-10",
-        "hora_inicio": "18:30",
-        "hora_fin": "20:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2879,15 +1447,7 @@
         "title": "MLS: New York RB vs San Diego",
         "time": "18:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "New York RB",
-        "home_img": "",
-        "away_team": "San Diego",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=new_york_rb_vs_san_diego&d=2026-10-10",
-        "hora_inicio": "18:30",
-        "hora_fin": "20:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2895,15 +1455,7 @@
         "title": "MLS: Charlotte vs Dallas",
         "time": "18:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Charlotte",
-        "home_img": "",
-        "away_team": "Dallas",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2602470",
-        "hora_inicio": "18:30",
-        "hora_fin": "20:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2911,15 +1463,7 @@
         "title": "MLS: Philadelphia Union vs Real Salt Lake",
         "time": "18:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Philadelphia Union",
-        "home_img": "",
-        "away_team": "Real Salt Lake",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2407119",
-        "hora_inicio": "18:30",
-        "hora_fin": "20:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2927,15 +1471,7 @@
         "title": "MLS: New England vs Seattle Sounders FC",
         "time": "18:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "New England",
-        "home_img": "",
-        "away_team": "Seattle Sounders FC",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2407118",
-        "hora_inicio": "18:30",
-        "hora_fin": "20:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2943,15 +1479,7 @@
         "title": "Brasileirão: São Paulo vs Vitória",
         "time": "19:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "São Paulo",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10277.png",
-        "away_team": "Vitória",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/7733.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/10277.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=576351",
-        "hora_inicio": "19:00",
-        "hora_fin": "21:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2959,15 +1487,7 @@
         "title": "Liga 1: Universitario vs Melgar",
         "time": "19:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Universitario",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/4409.png",
-        "away_team": "Melgar",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/4417.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/4409.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2481704",
-        "hora_inicio": "19:00",
-        "hora_fin": "21:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2975,15 +1495,7 @@
         "title": "Liga Profesional: River Plate vs Estudiantes Río Cuarto",
         "time": "19:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "River Plate",
-        "home_img": "",
-        "away_team": "Estudiantes Río Cuarto",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2398125",
-        "hora_inicio": "19:30",
-        "hora_fin": "21:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -2991,15 +1503,7 @@
         "title": "Liga Profesional: River Plate vs Estudiantes Río Cuarto",
         "time": "19:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "River Plate",
-        "home_img": "",
-        "away_team": "Estudiantes Río Cuarto",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2398125",
-        "hora_inicio": "19:30",
-        "hora_fin": "21:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -3007,15 +1511,7 @@
         "title": "Liga Profesional: River Plate vs Estudiantes Río Cuarto",
         "time": "19:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "River Plate",
-        "home_img": "",
-        "away_team": "Estudiantes Río Cuarto",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2398125",
-        "hora_inicio": "19:30",
-        "hora_fin": "21:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -3023,15 +1519,7 @@
         "title": "Liga Profesional: River Plate vs Estudiantes Río Cuarto",
         "time": "19:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "River Plate",
-        "home_img": "",
-        "away_team": "Estudiantes Río Cuarto",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2398125",
-        "hora_inicio": "19:30",
-        "hora_fin": "21:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -3039,15 +1527,7 @@
         "title": "MLS: Austin vs Nashville SC",
         "time": "19:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Austin",
-        "home_img": "",
-        "away_team": "Nashville SC",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2407122",
-        "hora_inicio": "19:30",
-        "hora_fin": "21:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -3055,15 +1535,7 @@
         "title": "MLS: Minnesota United vs Houston Dynamo",
         "time": "19:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Minnesota United",
-        "home_img": "",
-        "away_team": "Houston Dynamo",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2423395",
-        "hora_inicio": "19:30",
-        "hora_fin": "21:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -3071,15 +1543,7 @@
         "title": "MLS: Sporting KC vs Portland Timbers",
         "time": "19:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Sporting KC",
-        "home_img": "",
-        "away_team": "Portland Timbers",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=sporting_kc_vs_portland_timbers&d=2026-10-10",
-        "hora_inicio": "19:30",
-        "hora_fin": "21:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -3087,15 +1551,7 @@
         "title": "Liga MX: Atlas vs Guadalajara",
         "time": "20:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Atlas",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6577.png",
-        "away_team": "Guadalajara",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/7807.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6577.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2548502",
-        "hora_inicio": "20:00",
-        "hora_fin": "22:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -3103,15 +1559,7 @@
         "title": "Liga MX: Atlas vs Guadalajara",
         "time": "20:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Atlas",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6577.png",
-        "away_team": "Guadalajara",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/7807.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6577.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2548502",
-        "hora_inicio": "20:00",
-        "hora_fin": "22:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -3119,15 +1567,7 @@
         "title": "Liga MX: Atlas vs Guadalajara",
         "time": "20:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Atlas",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6577.png",
-        "away_team": "Guadalajara",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/7807.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6577.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2548502",
-        "hora_inicio": "20:00",
-        "hora_fin": "22:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -3135,15 +1575,7 @@
         "title": "Liga MX: Atlas vs Guadalajara",
         "time": "20:00",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Atlas",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6577.png",
-        "away_team": "Guadalajara",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/7807.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6577.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2548502",
-        "hora_inicio": "20:00",
-        "hora_fin": "22:00"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -3151,15 +1583,7 @@
         "title": "MLS: Colorado Rapids vs SJ Earthquakes",
         "time": "20:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Colorado Rapids",
-        "home_img": "",
-        "away_team": "SJ Earthquakes",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2469975",
-        "hora_inicio": "20:30",
-        "hora_fin": "22:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -3167,15 +1591,7 @@
         "title": "MLS: Los Angeles FC vs Vancouver Whitecaps",
         "time": "21:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Los Angeles FC",
-        "home_img": "",
-        "away_team": "Vancouver Whitecaps",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2407126",
-        "hora_inicio": "21:30",
-        "hora_fin": "23:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -3183,15 +1599,7 @@
         "title": "MLS: Los Angeles FC vs Vancouver Whitecaps",
         "time": "21:30",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "Los Angeles FC",
-        "home_img": "",
-        "away_team": "Vancouver Whitecaps",
-        "away_img": "",
-        "img": "",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2407126",
-        "hora_inicio": "21:30",
-        "hora_fin": "23:30"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -3199,15 +1607,7 @@
         "title": "Liga MX: América vs Monterrey",
         "time": "22:10",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "América",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6576.png",
-        "away_team": "Monterrey",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/7849.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6576.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2188466",
-        "hora_inicio": "22:10",
-        "hora_fin": "00:10"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -3215,15 +1615,7 @@
         "title": "Liga MX: América vs Monterrey",
         "time": "22:10",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "América",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6576.png",
-        "away_team": "Monterrey",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/7849.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6576.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2188466",
-        "hora_inicio": "22:10",
-        "hora_fin": "00:10"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -3231,15 +1623,7 @@
         "title": "Liga MX: América vs Monterrey",
         "time": "22:10",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "América",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6576.png",
-        "away_team": "Monterrey",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/7849.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6576.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2188466",
-        "hora_inicio": "22:10",
-        "hora_fin": "00:10"
+        "date": "2026-10-10"
     },
     {
         "category": "Fútbol",
@@ -3247,14 +1631,6 @@
         "title": "Liga MX: América vs Monterrey",
         "time": "22:10",
         "status": "En vivo",
-        "date": "2026-10-10",
-        "home_team": "América",
-        "home_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6576.png",
-        "away_team": "Monterrey",
-        "away_img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/7849.png",
-        "img": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/6576.png",
-        "api_url": "https://www.thesportsdb.com/api/v1/json/3/lookupevent.php?id=2188466",
-        "hora_inicio": "22:10",
-        "hora_fin": "00:10"
+        "date": "2026-10-10"
     }
 ]
