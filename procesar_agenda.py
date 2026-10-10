@@ -161,7 +161,6 @@ MAPEO_EQUIPOS = {
     # --- Liga Profesional Saudí ---
     "al hilal": "96001", "al ittihad": "96002", "al kholood": "1014",
     "al quadisiya": "1013", "al nassr": "6001", "diriyah": "6002"
-}
     
     # --- Agrega aquí el resto de tus equipos con cualquier formato de mayúsculas/minúsculas ---
 })
