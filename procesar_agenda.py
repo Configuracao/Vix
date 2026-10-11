@@ -7,8 +7,9 @@ import unicodedata
 import time
 from datetime import datetime, timedelta
 
-# URL del JSON original o archivo local
-JSON_URL = "https://streamx305.sbs/json/agenda550.json"
+# Configuración de URLs y archivos locales
+AGENDA_URL = "https://streamx305.sbs/json/agenda550.json"
+LOCAL_CHANNELS_JSON = "04.json"
 OUTPUT_JSON = "agenda.json"
 EQUIPOS_DIR = os.path.join("assets", "equipos_fm")
 BASE_IMG_URL = "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm"
@@ -121,8 +122,8 @@ MAPEO_REEMPLAZO_NOMBRES = CaseInsensitiveDict({
     "Medellín": "Independiente Medellín",
     "Atlético San Luis": "Atlético de San Luis",
     "St. Louis City": "St. Louis City SC",
-    "Nacional": "NacionalMontevideo",
-    "Nacional": "NacionalMontevideo",
+    "La Serena": "Deportes La Serena",
+    "Carrera": "Singapore Grand Prix",
 })
 
 # Diccionario de equipos (admite cualquier combinación de mayúsculas y minúsculas)
@@ -285,11 +286,10 @@ def extraer_equipos_flexible(partido_titulo):
     return partido_titulo.strip(), ""
 
 def consultar_thesportsdb(home_team, away_team, fecha):
-    # Definir los pares en orden normal y al revés
     combinaciones = []
     if away_team:
-        combinaciones.append((home_team, away_team)) # Orden original
-        combinaciones.append((away_team, home_team)) # Orden invertido
+        combinaciones.append((home_team, away_team))
+        combinaciones.append((away_team, home_team))
     else:
         combinaciones.append((home_team, ""))
 
@@ -359,18 +359,31 @@ def obtener_nombre_canal(url):
     return "Server TV"
 
 def procesar_agenda():
-    print("Descargando JSON desde streamx305.sbs...")
+    # 1. Verificar si 04.json existe y contiene canales
+    canales_04 = []
+    if os.path.exists(LOCAL_CHANNELS_JSON):
+        try:
+            with open(LOCAL_CHANNELS_JSON, "r", encoding="utf-8") as f:
+                contenido_04 = json.load(f)
+                if isinstance(contenido_04, list) and len(contenido_04) > 0:
+                    canales_04 = contenido_04
+                    print(f"Se cargaron {len(canales_04)} canales desde {LOCAL_CHANNELS_JSON}.")
+        except Exception as e:
+            print(f"Error al leer {LOCAL_CHANNELS_JSON}: {e}")
+
+    # 2. Obtener la agenda base (agenda550.json)
+    print("Descargando JSON de la agenda desde streamx305.sbs...")
     try:
-        response = requests.get(JSON_URL, timeout=10)
+        response = requests.get(AGENDA_URL, timeout=10)
         if response.status_code != 200:
-            print(f"Error al descargar: Status {response.status_code}")
+            print(f"Error al descargar la agenda: Status {response.status_code}")
             return
         agenda_raw = response.json()
     except Exception as e:
-        print(f"Error al obtener datos: {e}")
+        print(f"Error al obtener datos de la agenda: {e}")
         return
 
-    print("Procesando todos los eventos sin importar la fecha...")
+    print("Procesando eventos y asignando servidores de canales...")
 
     deportes_dict = {sport["id"]: sport for sport in SPORTS_BASE}
     eventos_agrupados = {}
@@ -441,19 +454,41 @@ def procesar_agenda():
             }
             order_index += 1
 
-        canal_nombre = obtener_nombre_canal(link)
-        iframe_url = f"https://pruevon.blogspot.com/2026/04/embedc.html?r={urllib.parse.quote(link, safe='')}"
+        # Lógica de asignación de servidores según la existencia de 04.json
+        if canales_04:
+            # Si hay canales en 04.json, los añadimos todos como servidores o fuentes al evento de la agenda
+            for canal_info in canales_04:
+                nombre_canal = canal_info.get("canal", "Canal 04")
+                url_canal = canal_info.get("url", "")
+                
+                eventos_agrupados[event_key]["event_data"]["servers"].append({
+                    "name": nombre_canal,
+                    "url": url_canal,
+                    "type": canal_info.get("tipo", "clearkey"),
+                    "quality": "",
+                    "active": True,
+                    "languages": [],
+                    "customLanguages": "",
+                    "channelLogo": canal_info.get("logo", ""),
+                    "clearkey": canal_info.get("clearkey", None),
+                    "referer": canal_info.get("referer", ""),
+                    "origin": canal_info.get("origin", "")
+                })
+        else:
+            # Si no hay canales en 04.json, se mantiene el comportamiento predeterminado usando el link del agenda550.json
+            canal_nombre = obtener_nombre_canal(link)
+            iframe_url = f"https://pruevon.blogspot.com/2026/04/embedc.html?r={urllib.parse.quote(link, safe='')}"
 
-        eventos_agrupados[event_key]["event_data"]["servers"].append({
-            "name": canal_nombre,
-            "url": iframe_url,
-            "type": "iframe",
-            "quality": "",
-            "active": True,
-            "languages": [],
-            "customLanguages": "",
-            "channelLogo": ""
-        })
+            eventos_agrupados[event_key]["event_data"]["servers"].append({
+                "name": canal_nombre,
+                "url": iframe_url,
+                "type": "iframe",
+                "quality": "",
+                "active": True,
+                "languages": [],
+                "customLanguages": "",
+                "channelLogo": ""
+            })
 
     for ev in eventos_agrupados.values():
         s_id = ev["sport_id"]
@@ -488,7 +523,7 @@ def procesar_agenda():
     with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
         json.dump(resultado_final, f, ensure_ascii=False, indent=4)
 
-    print(f"Agenda generada correctamente en {OUTPUT_JSON} con todos los registros.")
+    print(f"Agenda generada correctamente en {OUTPUT_JSON} utilizando los canales de {'04.json' if canales_04 else 'agenda550.json'}.")
 
 if __name__ == "__main__":
     procesar_agenda()
