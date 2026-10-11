@@ -5,7 +5,7 @@ import urllib.parse
 import requests
 import unicodedata
 import time
-from datetime import datetime, timedelta  # Importado timedelta para calcular el día siguiente
+from datetime import datetime, timedelta
 
 # URL del JSON original o archivo local
 JSON_URL = "https://streamx305.sbs/json/agenda550.json"
@@ -86,7 +86,43 @@ MAPEO_REEMPLAZO_NOMBRES = CaseInsensitiveDict({
     "Guadalajara": "CD Guadalajara",
     "Sporting KC": "Sporting Kansas City",
     "SJ Earthquakes": "San Jose Earthquakes",
-    "Guadalajara": "CD Guadalajara",
+    "Milan": "AC Milan",
+    "Hertha BSC": "Hertha",
+    "Celta de Vigo": "Celta Vigo",
+    "Deportivo La Coruña": "Deportivo de A Coruña",
+    "Racing Santander": "Racing de Santander",
+    "CD Castellon": "Castellón",
+    "Sporting Gijón": "Sporting de Gijón",
+    "Olympique Marseille": "Marseille",
+    "Borussia M'gladbach": "Borussia Mönchengladbach",
+    "Juventud": "Juventud Las Piedras",
+    "Racing": "Racing Montevideo",
+    "Nacional": "Nacional Montevideo",
+    "Saints": "New Orleans Saints",
+    "Vikings": "Minnesota Vikings",
+    "Bears": "Chicago Bears",
+    "Packers": "Green Bay Packers",
+    "Steelers": "Pittsburgh Steelers",
+    "Colts": "Indianapolis Colts",
+    "Broncos": "Denver Broncos",
+    "Chargers": "Los Angeles Chargers",
+    "Cardinals": "Arizona Cardinals",
+    "Lions": "Detroit Lions",
+    "49ers": "San Francisco 49ers",
+    "Seahawks": "Seattle Seahawks",
+    "Ravens": "Baltimore Ravens",
+    "Falcons": "Atlanta Falcons",
+    "Vitória Guimarães": "Vitória de Guimarães",
+    "Talleres Córdoba": "Talleres de Córdoba",
+    "UTC Cajamarca": "Universidad Técnica de Cajamarca",
+    "Olympiakos Piraeus": "Olympiacos",
+    "Santa Fe": "Independiente Santa Fe",
+    "Fortaleza CEIF": "Fortaleza FC",
+    "Medellín": "Independiente Medellín",
+    "Atlético San Luis": "Atlético de San Luis",
+    "St. Louis City": "St. Louis City SC",
+    "Nacional": "NacionalMontevideo",
+    "Nacional": "NacionalMontevideo",
 })
 
 # Diccionario de equipos (admite cualquier combinación de mayúsculas y minúsculas)
@@ -184,6 +220,7 @@ MAPEO_EQUIPOS = CaseInsensitiveDict({
     # --- Primera División (Chile) ---
     "cobresal": "94001", "univ. concepción": "94002", "huachipato": "94003",
     "o'higgins": "94004", "universidad católica": "94005", "audax italiano": "94006",
+    "everton de viña del mar": "94007", # Añadido opcional por si lo requieres en assets
 
     # --- Süper Lig (Turquía) ---
     "samsunspor": "95001", "trabzonspor": "95002", "Rizespor": "95003",
@@ -203,7 +240,6 @@ MAPEO_EQUIPOS = CaseInsensitiveDict({
     "al quadisiya": "1013", "al nassr": "6001", "diriyah": "6002",
 })
 
-# Estructura base de deportes
 SPORTS_BASE = [
     {"id": "automovilismo", "name": "Automovilismo", "icon": "🏎️", "leagues": []},
     {"id": "futbol", "name": "Fútbol", "icon": "⚽", "leagues": []},
@@ -220,10 +256,15 @@ SPORTS_BASE = [
     {"id": "hockey", "name": "Hockey", "icon": "🏒", "leagues": []}
 ]
 
-def limpiar_nombre_equipo(nombre):
+def limpiar_nombre_equipo(nombre, liga_nombre=""):
     if not nombre:
         return ""
     nombre_limpio = nombre.strip()
+    if nombre_limpio.lower() == "everton":
+        liga_lower = liga_nombre.lower()
+        if any(k in liga_lower for k in ["primera división", "chile", "tntsports"]):
+            return "Everton de Viña del Mar"
+        return "Everton"
     if nombre_limpio in MAPEO_REEMPLAZO_NOMBRES:
         return MAPEO_REEMPLAZO_NOMBRES[nombre_limpio]
     return nombre_limpio
@@ -236,11 +277,7 @@ def buscar_imagen(equipo_val):
     return ""
 
 def extraer_equipos_flexible(partido_titulo):
-    patrones = [
-        r'\s+vs\.?\s+',  
-        r'-vs-',         
-        r'\s+-\s+'       
-    ]
+    patrones = [r'\s+vs\.?\s+', r'-vs-', r'\s+-\s+']
     for patron in patrones:
         partes = re.split(patron, partido_titulo, flags=re.IGNORECASE)
         if len(partes) >= 2:
@@ -248,18 +285,14 @@ def extraer_equipos_flexible(partido_titulo):
     return partido_titulo.strip(), ""
 
 def consultar_thesportsdb(home_team, away_team, fecha):
-    if not away_team:
-        query_variants = [home_team]
+    # Definir los pares en orden normal y al revés
+    combinaciones = []
+    if away_team:
+        combinaciones.append((home_team, away_team)) # Orden original
+        combinaciones.append((away_team, home_team)) # Orden invertido
     else:
-        query_variants = [
-            f"{home_team} vs {away_team}",
-            f"{home_team}-vs-{away_team}",
-            f"{home_team.lower()} vs {away_team.lower()}",
-            f"{home_team.lower()}-vs-{away_team.lower()}",
-            f"{home_team} - {away_team}"
-        ]
-    
-    # Generar lista de fechas a probar: la fecha del evento y el día siguiente
+        combinaciones.append((home_team, ""))
+
     fechas_a_probar = [fecha]
     try:
         dt_obj = datetime.strptime(fecha, "%Y-%m-%d")
@@ -269,28 +302,37 @@ def consultar_thesportsdb(home_team, away_team, fecha):
         pass
 
     for f_busqueda in fechas_a_probar:
-        for q in query_variants:
-            encoded_q = urllib.parse.quote(q)
-            url = f"https://www.thesportsdb.com/api/v1/json/123/searchevents.php?e={encoded_q}&d={f_busqueda}"
-            try:
-                headers = {'User-Agent': 'Mozilla/5.0'}
-                response = requests.get(url, headers=headers, timeout=5)
-                
-                # --- PAUSA AUMENTADA ---
-                time.sleep(3.0) 
-                
-                if response.status_code == 200:
-                    data = response.json()
-                    if data and "event" in data and data["event"]:
-                        evento = data["event"][0]
-                        return {
-                            "homeLogo": evento.get("strHomeTeamBadge", ""),
-                            "awayLogo": evento.get("strAwayTeamBadge", ""),
-                            "thumb": evento.get("strThumb", "")
-                        }
-            except Exception:
-                continue
-    
+        for h, a in combinaciones:
+            if a:
+                query_variants = [
+                    f"{h} vs {a}",
+                    f"{h}-vs-{a}",
+                    f"{h.lower()} vs {a.lower()}",
+                    f"{h.lower()}-vs-{a.lower()}",
+                    f"{h} - {a}"
+                ]
+            else:
+                query_variants = [h, h.lower()]
+
+            for q in query_variants:
+                encoded_q = urllib.parse.quote(q)
+                url = f"https://www.thesportsdb.com/api/v1/json/123/searchevents.php?e={encoded_q}&d={f_busqueda}"
+                try:
+                    headers = {'User-Agent': 'Mozilla/5.0'}
+                    response = requests.get(url, headers=headers, timeout=5)
+                    time.sleep(3.0) 
+                    if response.status_code == 200:
+                        data = response.json()
+                        if data and "event" in data and data["event"]:
+                            evento = data["event"][0]
+                            return {
+                                "homeLogo": evento.get("strHomeTeamBadge", ""),
+                                "awayLogo": evento.get("strAwayTeamBadge", ""),
+                                "thumb": evento.get("strThumb", "")
+                            }
+                except Exception:
+                    continue
+                    
     return {"homeLogo": "", "awayLogo": "", "thumb": ""}
 
 def extraer_liga_y_titulo(titulo_raw):
@@ -328,62 +370,46 @@ def procesar_agenda():
         print(f"Error al obtener datos: {e}")
         return
 
-    hoy = datetime.now().date()
-    print(f"Filtrando eventos desde la fecha de hoy: {hoy}")
+    print("Procesando todos los eventos sin importar la fecha...")
 
     deportes_dict = {sport["id"]: sport for sport in SPORTS_BASE}
     eventos_agrupados = {}
 
     order_index = 1
-    ultima_fecha_valida = str(hoy)
+    ultima_fecha_valida = "2026-01-01"
     ultima_hora_valida = "00:00"
 
     for item in agenda_raw:
         fecha = item.get("date", "")
-        
-        # Filtro: Ignorar fechas anteriores a hoy
-        try:
-            fecha_evento = datetime.strptime(fecha, "%Y-%m-%d").date()
-            if fecha_evento < hoy:
-                continue  
-        except ValueError:
-            continue
-
         raw_title = item.get("title", "")
         link = item.get("link", "")
         hora = item.get("time", "")
 
-        ultima_fecha_valida = fecha
-        ultima_hora_valida = hora
+        if fecha:
+            ultima_fecha_valida = fecha
+        if hora:
+            ultima_hora_valida = hora
 
         liga_nombre, partido_titulo_raw = extraer_liga_y_titulo(raw_title)
         
-        # Extraer y aplicar mapeo de reemplazo a los nombres de los equipos
         home_raw, away_raw = extraer_equipos_flexible(partido_titulo_raw)
-        home_team = limpiar_nombre_equipo(home_raw)
-        away_team = limpiar_nombre_equipo(away_raw)
+        home_team = limpiar_nombre_equipo(home_raw, liga_nombre)
+        away_team = limpiar_nombre_equipo(away_raw, liga_nombre)
 
-        # Reconstruir el título del partido con los nombres ya mapeados/reemplazados
         if away_team:
             partido_titulo = f"{home_team} vs {away_team}"
         else:
             partido_titulo = home_team
 
         sport_id = detectar_deporte(liga_nombre, partido_titulo)
-
         event_key = f"{fecha}_{hora}_{partido_titulo}"
 
         if event_key not in eventos_agrupados:
             api_images = consultar_thesportsdb(home_team, away_team, fecha)
             
-            home_logo = api_images.get("homeLogo", "")
-            away_logo = api_images.get("awayLogo", "")
+            home_logo = api_images.get("homeLogo", "") or buscar_imagen(home_team)
+            away_logo = api_images.get("awayLogo", "") or buscar_imagen(away_team)
             event_thumb = api_images.get("thumb", "")
-
-            if not home_logo:
-                home_logo = buscar_imagen(home_team)
-            if not away_logo:
-                away_logo = buscar_imagen(away_team)
 
             eventos_agrupados[event_key] = {
                 "sport_id": sport_id,
@@ -416,13 +442,11 @@ def procesar_agenda():
             order_index += 1
 
         canal_nombre = obtener_nombre_canal(link)
-        
-        # Combinar tu URL de iframe con el enlace original codificado
         iframe_url = f"https://pruevon.blogspot.com/2026/04/embedc.html?r={urllib.parse.quote(link, safe='')}"
 
         eventos_agrupados[event_key]["event_data"]["servers"].append({
             "name": canal_nombre,
-            "url": iframe_url,  # <- Aquí se usa la nueva URL del iframe
+            "url": iframe_url,
             "type": "iframe",
             "quality": "",
             "active": True,
@@ -436,9 +460,12 @@ def procesar_agenda():
         l_name = ev["league_name"]
         ev_data = ev["event_data"]
 
+        if s_id not in deportes_dict:
+            continue
+
         deporte = deportes_dict[s_id]
-        
         liga_obj = next((l for l in deporte["leagues"] if l["name"] == l_name), None)
+        
         if not liga_obj:
             liga_obj = {
                 "name": l_name,
@@ -461,7 +488,7 @@ def procesar_agenda():
     with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
         json.dump(resultado_final, f, ensure_ascii=False, indent=4)
 
-    print(f"Agenda generada correctamente en {OUTPUT_JSON} (procesamiento lento para evitar bloqueos).")
+    print(f"Agenda generada correctamente en {OUTPUT_JSON} con todos los registros.")
 
 if __name__ == "__main__":
     procesar_agenda()
