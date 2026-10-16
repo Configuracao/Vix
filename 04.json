@@ -1,7 +1,7 @@
 [
   {
-    "canal": "ESPN AR",
-    "channel": "espn",
+    "canal": "ESPN",
+    "channel": "espnar",
     "logo": "https://i.postimg.cc/T5YBc3cB/ESPN-1-Argentina.png",
     "grupo": "Deportes",
     "tipo": "clearkey",
@@ -11,8 +11,16 @@
     },
     "referer": "https://portal.app.flow.com.ar",
     "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkxODc4NjY3Iiwic2lwIjoiODQuMjUyLjExNC4yIiwicGF0aCI6Ii9saXZlL2M2ZWRzL1RlbGVmZUhEL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMWUzODk5NjZkZTRlNzRlNiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTYiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.ecgG0L3ZVQ3Q7UAwtl2VA1WPNGwLR7UCUTJWIQ7ha40MhbhTz6OgtXmlBgwMgfzqSsdOpWty_GE6kedSuTsEQw==/live/c3eds/TelefeHD/SA_Live_dash_enc/ESPN2HD.mpd"
+    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c3eds/ESPN2HD/SA_Live_dash_enc/ESPN2HD.mpd"
   },
+  {
+  "canal": "ESPN",
+  "channel": "espn",
+  "logo": "https://i.postimg.cc/tu-logo/logo.png",
+  "grupo": "Entretenimiento",
+  "tipo": "m3u8",
+  "url": "http://209.61.12.132:9000/play/a06z/index.m3u8"
+},
   {
     "canal": "ESPN 2 AR",
     "channel": "espn2",
@@ -25,7 +33,7 @@
     },
     "referer": "https://portal.app.flow.com.ar",
     "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkxODc4NjY3Iiwic2lwIjoiODQuMjUyLjExNC4yIiwicGF0aCI6Ii9saXZlL2M2ZWRzL1RlbGVmZUhEL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMWUzODk5NjZkZTRlNzRlNiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTYiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.ecgG0L3ZVQ3Q7UAwtl2VA1WPNGwLR7UCUTJWIQ7ha40MhbhTz6OgtXmlBgwMgfzqSsdOpWty_GE6kedSuTsEQw==/live/c6eds/ESPN2_Arg/SA_Live_dash_enc/ESPN2_Arg.mpd"
+    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c6eds/ESPN2_Arg/SA_Live_dash_enc/ESPN2_Arg.mpd"
   },
   {
     "canal": "ESPN 3 AR",
@@ -39,7 +47,7 @@
     },
     "referer": "https://portal.app.flow.com.ar",
     "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkxODc4NjY3Iiwic2lwIjoiODQuMjUyLjExNC4yIiwicGF0aCI6Ii9saXZlL2M2ZWRzL1RlbGVmZUhEL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMWUzODk5NjZkZTRlNzRlNiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTYiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.ecgG0L3ZVQ3Q7UAwtl2VA1WPNGwLR7UCUTJWIQ7ha40MhbhTz6OgtXmlBgwMgfzqSsdOpWty_GE6kedSuTsEQw==/live/c3eds/ESPN3/SA_Live_dash_enc/ESPN3.mpd"
+    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c3eds/ESPN3/SA_Live_dash_enc/ESPN3.mpd"
   },
   {
     "canal": "ESPN 4 AR",
@@ -53,7 +61,7 @@
     },
     "referer": "https://portal.app.flow.com.ar",
     "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkxODc4NjY3Iiwic2lwIjoiODQuMjUyLjExNC4yIiwicGF0aCI6Ii9saXZlL2M2ZWRzL1RlbGVmZUhEL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMWUzODk5NjZkZTRlNzRlNiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTYiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.ecgG0L3ZVQ3Q7UAwtl2VA1WPNGwLR7UCUTJWIQ7ha40MhbhTz6OgtXmlBgwMgfzqSsdOpWty_GE6kedSuTsEQw==/live/c3eds/ESPNHD/SA_Live_dash_enc/ESPNHD.mpd"
+    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c3eds/ESPNHD/SA_Live_dash_enc/ESPNHD.mpd"
   },
   {
     "canal": "ESPN 5 AR",
@@ -67,19 +75,7 @@
     },
     "referer": "https://portal.app.flow.com.ar",
     "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkxODc4NjY3Iiwic2lwIjoiODQuMjUyLjExNC4yIiwicGF0aCI6Ii9saXZlL2M2ZWRzL1RlbGVmZUhEL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMWUzODk5NjZkZTRlNzRlNiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTYiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.ecgG0L3ZVQ3Q7UAwtl2VA1WPNGwLR7UCUTJWIQ7ha40MhbhTz6OgtXmlBgwMgfzqSsdOpWty_GE6kedSuTsEQw==/live/c7eds/ESPN4/SA_Live_dash_enc/ESPN4.mpd"
-  },
-  {
-    "canal": "ESPN 5 Sur",
-    "channel": "espn5",
-    "logo": "https://i.imgur.com/eBYBgnn.png",
-    "grupo": "Deportes",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "https",
-      "key": "//delgadolife.net/mundo/api/results.php?keyid=4e126297fc7af35c736bdffe98eecaaa&key=fdb0091cf67d9c596dbfb07cf6f4c8f5"
-    },
-    "url": "https://vcdn.mn10.entel.bo:443/Content/DASH/Live/Channel(80c74968-a2ef-4005-8661-045fe97408a8)/manifest.mpd"
+    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c7eds/ESPN4/SA_Live_dash_enc/ESPN4.mpd"
   },
   {
     "canal": "ESPN 6 AR",
@@ -93,7 +89,7 @@
     },
     "referer": "https://portal.app.flow.com.ar",
     "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkxODc4NjY3Iiwic2lwIjoiODQuMjUyLjExNC4yIiwicGF0aCI6Ii9saXZlL2M2ZWRzL1RlbGVmZUhEL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMWUzODk5NjZkZTRlNzRlNiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTYiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.ecgG0L3ZVQ3Q7UAwtl2VA1WPNGwLR7UCUTJWIQ7ha40MhbhTz6OgtXmlBgwMgfzqSsdOpWty_GE6kedSuTsEQw==/live/c7eds/FoxSports3_UY/SA_Live_dash_enc/FoxSports3_UY.mpd"
+    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c7eds/FoxSports3_UY/SA_Live_dash_enc/FoxSports3_UY.mpd"
   },
   {
     "canal": "ESPN 7 AR",
@@ -107,7 +103,7 @@
     },
     "referer": "https://portal.app.flow.com.ar",
     "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkxODc4NjY3Iiwic2lwIjoiODQuMjUyLjExNC4yIiwicGF0aCI6Ii9saXZlL2M2ZWRzL1RlbGVmZUhEL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMWUzODk5NjZkZTRlNzRlNiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTYiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.ecgG0L3ZVQ3Q7UAwtl2VA1WPNGwLR7UCUTJWIQ7ha40MhbhTz6OgtXmlBgwMgfzqSsdOpWty_GE6kedSuTsEQw==/live/c7eds/FoxSports2_UY/SA_Live_dash_enc/FoxSports2_UY.mpd"
+    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c7eds/FoxSports2_UY/SA_Live_dash_enc/FoxSports2_UY.mpd"
   },
   {
     "canal": "DSPORTS",
@@ -149,7 +145,7 @@
       "keyId": "03f12d6a3dbfd3a6fa7dd7f6417e0c11",
       "key": "ea07b87acdf2e45be824cde4a1cf3504"
     },
-    "url": "http://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd"
+    "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd"
   },
   {
     "canal": "DSports +",
@@ -163,7 +159,7 @@
       "keyId": "83f81c4cc1443991543de4e22eea7586",
       "key": "ddfd7ca653d6f35543d8edb3c688e20f"
     },
-    "url": "http://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/dash/enc/ud6bnhthpj/out/v1/2639a2f4480f4269953de466d5f46463/cenc.mpd"
+    "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/dash/enc/ud6bnhthpj/out/v1/2639a2f4480f4269953de466d5f46463/cenc.mpd"
   },
   {
     "canal": "SKY sports La Liga",
@@ -314,7 +310,7 @@
   },
   {
     "canal": "FOX Sports",
-    "channel": "fox2ar",
+    "channel": "fox1ar",
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-ar.png",
     "grupo": "Deportes",
     "tipo": "clearkey",
@@ -324,7 +320,7 @@
     },
     "referer": "https://portal.app.flow.com.ar",
     "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkxODc4NjY3Iiwic2lwIjoiODQuMjUyLjExNC4yIiwicGF0aCI6Ii9saXZlL2M2ZWRzL1RlbGVmZUhEL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMWUzODk5NjZkZTRlNzRlNiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTYiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.ecgG0L3ZVQ3Q7UAwtl2VA1WPNGwLR7UCUTJWIQ7ha40MhbhTz6OgtXmlBgwMgfzqSsdOpWty_GE6kedSuTsEQw==/live/c3eds/FoxSports/SA_Live_dash_enc/FoxSports.mpd"
+    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c3eds/FoxSports/SA_Live_dash_enc/FoxSports.mpd"
   },
   {
     "canal": "FOX Sports 2",
@@ -338,7 +334,7 @@
     },
     "referer": "https://portal.app.flow.com.ar",
     "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkxODc4NjY3Iiwic2lwIjoiODQuMjUyLjExNC4yIiwicGF0aCI6Ii9saXZlL2M2ZWRzL1RlbGVmZUhEL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMWUzODk5NjZkZTRlNzRlNiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTYiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.ecgG0L3ZVQ3Q7UAwtl2VA1WPNGwLR7UCUTJWIQ7ha40MhbhTz6OgtXmlBgwMgfzqSsdOpWty_GE6kedSuTsEQw==/live/c3eds/FoxSports2HD/SA_Live_dash_enc/FoxSports2HD.mpd"
+    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c3eds/FoxSports2HD/SA_Live_dash_enc/FoxSports2HD.mpd"
   },
   {
     "canal": "FOX Sports 3",
@@ -352,7 +348,7 @@
     },
     "referer": "https://portal.app.flow.com.ar",
     "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkxODc4NjY3Iiwic2lwIjoiODQuMjUyLjExNC4yIiwicGF0aCI6Ii9saXZlL2M2ZWRzL1RlbGVmZUhEL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMWUzODk5NjZkZTRlNzRlNiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTYiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.ecgG0L3ZVQ3Q7UAwtl2VA1WPNGwLR7UCUTJWIQ7ha40MhbhTz6OgtXmlBgwMgfzqSsdOpWty_GE6kedSuTsEQw==/live/c3eds/FoxSports3HD/SA_Live_dash_enc/FoxSports3HD.mpd"
+    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c3eds/FoxSports3HD/SA_Live_dash_enc/FoxSports3HD.mpd"
   },
   {
     "canal": "TNT Sports Premium FHD",
@@ -366,6 +362,94 @@
     },
     "referer": "https://portal.app.flow.com.ar",
     "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkxODc4NjY3Iiwic2lwIjoiODQuMjUyLjExNC4yIiwicGF0aCI6Ii9saXZlL2M2ZWRzL1RlbGVmZUhEL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMWUzODk5NjZkZTRlNzRlNiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTYiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.ecgG0L3ZVQ3Q7UAwtl2VA1WPNGwLR7UCUTJWIQ7ha40MhbhTz6OgtXmlBgwMgfzqSsdOpWty_GE6kedSuTsEQw==/live/c6eds/TNT_Sports_HD/SA_Live_dash_enc_wl/TNT_Sports_HD.mpd"
-  }
+    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c6eds/TNT_Sports_HD/SA_Live_dash_enc_wl/TNT_Sports_HD.mpd"
+  },
+  {
+    "canal": "ESPN Premium FHD",
+    "channel": "espnpremium",
+    "logo": "https://geo.edge.pontiscloud.com:9002/images/120/CH_LOGO/160/160/0/0/50191211073985.png",
+    "grupo": "Fútbol Argentino",
+    "tipo": "clearkey",
+    "clearkey": {
+      "keyId": "c502892e037a9f34827147b2b24e42cf",
+      "key": "2531bd34bec6c0e8fa4e07aedb261ade"
+    },
+    "referer": "https://portal.app.flow.com.ar",
+    "origin": "https://portal.app.flow.com.ar",
+    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c7eds/Fox_Sports_Premiun_HD/SA_Live_dash_enc_wl/Fox_Sports_Premiun_HD.mpd"
+  },
+  {
+    "canal": "TyC Sports FHD",
+    "channel": "tyc",
+    "logo": "https://geo.edge.pontiscloud.com:9002/images/1981/CH_LOGO/400/400/0/0/42832369072861.png",
+    "grupo": "Deportes",
+    "tipo": "clearkey",
+    "clearkey": {
+      "keyId": "0b1e6825350fa1bc0032f8f36287e006",
+      "key": "11fc540a4539d18f91cd403a5ed42284"
+    },
+    "referer": "https://portal.app.flow.com.ar",
+    "origin": "https://portal.app.flow.com.ar",
+    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c7eds/TyCSport/SA_Live_dash_enc_wl/TyCSport.mpd"
+  },
+  {
+    "canal": "TUDN MX",
+    "channel": "tudnmx",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5a/DSports.png",
+    "grupo": "DEPORTES",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0",
+    "referer": "https://www.primevideo.com/",
+    "tipo": "clearkey",
+    "clearkey": {
+      "keyId": "763ce1ebcaf23502c8cf357c6ef423e1",
+      "key": "0c5e6c0820a1ea28753721db00272411"
+    },
+    "url": "https://netskrt.live.pv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/26hxutyti4/out/v1/c7064d5b251a4564b53e0854426b9c8f/cenc.mpd"
+  },
+  {
+    "canal": "CANAL 5 MX",
+    "channel": "canal5mx",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5a/DSports.png",
+    "grupo": "DEPORTES",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0",
+    "referer": "https://www.primevideo.com/",
+    "tipo": "clearkey",
+    "clearkey": {
+      "keyId": "2764ddb50fbcdfa640e19874116dd529",
+      "key": "ab1e5cc276f81696e41131392290585d"
+    },
+    "url": "https://live1-ott.izzigo.tv/7/out/u/dash/CANAL-5-HD-H265/default.mpd"
+  },
+  {
+  "canal": "LIGA 1 MAX",
+  "channel": "liga1max",
+  "logo": "https://i.postimg.cc/tu-logo/logo.png",
+  "grupo": "Entretenimiento",
+  "tipo": "m3u8",
+  "url": "http://38.87.224.19:2220/play/a001/index.m3u8"
+},
+{
+  "canal": "Telefe",
+  "channel": "telefe",
+  "logo": "https://i.postimg.cc/tu-logo/logo.png",
+  "grupo": "Entretenimiento",
+  "tipo": "m3u8",
+  "url": "http://38.87.224.19:2220/play/a04b/index.m3u8"
+},
+{
+  "canal": "ESPN MX",
+  "channel": "espnmx",
+  "logo": "https://i.postimg.cc/tu-logo/logo.png",
+  "grupo": "Entretenimiento",
+  "tipo": "m3u8",
+  "url": "http://187.102.208.209:8000/play/a06a"
+},
+{
+  "canal": "WIN SPORTS +",
+  "channel": "winplus",
+  "logo": "https://i.postimg.cc/tu-logo/logo.png",
+  "grupo": "Entretenimiento",
+  "tipo": "m3u8",
+  "url": "http://181.78.84.78:8910/play/a0gr/index.m3u8"
+}
 ]
