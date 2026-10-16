@@ -180,7 +180,7 @@ def procesar_agenda():
                 
                 # Asignar ID de liga si existe en MAPEO_LIGAS
                 league_id = MAPEO_LIGAS.get(league_name, "")
-                league["leagueId"] = league_id  # Opcional por si quieres guardarlo a nivel de liga
+                league["leagueId"] = league_id
 
                 # Si la liga no tiene background o está vacío, se lo asignamos usando el ID
                 if not league.get("background") and league_id:
@@ -203,7 +203,6 @@ def procesar_agenda():
                     else:
                         event["title"] = home_team
 
-                    # Propagar o asegurar el background de la liga en el evento si lo requiere tu estructura
                     event["leagueId"] = league_id
                     event["leagueBackground"] = league_bg
 
@@ -230,8 +229,7 @@ def procesar_agenda():
                         
                         channel_param = query_params.get("channel", [""])[0].strip().lower()
                         if not channel_param:
-                    implementation_param = query_params.get("stream", [""])
-                    channel_param = implementation_param[0].strip().lower()
+                            channel_param = query_params.get("stream", [""])[0].strip().lower()
 
                         if channel_param and channel_param in canales_04_dict:
                             canal_info = canales_04_dict[channel_param]
