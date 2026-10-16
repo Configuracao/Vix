@@ -1202,7 +1202,7 @@
                     "name": "LaLiga",
                     "logo": "",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Configuracao/Vix/refs/heads/main/assets/ligas_fm/liga.jpg",
                     "events": [
                         {
                             "title": "Deportivo La Coruña vs Levante",
