@@ -57,7 +57,7 @@
                     "name": "MLB",
                     "logo": "",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/mlb.jpg",
                     "events": [
                         {
                             "title": "Cleveland Guardians vs Tampa Bay Rays",
@@ -104,7 +104,8 @@
                         }
                     ],
                     "flagCode": "",
-                    "flagUrl": ""
+                    "flagUrl": "",
+                    "leagueId": "mlb"
                 }
             ]
         },
@@ -117,7 +118,7 @@
                     "name": "NBA Pretemporada",
                     "logo": "",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/nba.jpg",
                     "events": [
                         {
                             "title": "Bulls vs Timberwolves",
@@ -571,7 +572,8 @@
                         }
                     ],
                     "flagCode": "",
-                    "flagUrl": ""
+                    "flagUrl": "",
+                    "leagueId": "nba"
                 }
             ]
         },
@@ -587,13 +589,14 @@
                     "background": "",
                     "events": [],
                     "flagCode": "",
-                    "flagUrl": ""
+                    "flagUrl": "",
+                    "leagueId": ""
                 },
                 {
                     "name": "Liga Profesional",
                     "logo": "",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/ligaprofesional.jpg",
                     "events": [
                         {
                             "title": "Defensa y Justicia vs Instituto",
@@ -707,22 +710,24 @@
                         }
                     ],
                     "flagCode": "",
-                    "flagUrl": ""
+                    "flagUrl": "",
+                    "leagueId": "ligaprofesional"
                 },
                 {
                     "name": "Copa Libertadores",
                     "logo": "",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/libertadores.jpg",
                     "events": [],
                     "flagCode": "",
-                    "flagUrl": ""
+                    "flagUrl": "",
+                    "leagueId": "libertadores"
                 },
                 {
                     "name": "Copa Libertadores Femenina",
                     "logo": "",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/libertadores.jpg",
                     "events": [
                         {
                             "title": "Cruzeiro vs LDU Quito",
@@ -763,13 +768,14 @@
                         }
                     ],
                     "flagCode": "",
-                    "flagUrl": ""
+                    "flagUrl": "",
+                    "leagueId": "libertadores"
                 },
                 {
                     "name": "Bundesliga 2",
                     "logo": "",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/bundesliga2.jpg",
                     "events": [
                         {
                             "title": "Holstein Kiel vs Hertha BSC",
@@ -853,13 +859,14 @@
                         }
                     ],
                     "flagCode": "",
-                    "flagUrl": ""
+                    "flagUrl": "",
+                    "leagueId": "bundesliga2"
                 },
                 {
                     "name": "Liga 1",
                     "logo": "",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/Liga1.jpg",
                     "events": [
                         {
                             "title": "Sport Huancayo vs Cusco",
@@ -937,13 +944,14 @@
                         }
                     ],
                     "flagCode": "",
-                    "flagUrl": ""
+                    "flagUrl": "",
+                    "leagueId": "Liga1"
                 },
                 {
                     "name": "Bundesliga",
                     "logo": "",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/bundesliga.jpg",
                     "events": [
                         {
                             "title": "Eintracht Frankfurt vs Köln",
@@ -1020,13 +1028,14 @@
                         }
                     ],
                     "flagCode": "",
-                    "flagUrl": ""
+                    "flagUrl": "",
+                    "leagueId": "bundesliga"
                 },
                 {
                     "name": "LaLiga SmartBank",
                     "logo": "",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/smartbank.jpg",
                     "events": [
                         {
                             "title": "Leganés vs Córdoba",
@@ -1067,13 +1076,14 @@
                         }
                     ],
                     "flagCode": "",
-                    "flagUrl": ""
+                    "flagUrl": "",
+                    "leagueId": "smartbank"
                 },
                 {
                     "name": "Serie A",
                     "logo": "",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/seriea.jpg",
                     "events": [
                         {
                             "title": "Frosinone vs Sassuolo",
@@ -1114,13 +1124,14 @@
                         }
                     ],
                     "flagCode": "",
-                    "flagUrl": ""
+                    "flagUrl": "",
+                    "leagueId": "seriea"
                 },
                 {
                     "name": "Ligue 1",
                     "logo": "",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/ligue1.jpg",
                     "events": [
                         {
                             "title": "Le Mans vs Toulouse",
@@ -1177,13 +1188,14 @@
                         }
                     ],
                     "flagCode": "",
-                    "flagUrl": ""
+                    "flagUrl": "",
+                    "leagueId": "ligue1"
                 },
                 {
                     "name": "Championship",
                     "logo": "",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/championship.jpg",
                     "events": [
                         {
                             "title": "Burnley vs Wolverhampton Wanderers",
@@ -1246,13 +1258,14 @@
                         }
                     ],
                     "flagCode": "",
-                    "flagUrl": ""
+                    "flagUrl": "",
+                    "leagueId": "championship"
                 },
                 {
                     "name": "LaLiga",
                     "logo": "",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/laliga.jpg",
                     "events": [
                         {
                             "title": "Deportivo La Coruña vs Levante",
@@ -1339,13 +1352,14 @@
                         }
                     ],
                     "flagCode": "",
-                    "flagUrl": ""
+                    "flagUrl": "",
+                    "leagueId": "laliga"
                 },
                 {
                     "name": "Liga Ecuador",
                     "logo": "",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/ligaecuador.jpg",
                     "events": [
                         {
                             "title": "Deportivo Cuenca vs Técnico Universitario",
@@ -1386,13 +1400,14 @@
                         }
                     ],
                     "flagCode": "",
-                    "flagUrl": ""
+                    "flagUrl": "",
+                    "leagueId": "ligaecuador"
                 },
                 {
                     "name": "Liga Uruguay",
                     "logo": "",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/ligauruguay.jpg",
                     "events": [
                         {
                             "title": "Cerro vs Cerro Largo",
@@ -1433,13 +1448,14 @@
                         }
                     ],
                     "flagCode": "",
-                    "flagUrl": ""
+                    "flagUrl": "",
+                    "leagueId": "ligauruguay"
                 },
                 {
                     "name": "Liga Paraguay",
                     "logo": "",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/ligaparaguay.jpg",
                     "events": [
                         {
                             "title": "Deportivo Recoleta vs Rubio Ñú",
@@ -1480,13 +1496,14 @@
                         }
                     ],
                     "flagCode": "",
-                    "flagUrl": ""
+                    "flagUrl": "",
+                    "leagueId": "ligaparaguay"
                 },
                 {
                     "name": "Brasileirão",
                     "logo": "",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/brasileirão.jpg",
                     "events": [
                         {
                             "title": "Mirassol vs Internacional",
@@ -1533,13 +1550,14 @@
                         }
                     ],
                     "flagCode": "",
-                    "flagUrl": ""
+                    "flagUrl": "",
+                    "leagueId": "brasileirão"
                 },
                 {
                     "name": "Copa de la Liga",
                     "logo": "",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/copadelaliga.jpg",
                     "events": [
                         {
                             "title": "Coquimbo Unido vs O'Higgins",
@@ -1580,13 +1598,14 @@
                         }
                     ],
                     "flagCode": "",
-                    "flagUrl": ""
+                    "flagUrl": "",
+                    "leagueId": "copadelaliga"
                 },
                 {
                     "name": "Liga de Expansión MX",
                     "logo": "",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/expamx.jpg",
                     "events": [
                         {
                             "title": "Correcaminos UAT vs Dorados",
@@ -1627,13 +1646,14 @@
                         }
                     ],
                     "flagCode": "",
-                    "flagUrl": ""
+                    "flagUrl": "",
+                    "leagueId": "expamx"
                 },
                 {
                     "name": "Liga MX",
                     "logo": "",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/ligamx.jpg",
                     "events": [
                         {
                             "title": "Necaxa vs Atlas",
@@ -1768,7 +1788,8 @@
                         }
                     ],
                     "flagCode": "",
-                    "flagUrl": ""
+                    "flagUrl": "",
+                    "leagueId": "ligamx"
                 }
             ]
         },
@@ -1790,7 +1811,8 @@
                     "background": "",
                     "events": [],
                     "flagCode": "",
-                    "flagUrl": ""
+                    "flagUrl": "",
+                    "leagueId": ""
                 }
             ]
         }
