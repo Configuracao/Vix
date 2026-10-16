@@ -11,6 +11,7 @@ AGENDA_URL = "https://streamxhd.com/eventos.json?"
 LOCAL_CHANNELS_JSON = "04.json"
 OUTPUT_JSON = "agenda.json"
 BASE_IMG_URL = "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm"
+BASE_LEAGUE_IMG_URL = "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm"  # Cambia esto si usas otra ruta para fondos de ligas
 
 # Clase para hacer un diccionario insensible a mayúsculas, minúsculas y acentos
 class CaseInsensitiveDict(dict):
@@ -92,6 +93,40 @@ MAPEO_EQUIPOS = CaseInsensitiveDict({
     "boca juniors": "90006", "river plate": "90015",
 })
 
+# Diccionario para asociar ligas con un ID específico (para fondos y estilos)
+MAPEO_LIGAS = CaseInsensitiveDict({
+    "LaLiga": "laliga",
+    "Premier League": "premier",
+    "Serie A": "seriea",
+    "Bundesliga": "bundesliga",
+    "Ligue 1": "ligue1",
+    "UEFA Champions League": "ucl",
+    "Copa Libertadores": "libertadores",
+    "Championship": "championship",
+    "Liga 1": "Liga1",
+    "LaLiga SmartBank": "smartbank",
+    "Liga Ecuador": "ligaecuador",
+    "Liga Profesional": "ligaprofesional",
+    "Liga Uruguay": "ligauruguay",
+    "MLB": "mlb",
+    "Liga Paraguay": "ligaparaguay",
+    "Brasileirão": "brasileirão",
+    "NBA Pretemporada": "nba",
+    "Copa de la Liga": "copadelaliga",
+    "Copa Libertadores Femenina": "libertadores",
+    "Liga MX": "ligamx",
+    "Liga de Expansión MX": "expamx",
+    "Bundesliga 2": "bundesliga2",
+    "demo": "deml",
+    "demo": "deml",
+    "demo": "deml",
+    "demo": "deml",
+    "demo": "deml",
+    "demo": "deml",
+    "demo": "deml",
+    # Agrega más ligas según necesites...
+})
+
 def limpiar_nombre_equipo(nombre, liga_nombre=""):
     if not nombre:
         return ""
@@ -109,6 +144,13 @@ def buscar_imagen(equipo_val):
     if equipo_val in MAPEO_EQUIPOS:
         return f"{BASE_IMG_URL}/{MAPEO_EQUIPOS[equipo_val]}.png"
     return ""
+
+def obtener_info_liga(liga_nombre):
+    if not liga_nombre:
+        return "", ""
+    league_id = MAPEO_LIGAS.get(liga_nombre, "")
+    league_bg = f"{BASE_LEAGUE_IMG_URL}/{league_id}.jpg" if league_id else ""
+    return league_id, league_bg
 
 def procesar_agenda():
     canales_04_dict = {}
@@ -136,12 +178,14 @@ def procesar_agenda():
         print(f"Error al obtener datos de la agenda manual: {e}")
         return
 
-    print("Procesando eventos y aplicando imágenes locales mediante MAPEO_EQUIPOS...")
+    print("Procesando eventos, aplicando imágenes locales y IDs de ligas...")
 
     if "sports" in agenda_data:
         for sport in agenda_data["sports"]:
             for league in sport.get("leagues", []):
                 league_name = league.get("name", "")
+                league_id, league_bg = obtener_info_liga(league_name)
+
                 for event in league.get("events", []):
                     home_raw = event.get("homeTeam", "")
                     away_raw = event.get("awayTeam", "")
@@ -156,6 +200,10 @@ def procesar_agenda():
                         event["title"] = f"{home_team} vs {away_team}"
                     else:
                         event["title"] = home_team
+
+                    # Asignar ID de liga y fondo de liga al evento
+                    event["leagueId"] = league_id
+                    event["leagueBackground"] = league_bg
 
                     # Obtener logos exclusivamente del repositorio local usando MAPEO_EQUIPOS
                     home_logo = event.get("homeLogo") or buscar_imagen(home_team)
