@@ -11,7 +11,7 @@ AGENDA_URL = "https://streamxhd.com/eventos.json?"
 LOCAL_CHANNELS_JSON = "04.json"
 OUTPUT_JSON = "agenda.json"
 BASE_IMG_URL = "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm"
-BASE_LEAGUE_IMG_URL = "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm"  # Cambia esto si usas otra ruta para fondos de ligas
+BASE_LEAGUE_IMG_URL = "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm"
 
 # Clase para hacer un diccionario insensible a mayúsculas, minúsculas y acentos
 class CaseInsensitiveDict(dict):
@@ -117,7 +117,7 @@ MAPEO_LIGAS = CaseInsensitiveDict({
     "Liga MX": "ligamx",
     "Liga de Expansión MX": "expamx",
     "Bundesliga 2": "bundesliga2",
-    "demo": "deml",
+    "MLS": "mls",
     "demo": "deml",
     "demo": "deml",
     "demo": "deml",
@@ -145,13 +145,6 @@ def buscar_imagen(equipo_val):
         return f"{BASE_IMG_URL}/{MAPEO_EQUIPOS[equipo_val]}.png"
     return ""
 
-def obtener_info_liga(liga_nombre):
-    if not liga_nombre:
-        return "", ""
-    league_id = MAPEO_LIGAS.get(liga_nombre, "")
-    league_bg = f"{BASE_LEAGUE_IMG_URL}/{league_id}.jpg" if league_id else ""
-    return league_id, league_bg
-
 def procesar_agenda():
     canales_04_dict = {}
     if os.path.exists(LOCAL_CHANNELS_JSON):
@@ -178,13 +171,22 @@ def procesar_agenda():
         print(f"Error al obtener datos de la agenda manual: {e}")
         return
 
-    print("Procesando eventos, aplicando imágenes locales y IDs de ligas...")
+    print("Procesando eventos, asignando IDs y rellenando el campo background de las ligas...")
 
     if "sports" in agenda_data:
         for sport in agenda_data["sports"]:
             for league in sport.get("leagues", []):
                 league_name = league.get("name", "")
-                league_id, league_bg = obtener_info_liga(league_name)
+                
+                # Asignar ID de liga si existe en MAPEO_LIGAS
+                league_id = MAPEO_LIGAS.get(league_name, "")
+                league["leagueId"] = league_id  # Opcional por si quieres guardarlo a nivel de liga
+
+                # Si la liga no tiene background o está vacío, se lo asignamos usando el ID
+                if not league.get("background") and league_id:
+                    league["background"] = f"{BASE_LEAGUE_IMG_URL}/{league_id}.jpg"
+
+                league_bg = league.get("background", "")
 
                 for event in league.get("events", []):
                     home_raw = event.get("homeTeam", "")
@@ -201,7 +203,7 @@ def procesar_agenda():
                     else:
                         event["title"] = home_team
 
-                    # Asignar ID de liga y fondo de liga al evento
+                    # Propagar o asegurar el background de la liga en el evento si lo requiere tu estructura
                     event["leagueId"] = league_id
                     event["leagueBackground"] = league_bg
 
@@ -228,7 +230,8 @@ def procesar_agenda():
                         
                         channel_param = query_params.get("channel", [""])[0].strip().lower()
                         if not channel_param:
-                            channel_param = query_params.get("stream", [""])[0].strip().lower()
+                    implementation_param = query_params.get("stream", [""])
+                    channel_param = implementation_param[0].strip().lower()
 
                         if channel_param and channel_param in canales_04_dict:
                             canal_info = canales_04_dict[channel_param]
