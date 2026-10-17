@@ -254,125 +254,7 @@
                     "logo": "",
                     "image": "",
                     "background": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/nba.jpg",
-                    "events": [
-                        {
-                            "title": "Suns vs Jazz",
-                            "league": "NBA Pretemporada",
-                            "code": "NBA",
-                            "time": "2026-10-16 21:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 19,
-                            "image": "",
-                            "logo": "",
-                            "homeTeam": "Suns",
-                            "awayTeam": "Jazz",
-                            "homeLogo": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png",
-                            "awayLogo": "https://static.flashscore.com/res/image/data/rLbCcgxS-Ol1KCcM8.png",
-                            "imageMode": "teams",
-                            "duration": 180,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "NBA League Pass",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamxhd.com%2Flive1.php%3Fstream%3Dnba10",
-                                    "type": "iframe",
-                                    "quality": "",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "leagueId": "nba",
-                            "leagueBackground": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/nba.jpg"
-                        },
-                        {
-                            "title": "Warriors vs Trail Blazers",
-                            "league": "NBA Pretemporada",
-                            "code": "NBA",
-                            "time": "2026-10-16T21:00:00-05:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 20,
-                            "image": "",
-                            "logo": "",
-                            "homeTeam": "Warriors",
-                            "awayTeam": "Trail Blazers",
-                            "homeLogo": "https://a.espncdn.com/i/teamlogos/nba/500/gs.png",
-                            "awayLogo": "https://a.espncdn.com/i/teamlogos/nba/500/por.png",
-                            "imageMode": "teams",
-                            "duration": 180,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "NBA League Pass",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamxhd.com%2Flive1.php%3Fstream%3Dnba11",
-                                    "type": "iframe",
-                                    "quality": "",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "leagueId": "nba",
-                            "leagueBackground": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/nba.jpg"
-                        },
-                        {
-                            "title": "Lakers vs Nuggets",
-                            "league": "NBA Pretemporada",
-                            "code": "NBA",
-                            "time": "2026-10-16T21:30:00-05:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 21,
-                            "image": "",
-                            "logo": "",
-                            "homeTeam": "Lakers",
-                            "awayTeam": "Nuggets",
-                            "homeLogo": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
-                            "awayLogo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png",
-                            "imageMode": "teams",
-                            "duration": 180,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "ESPN 2 AR",
-                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c6eds/ESPN2_Arg/SA_Live_dash_enc/ESPN2_Arg.mpd",
-                                    "type": "clearkey",
-                                    "quality": "",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.postimg.cc/D4yRcwg2/ESPN-2-Argentina.png",
-                                    "clearkey": {
-                                        "keyId": "e6eab53cf8ea962b999c59c298596a65",
-                                        "key": "10c103ae76f99620d66fa75f2c03302a"
-                                    },
-                                    "referer": "https://portal.app.flow.com.ar",
-                                    "origin": "https://portal.app.flow.com.ar"
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "leagueId": "nba",
-                            "leagueBackground": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/nba.jpg"
-                        }
-                    ],
+                    "events": [],
                     "flagCode": "",
                     "flagUrl": "",
                     "leagueId": "nba"
@@ -411,7 +293,7 @@
                             "servers": [
                                 {
                                     "name": "TNT Sports Premium FHD",
-                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c6eds/TNT_Sports_HD/SA_Live_dash_enc_wl/TNT_Sports_HD.mpd",
+                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyNDA0ODU3Iiwic2lwIjoiMTgxLjExNi4xNzguMTExIiwicGF0aCI6Ii9saXZlL2M3ZWRzL0JyYXZvVFYvU0FfTGl2ZV9kYXNoX2VuY18vIiwic2Vzc2lvbl9jZG5faWQiOiI4MzRkZDQ4MDQwMGZjNmUxIiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8xODEuMTIuMzYuMTUwIiwiYXVkIjoiMzUyIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.lQ0n0NVg_WOwABqGIaSK5AMg75UwX9TTFQdMSCn9jRkAFF2sqVqezIBV9WEntMNFtKRDyLSuFwPhcB0w_--wKA==/live/c6eds/TNT_Sports_HD/SA_Live_dash_enc_wl/TNT_Sports_HD.mpd",
                                     "type": "clearkey",
                                     "quality": "",
                                     "active": true,
@@ -454,7 +336,7 @@
                             "servers": [
                                 {
                                     "name": "TNT Sports Premium FHD",
-                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c6eds/TNT_Sports_HD/SA_Live_dash_enc_wl/TNT_Sports_HD.mpd",
+                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyNDA0ODU3Iiwic2lwIjoiMTgxLjExNi4xNzguMTExIiwicGF0aCI6Ii9saXZlL2M3ZWRzL0JyYXZvVFYvU0FfTGl2ZV9kYXNoX2VuY18vIiwic2Vzc2lvbl9jZG5faWQiOiI4MzRkZDQ4MDQwMGZjNmUxIiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8xODEuMTIuMzYuMTUwIiwiYXVkIjoiMzUyIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.lQ0n0NVg_WOwABqGIaSK5AMg75UwX9TTFQdMSCn9jRkAFF2sqVqezIBV9WEntMNFtKRDyLSuFwPhcB0w_--wKA==/live/c6eds/TNT_Sports_HD/SA_Live_dash_enc_wl/TNT_Sports_HD.mpd",
                                     "type": "clearkey",
                                     "quality": "",
                                     "active": true,
@@ -507,7 +389,7 @@
                                 },
                                 {
                                     "name": "ESPN Premium FHD",
-                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c7eds/Fox_Sports_Premiun_HD/SA_Live_dash_enc_wl/Fox_Sports_Premiun_HD.mpd",
+                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyNDA0ODU3Iiwic2lwIjoiMTgxLjExNi4xNzguMTExIiwicGF0aCI6Ii9saXZlL2M3ZWRzL0JyYXZvVFYvU0FfTGl2ZV9kYXNoX2VuY18vIiwic2Vzc2lvbl9jZG5faWQiOiI4MzRkZDQ4MDQwMGZjNmUxIiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8xODEuMTIuMzYuMTUwIiwiYXVkIjoiMzUyIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.lQ0n0NVg_WOwABqGIaSK5AMg75UwX9TTFQdMSCn9jRkAFF2sqVqezIBV9WEntMNFtKRDyLSuFwPhcB0w_--wKA==/live/c7eds/Fox_Sports_Premiun_HD/SA_Live_dash_enc_wl/Fox_Sports_Premiun_HD.mpd",
                                     "type": "clearkey",
                                     "quality": "",
                                     "active": true,
@@ -523,7 +405,7 @@
                                 },
                                 {
                                     "name": "ESPN AR",
-                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c3eds/ESPN2HD/SA_Live_dash_enc/ESPN2HD.mpd",
+                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyNDA0ODU3Iiwic2lwIjoiMTgxLjExNi4xNzguMTExIiwicGF0aCI6Ii9saXZlL2M3ZWRzL0JyYXZvVFYvU0FfTGl2ZV9kYXNoX2VuY18vIiwic2Vzc2lvbl9jZG5faWQiOiI4MzRkZDQ4MDQwMGZjNmUxIiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8xODEuMTIuMzYuMTUwIiwiYXVkIjoiMzUyIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.lQ0n0NVg_WOwABqGIaSK5AMg75UwX9TTFQdMSCn9jRkAFF2sqVqezIBV9WEntMNFtKRDyLSuFwPhcB0w_--wKA==/live/c3eds/ESPN2HD/SA_Live_dash_enc/ESPN2HD.mpd",
                                     "type": "clearkey",
                                     "quality": "",
                                     "active": true,
@@ -566,7 +448,7 @@
                             "servers": [
                                 {
                                     "name": "ESPN Premium FHD",
-                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c7eds/Fox_Sports_Premiun_HD/SA_Live_dash_enc_wl/Fox_Sports_Premiun_HD.mpd",
+                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyNDA0ODU3Iiwic2lwIjoiMTgxLjExNi4xNzguMTExIiwicGF0aCI6Ii9saXZlL2M3ZWRzL0JyYXZvVFYvU0FfTGl2ZV9kYXNoX2VuY18vIiwic2Vzc2lvbl9jZG5faWQiOiI4MzRkZDQ4MDQwMGZjNmUxIiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8xODEuMTIuMzYuMTUwIiwiYXVkIjoiMzUyIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.lQ0n0NVg_WOwABqGIaSK5AMg75UwX9TTFQdMSCn9jRkAFF2sqVqezIBV9WEntMNFtKRDyLSuFwPhcB0w_--wKA==/live/c7eds/Fox_Sports_Premiun_HD/SA_Live_dash_enc_wl/Fox_Sports_Premiun_HD.mpd",
                                     "type": "clearkey",
                                     "quality": "",
                                     "active": true,
@@ -609,7 +491,7 @@
                             "servers": [
                                 {
                                     "name": "TNT Sports Premium FHD",
-                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c6eds/TNT_Sports_HD/SA_Live_dash_enc_wl/TNT_Sports_HD.mpd",
+                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyNDA0ODU3Iiwic2lwIjoiMTgxLjExNi4xNzguMTExIiwicGF0aCI6Ii9saXZlL2M3ZWRzL0JyYXZvVFYvU0FfTGl2ZV9kYXNoX2VuY18vIiwic2Vzc2lvbl9jZG5faWQiOiI4MzRkZDQ4MDQwMGZjNmUxIiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8xODEuMTIuMzYuMTUwIiwiYXVkIjoiMzUyIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.lQ0n0NVg_WOwABqGIaSK5AMg75UwX9TTFQdMSCn9jRkAFF2sqVqezIBV9WEntMNFtKRDyLSuFwPhcB0w_--wKA==/live/c6eds/TNT_Sports_HD/SA_Live_dash_enc_wl/TNT_Sports_HD.mpd",
                                     "type": "clearkey",
                                     "quality": "",
                                     "active": true,
@@ -1053,106 +935,6 @@
                     "background": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/ligamx.jpg",
                     "events": [
                         {
-                            "title": "Atlante vs Pumas UNAM",
-                            "league": "Liga MX",
-                            "code": "LIGAMX",
-                            "time": "2026-10-16 22:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 22,
-                            "image": "",
-                            "logo": "",
-                            "homeTeam": "Atlante",
-                            "awayTeam": "Pumas UNAM",
-                            "homeLogo": "https://static.flashscore.com/res/image/data/pE20TZzB-GfzblQr0.png",
-                            "awayLogo": "https://static.flashscore.com/res/image/data/2mlyLKEG-pEQGCKC1.png",
-                            "imageMode": "teams",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "Disney +",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamxhd.com%2Flive1.php%3Fstream%3Ddisney9",
-                                    "type": "iframe",
-                                    "quality": "",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "AZTECA 7",
-                                    "url": "https://live1-ott.izzigo.tv/out/u/dash/CDMX1/AZTECA-7-HD/dash/AZTECA-7-HD.mpd",
-                                    "type": "clearkey",
-                                    "quality": "",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://upload.wikimedia.org/wikipedia/commons/5/5a/DSports.png",
-                                    "clearkey": {
-                                        "keyId": "29f2aeb97a908466177c56fc28fe083f",
-                                        "key": "2cde091f1e4675c82d65498bd6ba0e65"
-                                    },
-                                    "referer": "https://www.primevideo.com/",
-                                    "origin": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "leagueId": "ligamx",
-                            "leagueBackground": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/ligamx.jpg"
-                        },
-                        {
-                            "title": "Tijuana vs Puebla",
-                            "league": "Liga MX",
-                            "code": "LIGAMX",
-                            "time": "2026-10-16 22:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 23,
-                            "image": "",
-                            "logo": "",
-                            "homeTeam": "Tijuana",
-                            "awayTeam": "Puebla",
-                            "homeLogo": "https://static.flashscore.com/res/image/data/Ascf81eM-tW0QAqsF.png",
-                            "awayLogo": "https://static.flashscore.com/res/image/data/EkptxjDa-W6vdbCVa.png",
-                            "imageMode": "teams",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "FOX One",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamxhd.com%2Flive1.php%3Fstream%3Dfoxone",
-                                    "type": "iframe",
-                                    "quality": "",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "TUDN USA",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamxhd.com%2Flive1.php%3Fstream%3Dtudn_usa",
-                                    "type": "iframe",
-                                    "quality": "",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "leagueId": "ligamx",
-                            "leagueBackground": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/ligamx.jpg"
-                        },
-                        {
                             "title": "Toluca vs Atlético San Luis",
                             "league": "Liga MX",
                             "code": "LIGAMX",
@@ -1443,7 +1225,7 @@
                             "servers": [
                                 {
                                     "name": "FOX Sports",
-                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c3eds/FoxSports/SA_Live_dash_enc/FoxSports.mpd",
+                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyNDA0ODU3Iiwic2lwIjoiMTgxLjExNi4xNzguMTExIiwicGF0aCI6Ii9saXZlL2M3ZWRzL0JyYXZvVFYvU0FfTGl2ZV9kYXNoX2VuY18vIiwic2Vzc2lvbl9jZG5faWQiOiI4MzRkZDQ4MDQwMGZjNmUxIiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8xODEuMTIuMzYuMTUwIiwiYXVkIjoiMzUyIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.lQ0n0NVg_WOwABqGIaSK5AMg75UwX9TTFQdMSCn9jRkAFF2sqVqezIBV9WEntMNFtKRDyLSuFwPhcB0w_--wKA==/live/c3eds/FoxSports/SA_Live_dash_enc/FoxSports.mpd",
                                     "type": "clearkey",
                                     "quality": "",
                                     "active": true,
@@ -1486,7 +1268,7 @@
                             "servers": [
                                 {
                                     "name": "FOX Sports",
-                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c3eds/FoxSports/SA_Live_dash_enc/FoxSports.mpd",
+                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyNDA0ODU3Iiwic2lwIjoiMTgxLjExNi4xNzguMTExIiwicGF0aCI6Ii9saXZlL2M3ZWRzL0JyYXZvVFYvU0FfTGl2ZV9kYXNoX2VuY18vIiwic2Vzc2lvbl9jZG5faWQiOiI4MzRkZDQ4MDQwMGZjNmUxIiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8xODEuMTIuMzYuMTUwIiwiYXVkIjoiMzUyIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.lQ0n0NVg_WOwABqGIaSK5AMg75UwX9TTFQdMSCn9jRkAFF2sqVqezIBV9WEntMNFtKRDyLSuFwPhcB0w_--wKA==/live/c3eds/FoxSports/SA_Live_dash_enc/FoxSports.mpd",
                                     "type": "clearkey",
                                     "quality": "",
                                     "active": true,
@@ -1563,7 +1345,7 @@
                                 },
                                 {
                                     "name": "ESPN AR",
-                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c3eds/ESPN2HD/SA_Live_dash_enc/ESPN2HD.mpd",
+                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyNDA0ODU3Iiwic2lwIjoiMTgxLjExNi4xNzguMTExIiwicGF0aCI6Ii9saXZlL2M3ZWRzL0JyYXZvVFYvU0FfTGl2ZV9kYXNoX2VuY18vIiwic2Vzc2lvbl9jZG5faWQiOiI4MzRkZDQ4MDQwMGZjNmUxIiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8xODEuMTIuMzYuMTUwIiwiYXVkIjoiMzUyIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.lQ0n0NVg_WOwABqGIaSK5AMg75UwX9TTFQdMSCn9jRkAFF2sqVqezIBV9WEntMNFtKRDyLSuFwPhcB0w_--wKA==/live/c3eds/ESPN2HD/SA_Live_dash_enc/ESPN2HD.mpd",
                                     "type": "clearkey",
                                     "quality": "",
                                     "active": true,
@@ -1686,7 +1468,7 @@
                                 },
                                 {
                                     "name": "ESPN AR",
-                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c3eds/ESPN2HD/SA_Live_dash_enc/ESPN2HD.mpd",
+                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyNDA0ODU3Iiwic2lwIjoiMTgxLjExNi4xNzguMTExIiwicGF0aCI6Ii9saXZlL2M3ZWRzL0JyYXZvVFYvU0FfTGl2ZV9kYXNoX2VuY18vIiwic2Vzc2lvbl9jZG5faWQiOiI4MzRkZDQ4MDQwMGZjNmUxIiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8xODEuMTIuMzYuMTUwIiwiYXVkIjoiMzUyIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.lQ0n0NVg_WOwABqGIaSK5AMg75UwX9TTFQdMSCn9jRkAFF2sqVqezIBV9WEntMNFtKRDyLSuFwPhcB0w_--wKA==/live/c3eds/ESPN2HD/SA_Live_dash_enc/ESPN2HD.mpd",
                                     "type": "clearkey",
                                     "quality": "",
                                     "active": true,
@@ -1816,7 +1598,7 @@
                                 },
                                 {
                                     "name": "ESPN 2 AR",
-                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c6eds/ESPN2_Arg/SA_Live_dash_enc/ESPN2_Arg.mpd",
+                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyNDA0ODU3Iiwic2lwIjoiMTgxLjExNi4xNzguMTExIiwicGF0aCI6Ii9saXZlL2M3ZWRzL0JyYXZvVFYvU0FfTGl2ZV9kYXNoX2VuY18vIiwic2Vzc2lvbl9jZG5faWQiOiI4MzRkZDQ4MDQwMGZjNmUxIiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8xODEuMTIuMzYuMTUwIiwiYXVkIjoiMzUyIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.lQ0n0NVg_WOwABqGIaSK5AMg75UwX9TTFQdMSCn9jRkAFF2sqVqezIBV9WEntMNFtKRDyLSuFwPhcB0w_--wKA==/live/c6eds/ESPN2_Arg/SA_Live_dash_enc/ESPN2_Arg.mpd",
                                     "type": "clearkey",
                                     "quality": "",
                                     "active": true,
@@ -1880,7 +1662,7 @@
                             "servers": [
                                 {
                                     "name": "ESPN 5 AR",
-                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c7eds/ESPN4/SA_Live_dash_enc/ESPN4.mpd",
+                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyNDA0ODU3Iiwic2lwIjoiMTgxLjExNi4xNzguMTExIiwicGF0aCI6Ii9saXZlL2M3ZWRzL0JyYXZvVFYvU0FfTGl2ZV9kYXNoX2VuY18vIiwic2Vzc2lvbl9jZG5faWQiOiI4MzRkZDQ4MDQwMGZjNmUxIiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8xODEuMTIuMzYuMTUwIiwiYXVkIjoiMzUyIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.lQ0n0NVg_WOwABqGIaSK5AMg75UwX9TTFQdMSCn9jRkAFF2sqVqezIBV9WEntMNFtKRDyLSuFwPhcB0w_--wKA==/live/c7eds/ESPN4/SA_Live_dash_enc/ESPN4.mpd",
                                     "type": "clearkey",
                                     "quality": "",
                                     "active": true,
@@ -1923,7 +1705,7 @@
                             "servers": [
                                 {
                                     "name": "FOX Sports",
-                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c3eds/FoxSports/SA_Live_dash_enc/FoxSports.mpd",
+                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyNDA0ODU3Iiwic2lwIjoiMTgxLjExNi4xNzguMTExIiwicGF0aCI6Ii9saXZlL2M3ZWRzL0JyYXZvVFYvU0FfTGl2ZV9kYXNoX2VuY18vIiwic2Vzc2lvbl9jZG5faWQiOiI4MzRkZDQ4MDQwMGZjNmUxIiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8xODEuMTIuMzYuMTUwIiwiYXVkIjoiMzUyIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.lQ0n0NVg_WOwABqGIaSK5AMg75UwX9TTFQdMSCn9jRkAFF2sqVqezIBV9WEntMNFtKRDyLSuFwPhcB0w_--wKA==/live/c3eds/FoxSports/SA_Live_dash_enc/FoxSports.mpd",
                                     "type": "clearkey",
                                     "quality": "",
                                     "active": true,
@@ -2076,7 +1858,7 @@
                                 },
                                 {
                                     "name": "ESPN 2 AR",
-                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c6eds/ESPN2_Arg/SA_Live_dash_enc/ESPN2_Arg.mpd",
+                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyNDA0ODU3Iiwic2lwIjoiMTgxLjExNi4xNzguMTExIiwicGF0aCI6Ii9saXZlL2M3ZWRzL0JyYXZvVFYvU0FfTGl2ZV9kYXNoX2VuY18vIiwic2Vzc2lvbl9jZG5faWQiOiI4MzRkZDQ4MDQwMGZjNmUxIiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8xODEuMTIuMzYuMTUwIiwiYXVkIjoiMzUyIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.lQ0n0NVg_WOwABqGIaSK5AMg75UwX9TTFQdMSCn9jRkAFF2sqVqezIBV9WEntMNFtKRDyLSuFwPhcB0w_--wKA==/live/c6eds/ESPN2_Arg/SA_Live_dash_enc/ESPN2_Arg.mpd",
                                     "type": "clearkey",
                                     "quality": "",
                                     "active": true,
@@ -2254,7 +2036,7 @@
                                 },
                                 {
                                     "name": "ESPN 3 AR",
-                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c3eds/ESPN3/SA_Live_dash_enc/ESPN3.mpd",
+                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyNDA0ODU3Iiwic2lwIjoiMTgxLjExNi4xNzguMTExIiwicGF0aCI6Ii9saXZlL2M3ZWRzL0JyYXZvVFYvU0FfTGl2ZV9kYXNoX2VuY18vIiwic2Vzc2lvbl9jZG5faWQiOiI4MzRkZDQ4MDQwMGZjNmUxIiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8xODEuMTIuMzYuMTUwIiwiYXVkIjoiMzUyIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.lQ0n0NVg_WOwABqGIaSK5AMg75UwX9TTFQdMSCn9jRkAFF2sqVqezIBV9WEntMNFtKRDyLSuFwPhcB0w_--wKA==/live/c3eds/ESPN3/SA_Live_dash_enc/ESPN3.mpd",
                                     "type": "clearkey",
                                     "quality": "",
                                     "active": true,
@@ -2513,7 +2295,7 @@
                                 },
                                 {
                                     "name": "ESPN 3 AR",
-                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c3eds/ESPN3/SA_Live_dash_enc/ESPN3.mpd",
+                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyNDA0ODU3Iiwic2lwIjoiMTgxLjExNi4xNzguMTExIiwicGF0aCI6Ii9saXZlL2M3ZWRzL0JyYXZvVFYvU0FfTGl2ZV9kYXNoX2VuY18vIiwic2Vzc2lvbl9jZG5faWQiOiI4MzRkZDQ4MDQwMGZjNmUxIiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8xODEuMTIuMzYuMTUwIiwiYXVkIjoiMzUyIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.lQ0n0NVg_WOwABqGIaSK5AMg75UwX9TTFQdMSCn9jRkAFF2sqVqezIBV9WEntMNFtKRDyLSuFwPhcB0w_--wKA==/live/c3eds/ESPN3/SA_Live_dash_enc/ESPN3.mpd",
                                     "type": "clearkey",
                                     "quality": "",
                                     "active": true,
@@ -2566,7 +2348,7 @@
                                 },
                                 {
                                     "name": "ESPN 3 AR",
-                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c3eds/ESPN3/SA_Live_dash_enc/ESPN3.mpd",
+                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyNDA0ODU3Iiwic2lwIjoiMTgxLjExNi4xNzguMTExIiwicGF0aCI6Ii9saXZlL2M3ZWRzL0JyYXZvVFYvU0FfTGl2ZV9kYXNoX2VuY18vIiwic2Vzc2lvbl9jZG5faWQiOiI4MzRkZDQ4MDQwMGZjNmUxIiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8xODEuMTIuMzYuMTUwIiwiYXVkIjoiMzUyIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.lQ0n0NVg_WOwABqGIaSK5AMg75UwX9TTFQdMSCn9jRkAFF2sqVqezIBV9WEntMNFtKRDyLSuFwPhcB0w_--wKA==/live/c3eds/ESPN3/SA_Live_dash_enc/ESPN3.mpd",
                                     "type": "clearkey",
                                     "quality": "",
                                     "active": true,
@@ -2647,7 +2429,7 @@
                     "name": "Super Lig",
                     "logo": "",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/superlig.jpg",
                     "events": [
                         {
                             "title": "Gençlerbirliği vs Galatasaray",
@@ -2683,8 +2465,8 @@
                             "flagUrl": "",
                             "homeCountryCode": "",
                             "awayCountryCode": "",
-                            "leagueId": "",
-                            "leagueBackground": ""
+                            "leagueId": "superlig",
+                            "leagueBackground": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/superlig.jpg"
                         },
                         {
                             "title": "Fenerbahçe vs Alanyaspor",
@@ -2717,7 +2499,7 @@
                                 },
                                 {
                                     "name": "ESPN 7 AR",
-                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c7eds/FoxSports2_UY/SA_Live_dash_enc/FoxSports2_UY.mpd",
+                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyNDA0ODU3Iiwic2lwIjoiMTgxLjExNi4xNzguMTExIiwicGF0aCI6Ii9saXZlL2M3ZWRzL0JyYXZvVFYvU0FfTGl2ZV9kYXNoX2VuY18vIiwic2Vzc2lvbl9jZG5faWQiOiI4MzRkZDQ4MDQwMGZjNmUxIiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8xODEuMTIuMzYuMTUwIiwiYXVkIjoiMzUyIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.lQ0n0NVg_WOwABqGIaSK5AMg75UwX9TTFQdMSCn9jRkAFF2sqVqezIBV9WEntMNFtKRDyLSuFwPhcB0w_--wKA==/live/c7eds/FoxSports2_UY/SA_Live_dash_enc/FoxSports2_UY.mpd",
                                     "type": "clearkey",
                                     "quality": "",
                                     "active": true,
@@ -2736,13 +2518,13 @@
                             "flagUrl": "",
                             "homeCountryCode": "",
                             "awayCountryCode": "",
-                            "leagueId": "",
-                            "leagueBackground": ""
+                            "leagueId": "superlig",
+                            "leagueBackground": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/superlig.jpg"
                         }
                     ],
                     "flagCode": "",
                     "flagUrl": "",
-                    "leagueId": ""
+                    "leagueId": "superlig"
                 },
                 {
                     "name": "Bundesliga",
@@ -2855,7 +2637,7 @@
                                 },
                                 {
                                     "name": "ESPN 5 AR",
-                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c7eds/ESPN4/SA_Live_dash_enc/ESPN4.mpd",
+                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyNDA0ODU3Iiwic2lwIjoiMTgxLjExNi4xNzguMTExIiwicGF0aCI6Ii9saXZlL2M3ZWRzL0JyYXZvVFYvU0FfTGl2ZV9kYXNoX2VuY18vIiwic2Vzc2lvbl9jZG5faWQiOiI4MzRkZDQ4MDQwMGZjNmUxIiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8xODEuMTIuMzYuMTUwIiwiYXVkIjoiMzUyIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.lQ0n0NVg_WOwABqGIaSK5AMg75UwX9TTFQdMSCn9jRkAFF2sqVqezIBV9WEntMNFtKRDyLSuFwPhcB0w_--wKA==/live/c7eds/ESPN4/SA_Live_dash_enc/ESPN4.mpd",
                                     "type": "clearkey",
                                     "quality": "",
                                     "active": true,
@@ -3182,7 +2964,7 @@
                                 },
                                 {
                                     "name": "ESPN 4 AR",
-                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c3eds/ESPNHD/SA_Live_dash_enc/ESPNHD.mpd",
+                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyNDA0ODU3Iiwic2lwIjoiMTgxLjExNi4xNzguMTExIiwicGF0aCI6Ii9saXZlL2M3ZWRzL0JyYXZvVFYvU0FfTGl2ZV9kYXNoX2VuY18vIiwic2Vzc2lvbl9jZG5faWQiOiI4MzRkZDQ4MDQwMGZjNmUxIiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8xODEuMTIuMzYuMTUwIiwiYXVkIjoiMzUyIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.lQ0n0NVg_WOwABqGIaSK5AMg75UwX9TTFQdMSCn9jRkAFF2sqVqezIBV9WEntMNFtKRDyLSuFwPhcB0w_--wKA==/live/c3eds/ESPNHD/SA_Live_dash_enc/ESPNHD.mpd",
                                     "type": "clearkey",
                                     "quality": "",
                                     "active": true,
@@ -3971,7 +3753,7 @@
                             "servers": [
                                 {
                                     "name": "FOX Sports 2",
-                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c3eds/FoxSports2HD/SA_Live_dash_enc/FoxSports2HD.mpd",
+                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyNDA0ODU3Iiwic2lwIjoiMTgxLjExNi4xNzguMTExIiwicGF0aCI6Ii9saXZlL2M3ZWRzL0JyYXZvVFYvU0FfTGl2ZV9kYXNoX2VuY18vIiwic2Vzc2lvbl9jZG5faWQiOiI4MzRkZDQ4MDQwMGZjNmUxIiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8xODEuMTIuMzYuMTUwIiwiYXVkIjoiMzUyIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.lQ0n0NVg_WOwABqGIaSK5AMg75UwX9TTFQdMSCn9jRkAFF2sqVqezIBV9WEntMNFtKRDyLSuFwPhcB0w_--wKA==/live/c3eds/FoxSports2HD/SA_Live_dash_enc/FoxSports2HD.mpd",
                                     "type": "clearkey",
                                     "quality": "",
                                     "active": true,
@@ -4236,5 +4018,5 @@
             "leagues": []
         }
     ],
-    "updated": "2026-10-16 22:11:28"
+    "updated": "2026-10-17 00:30:03"
 }
