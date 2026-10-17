@@ -120,8 +120,8 @@ MAPEO_LIGAS = CaseInsensitiveDict({
     "MLS": "mls",
     "Super Lig": "superlig",
     "Eredivisie": "eredivisie",
-    "demo": "deml",
-    "demo": "deml",
+    "Copa Mundial Femenina Sub-17": "paisfe",
+    "Liga Colombia": "ligaco",
     "demo": "deml",
     "demo": "deml",
     # Agrega más ligas según necesites...
