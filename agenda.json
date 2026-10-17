@@ -43,7 +43,7 @@
             "leagues": [
                 {
                     "name": "ESPN Knockout",
-                    "logo": "",
+                    "logo": "https://static.vecteezy.com/system/resources/thumbnails/027/128/144/small/the-bright-red-boxing-gloves-collided-png.png",
                     "image": "",
                     "background": "",
                     "events": [
@@ -51,7 +51,7 @@
                             "title": "Sebastian Fundora vs Ermal Hadribeaj",
                             "league": "ESPN Knockout",
                             "code": "BOX",
-                            "time": "2026-10-17T19:00:00-05:00",
+                            "time": "2026-10-17 19:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 88,
                             "image": "",
@@ -101,21 +101,21 @@
             "leagues": [
                 {
                     "name": "UFC",
-                    "logo": "",
+                    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/92/UFC_Logo.svg?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=original",
                     "image": "",
                     "background": "",
                     "events": [
                         {
-                            "title": "",
+                            "title": "Joaquin Buckley vs Mike Malott",
                             "league": "UFC",
                             "code": "UFC",
-                            "time": "2026-10-17T16:00:00-05:00",
+                            "time": "2026-10-17 19:00",
                             "timezone": "America/Lima",
-                            "agendaOrder": 72,
+                            "agendaOrder": 89,
                             "image": "",
                             "logo": "",
-                            "homeTeam": "",
-                            "awayTeam": "",
+                            "homeTeam": "Joaquin Buckley",
+                            "awayTeam": "Mike Malott",
                             "homeLogo": "",
                             "awayLogo": "",
                             "imageMode": "",
@@ -169,16 +169,16 @@
                             "leagueBackground": ""
                         },
                         {
-                            "title": "Joaquin Buckley vs Mike Malott",
+                            "title": "",
                             "league": "UFC",
                             "code": "UFC",
-                            "time": "2026-10-17T19:00:00-05:00",
+                            "time": "2026-10-17T16:00:00-05:00",
                             "timezone": "America/Lima",
-                            "agendaOrder": 89,
+                            "agendaOrder": 72,
                             "image": "",
                             "logo": "",
-                            "homeTeam": "Joaquin Buckley",
-                            "awayTeam": "Mike Malott",
+                            "homeTeam": "",
+                            "awayTeam": "",
                             "homeLogo": "",
                             "awayLogo": "",
                             "imageMode": "",
@@ -242,18 +242,7 @@
             "id": "baseball",
             "name": "Baseball",
             "icon": "⚾",
-            "leagues": [
-                {
-                    "name": "MLB",
-                    "logo": "",
-                    "image": "",
-                    "background": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/mlb.jpg",
-                    "events": [],
-                    "flagCode": "",
-                    "flagUrl": "",
-                    "leagueId": "mlb"
-                }
-            ]
+            "leagues": []
         },
         {
             "id": "basketball",
@@ -794,7 +783,7 @@
                                     "origin": "https://portal.app.flow.com.ar"
                                 },
                                 {
-                                    "name": "ESPN",
+                                    "name": "ESPN AR",
                                     "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c3eds/ESPN2HD/SA_Live_dash_enc/ESPN2HD.mpd",
                                     "type": "clearkey",
                                     "quality": "",
@@ -907,16 +896,6 @@
                     "flagCode": "",
                     "flagUrl": "",
                     "leagueId": "ligaprofesional"
-                },
-                {
-                    "name": "Copa Libertadores Femenina",
-                    "logo": "",
-                    "image": "",
-                    "background": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/libertadores.jpg",
-                    "events": [],
-                    "flagCode": "",
-                    "flagUrl": "",
-                    "leagueId": "libertadores"
                 },
                 {
                     "name": "Liga Uruguay",
@@ -1274,14 +1253,20 @@
                             "note": "",
                             "servers": [
                                 {
-                                    "name": "SporTV 1",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamxhd.com%2Flive1.php%3Fstream%3Dsporttvbr1",
-                                    "type": "iframe",
+                                    "name": "SPORTV 1 🇧🇷",
+                                    "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd",
+                                    "type": "clearkey",
                                     "quality": "",
                                     "active": true,
                                     "languages": [],
                                     "customLanguages": "",
-                                    "channelLogo": ""
+                                    "channelLogo": "",
+                                    "clearkey": {
+                                        "keyId": "51c0ef23b17297e5c01cd7f36dd0a6ce",
+                                        "key": "8823f713ba6fdb9bbe0a2ad82d309a4b"
+                                    },
+                                    "referer": "",
+                                    "origin": ""
                                 },
                                 {
                                     "name": "PREMIER 3 🇧🇷",
@@ -1433,14 +1418,20 @@
                                     "channelLogo": ""
                                 },
                                 {
-                                    "name": "Azteca 7",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamxhd.com%2Flive1.php%3Fstream%3Dazteca7",
-                                    "type": "iframe",
+                                    "name": "AZTECA 7",
+                                    "url": "https://live1-ott.izzigo.tv/out/u/dash/CDMX1/AZTECA-7-HD/dash/AZTECA-7-HD.mpd",
+                                    "type": "clearkey",
                                     "quality": "",
                                     "active": true,
                                     "languages": [],
                                     "customLanguages": "",
-                                    "channelLogo": ""
+                                    "channelLogo": "https://upload.wikimedia.org/wikipedia/commons/5/5a/DSports.png",
+                                    "clearkey": {
+                                        "keyId": "29f2aeb97a908466177c56fc28fe083f",
+                                        "key": "2cde091f1e4675c82d65498bd6ba0e65"
+                                    },
+                                    "referer": "https://www.primevideo.com/",
+                                    "origin": ""
                                 }
                             ],
                             "flagCode": "",
@@ -1907,7 +1898,7 @@
                                     "origin": ""
                                 },
                                 {
-                                    "name": "ESPN",
+                                    "name": "ESPN AR",
                                     "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c3eds/ESPN2HD/SA_Live_dash_enc/ESPN2HD.mpd",
                                     "type": "clearkey",
                                     "quality": "",
@@ -2030,7 +2021,7 @@
                                     "origin": ""
                                 },
                                 {
-                                    "name": "ESPN",
+                                    "name": "ESPN AR",
                                     "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c3eds/ESPN2HD/SA_Live_dash_enc/ESPN2HD.mpd",
                                     "type": "clearkey",
                                     "quality": "",
@@ -3744,7 +3735,7 @@
                             "homeTeam": "New York City",
                             "awayTeam": "Los Angeles FC",
                             "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/17606.png",
-                            "awayLogo": "",
+                            "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/18966.png",
                             "imageMode": "teams",
                             "duration": 130,
                             "extraTime": 0,
@@ -4282,9 +4273,9 @@
                             "logo": "",
                             "homeTeam": "Académica",
                             "awayTeam": "Amarante",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "",
+                            "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3698.png",
+                            "awayLogo": "https://upload.wikimedia.org/wikipedia/pt/e/e2/Amarante_FC.png?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=original",
+                            "imageMode": "teams",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -4336,7 +4327,7 @@
                             "logo": "",
                             "homeTeam": "Juan Pablo II College",
                             "awayTeam": "Sport Boys",
-                            "homeLogo": "",
+                            "homeLogo": "https://upload.wikimedia.org/wikipedia/en/1/13/ADC_Juan_Pablo_II_College.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
                             "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5570.png",
                             "imageMode": "teams",
                             "duration": 130,
@@ -4448,6 +4439,46 @@
                     "background": "",
                     "events": [
                         {
+                            "title": "Boyacá Chicó vs Atlético Nacional",
+                            "league": "Liga Colombia",
+                            "code": "COL",
+                            "time": "2026-10-17 15:00",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 68,
+                            "image": "",
+                            "logo": "",
+                            "homeTeam": "Boyacá Chicó",
+                            "awayTeam": "Atlético Nacional",
+                            "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5480.png",
+                            "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5264.png",
+                            "imageMode": "teams",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "WIN SPORTS +",
+                                    "url": "http://181.78.84.78:8910/play/a0gr/index.m3u8",
+                                    "type": "m3u8",
+                                    "quality": "",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.postimg.cc/tu-logo/logo.png",
+                                    "clearkey": null,
+                                    "referer": "",
+                                    "origin": ""
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
+                            "leagueId": "",
+                            "leagueBackground": ""
+                        },
+                        {
                             "title": "Medellín vs Once Caldas",
                             "league": "Liga Colombia",
                             "code": "COL",
@@ -4496,46 +4527,6 @@
                             "awayCountryCode": "",
                             "leagueId": "",
                             "leagueBackground": ""
-                        },
-                        {
-                            "title": "Boyacá Chicó vs Atlético Nacional",
-                            "league": "Liga Colombia",
-                            "code": "COL",
-                            "time": "2026-10-17T15:00:00-05:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 68,
-                            "image": "",
-                            "logo": "",
-                            "homeTeam": "Boyacá Chicó",
-                            "awayTeam": "Atlético Nacional",
-                            "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5480.png",
-                            "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5264.png",
-                            "imageMode": "teams",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "WIN SPORTS +",
-                                    "url": "http://181.78.84.78:8910/play/a0gr/index.m3u8",
-                                    "type": "m3u8",
-                                    "quality": "",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.postimg.cc/tu-logo/logo.png",
-                                    "clearkey": null,
-                                    "referer": "",
-                                    "origin": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "leagueId": "",
-                            "leagueBackground": ""
                         }
                     ],
                     "flagCode": "",
@@ -4557,5 +4548,5 @@
             "leagues": []
         }
     ],
-    "updated": "2026-10-16 21:40:15"
+    "updated": "2026-10-16 21:54:19"
 }
