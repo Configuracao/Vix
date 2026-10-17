@@ -2792,7 +2792,7 @@
                     "name": "Eredivisie",
                     "logo": "",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/eredivisie.jpg",
                     "events": [
                         {
                             "title": "ADO Den Haag vs PSV",
@@ -2828,8 +2828,8 @@
                             "flagUrl": "",
                             "homeCountryCode": "",
                             "awayCountryCode": "",
-                            "leagueId": "",
-                            "leagueBackground": ""
+                            "leagueId": "eredivisie",
+                            "leagueBackground": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/eredivisie.jpg"
                         },
                         {
                             "title": "Telstar vs Feyenoord",
@@ -2865,19 +2865,19 @@
                             "flagUrl": "",
                             "homeCountryCode": "",
                             "awayCountryCode": "",
-                            "leagueId": "",
-                            "leagueBackground": ""
+                            "leagueId": "eredivisie",
+                            "leagueBackground": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/eredivisie.jpg"
                         }
                     ],
                     "flagCode": "",
                     "flagUrl": "",
-                    "leagueId": ""
+                    "leagueId": "eredivisie"
                 },
                 {
                     "name": "Copa Mundial Femenina Sub-17",
                     "logo": "",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/paisfe.jpg",
                     "events": [
                         {
                             "title": "Alemania vs Argentina",
@@ -2919,13 +2919,13 @@
                             "flagUrl": "",
                             "homeCountryCode": "",
                             "awayCountryCode": "",
-                            "leagueId": "",
-                            "leagueBackground": ""
+                            "leagueId": "paisfe",
+                            "leagueBackground": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/paisfe.jpg"
                         }
                     ],
                     "flagCode": "",
                     "flagUrl": "",
-                    "leagueId": ""
+                    "leagueId": "paisfe"
                 },
                 {
                     "name": "Ligue 1",
@@ -3906,7 +3906,7 @@
                     "name": "Liga Colombia",
                     "logo": "",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/ligaco.jpg",
                     "events": [
                         {
                             "title": "Boyacá Chicó vs Atlético Nacional",
@@ -3945,8 +3945,8 @@
                             "flagUrl": "",
                             "homeCountryCode": "",
                             "awayCountryCode": "",
-                            "leagueId": "",
-                            "leagueBackground": ""
+                            "leagueId": "ligaco",
+                            "leagueBackground": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/ligaco.jpg"
                         },
                         {
                             "title": "Medellín vs Once Caldas",
@@ -3995,13 +3995,13 @@
                             "flagUrl": "",
                             "homeCountryCode": "",
                             "awayCountryCode": "",
-                            "leagueId": "",
-                            "leagueBackground": ""
+                            "leagueId": "ligaco",
+                            "leagueBackground": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/ligaco.jpg"
                         }
                     ],
                     "flagCode": "",
                     "flagUrl": "",
-                    "leagueId": ""
+                    "leagueId": "ligaco"
                 }
             ]
         },
@@ -4018,5 +4018,5 @@
             "leagues": []
         }
     ],
-    "updated": "2026-10-17 00:30:03"
+    "updated": "2026-10-17 06:27:06"
 }
