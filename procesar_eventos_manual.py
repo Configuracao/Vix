@@ -116,7 +116,7 @@ MAPEO_LIGAS = CaseInsensitiveDict({
     "Copa Libertadores Femenina": "libertadores",
     "Liga MX": "ligamx",
     "Liga de Expansión MX": "expamx",
-    "Bundesliga 2": "bundesliga2",
+    "Bundesliga 2": "bundesliga",
     "MLS": "mls",
     "demo": "deml",
     "demo": "deml",
