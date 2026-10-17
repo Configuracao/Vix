@@ -119,7 +119,7 @@ MAPEO_LIGAS = CaseInsensitiveDict({
     "Bundesliga 2": "bundesliga",
     "MLS": "mls",
     "Super Lig": "superlig",
-    "demo": "deml",
+    "Eredivisie": "eredivisie",
     "demo": "deml",
     "demo": "deml",
     "demo": "deml",
