@@ -1,6 +1,6 @@
 [
   {
-    "canal": "ESPN",
+    "canal": "ESPN AR",
     "channel": "espnar",
     "logo": "https://i.postimg.cc/T5YBc3cB/ESPN-1-Argentina.png",
     "grupo": "Deportes",
@@ -199,7 +199,7 @@
   },
   {
     "canal": "SPORTV 1 🇧🇷",
-    "channel": "sportv1",
+    "channel": "sporttvbr1",
     "grupo": "Deportes Brasil",
     "tipo": "clearkey",
     "clearkey": {
@@ -210,7 +210,7 @@
   },
   {
     "canal": "SPORTV 2 🇧🇷",
-    "channel": "sportv2",
+    "channel": "sporttvbr2",
     "grupo": "Deportes Brasil",
     "tipo": "clearkey",
     "clearkey": {
@@ -221,7 +221,7 @@
   },
   {
     "canal": "SPORTV 3 🇧🇷",
-    "channel": "sportv3",
+    "channel": "sporttvbr3",
     "logo": "",
     "grupo": "Deportes Brasil",
     "tipo": "clearkey",
@@ -419,6 +419,20 @@
       "key": "ab1e5cc276f81696e41131392290585d"
     },
     "url": "https://live1-ott.izzigo.tv/7/out/u/dash/CANAL-5-HD-H265/default.mpd"
+  },
+  {
+    "canal": "AZTECA 7",
+    "channel": "azteca7",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5a/DSports.png",
+    "grupo": "DEPORTES",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0",
+    "referer": "https://www.primevideo.com/",
+    "tipo": "clearkey",
+    "clearkey": {
+      "keyId": "29f2aeb97a908466177c56fc28fe083f",
+      "key": "2cde091f1e4675c82d65498bd6ba0e65"
+    },
+    "url": "https://live1-ott.izzigo.tv/out/u/dash/CDMX1/AZTECA-7-HD/dash/AZTECA-7-HD.mpd"
   },
   {
   "canal": "LIGA 1 MAX",
