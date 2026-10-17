@@ -118,7 +118,7 @@ MAPEO_LIGAS = CaseInsensitiveDict({
     "Liga de Expansión MX": "expamx",
     "Bundesliga 2": "bundesliga",
     "MLS": "mls",
-    "demo": "deml",
+    "Super Lig": "superlig",
     "demo": "deml",
     "demo": "deml",
     "demo": "deml",
