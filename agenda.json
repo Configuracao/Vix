@@ -256,43 +256,6 @@
                     "background": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/nba.jpg",
                     "events": [
                         {
-                            "title": "Bulls vs Timberwolves",
-                            "league": "NBA Pretemporada",
-                            "code": "NBA",
-                            "time": "2026-10-16 19:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 10,
-                            "image": "",
-                            "logo": "",
-                            "homeTeam": "Bulls",
-                            "awayTeam": "Timberwolves",
-                            "homeLogo": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png",
-                            "awayLogo": "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
-                            "imageMode": "teams",
-                            "duration": 180,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "NBA League Pass",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamxhd.com%2Flive1.php%3Fstream%3Dnba5",
-                                    "type": "iframe",
-                                    "quality": "",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "leagueId": "nba",
-                            "leagueBackground": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/nba.jpg"
-                        },
-                        {
                             "title": "Suns vs Jazz",
                             "league": "NBA Pretemporada",
                             "code": "NBA",
@@ -314,154 +277,6 @@
                                 {
                                     "name": "NBA League Pass",
                                     "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamxhd.com%2Flive1.php%3Fstream%3Dnba10",
-                                    "type": "iframe",
-                                    "quality": "",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "leagueId": "nba",
-                            "leagueBackground": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/nba.jpg"
-                        },
-                        {
-                            "title": "Grizzlies vs Hornets",
-                            "league": "NBA Pretemporada",
-                            "code": "NBA",
-                            "time": "2026-10-16T19:00:00-05:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 11,
-                            "image": "",
-                            "logo": "",
-                            "homeTeam": "Grizzlies",
-                            "awayTeam": "Hornets",
-                            "homeLogo": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png",
-                            "awayLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png",
-                            "imageMode": "teams",
-                            "duration": 180,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "NBA League Pass",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamxhd.com%2Flive1.php%3Fstream%3Dnba6",
-                                    "type": "iframe",
-                                    "quality": "",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "leagueId": "nba",
-                            "leagueBackground": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/nba.jpg"
-                        },
-                        {
-                            "title": "Spurs vs Kings",
-                            "league": "NBA Pretemporada",
-                            "code": "NBA",
-                            "time": "2026-10-16T19:00:00-05:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 12,
-                            "image": "",
-                            "logo": "",
-                            "homeTeam": "Spurs",
-                            "awayTeam": "Kings",
-                            "homeLogo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
-                            "awayLogo": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png",
-                            "imageMode": "teams",
-                            "duration": 180,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "NBA League Pass",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamxhd.com%2Flive1.php%3Fstream%3Dnba7",
-                                    "type": "iframe",
-                                    "quality": "",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "leagueId": "nba",
-                            "leagueBackground": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/nba.jpg"
-                        },
-                        {
-                            "title": "Mavericks vs Hawks",
-                            "league": "NBA Pretemporada",
-                            "code": "NBA",
-                            "time": "2026-10-16T19:00:00-05:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 13,
-                            "image": "",
-                            "logo": "",
-                            "homeTeam": "Mavericks",
-                            "awayTeam": "Hawks",
-                            "homeLogo": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png",
-                            "awayLogo": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png",
-                            "imageMode": "teams",
-                            "duration": 180,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "NBA League Pass",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamxhd.com%2Flive1.php%3Fstream%3Dnba8",
-                                    "type": "iframe",
-                                    "quality": "",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "leagueId": "nba",
-                            "leagueBackground": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/nba.jpg"
-                        },
-                        {
-                            "title": "Pelicans vs Wizards",
-                            "league": "NBA Pretemporada",
-                            "code": "NBA",
-                            "time": "2026-10-16T19:00:00-05:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 14,
-                            "image": "",
-                            "logo": "",
-                            "homeTeam": "Pelicans",
-                            "awayTeam": "Wizards",
-                            "homeLogo": "https://a.espncdn.com/i/teamlogos/nba/500/no.png",
-                            "awayLogo": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png",
-                            "imageMode": "teams",
-                            "duration": 180,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "NBA League Pass",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamxhd.com%2Flive1.php%3Fstream%3Dnba9",
                                     "type": "iframe",
                                     "quality": "",
                                     "active": true,
@@ -575,82 +390,6 @@
                     "image": "",
                     "background": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/ligaprofesional.jpg",
                     "events": [
-                        {
-                            "title": "Boca Juniors vs Talleres Córdoba",
-                            "league": "Liga Profesional",
-                            "code": "AR",
-                            "time": "2026-10-16 19:30",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 16,
-                            "image": "",
-                            "logo": "",
-                            "homeTeam": "Boca Juniors",
-                            "awayTeam": "Talleres Córdoba",
-                            "homeLogo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Club_Atl%C3%A9tico_Boca_Juniors_logo_%2870_stars%29.png/250px-Club_Atl%C3%A9tico_Boca_Juniors_logo_%2870_stars%29.png?utm_source=es.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-                            "awayLogo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Escudo_Talleres_2015.svg/960px-Escudo_Talleres_2015.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-                            "imageMode": "teams",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "Disney +",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamxhd.com%2Flive1.php%3Fstream%3Ddisney7",
-                                    "type": "iframe",
-                                    "quality": "",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "TNT Sports Premium FHD",
-                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzkyMjMwNjA2Iiwic2lwIjoiMTgxLjI4LjU4LjExMSIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiMzExNWQ3MzNhM2E0ZmYwZiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMTUiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.kVdsrWpLVfzQSRvPElG9hF4gxXXWUVGDORfPA8ue9miBpcF3YU8x1mS3xvB_RVL4oOjOCdG7iBAiuyWEemeFnw==/live/c6eds/TNT_Sports_HD/SA_Live_dash_enc_wl/TNT_Sports_HD.mpd",
-                                    "type": "clearkey",
-                                    "quality": "",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.postimg.cc/WbsZGtb2/Fondo_Oscuro.png",
-                                    "clearkey": {
-                                        "keyId": "9fb56301bc7687baf0b1a61def9a007a",
-                                        "key": "947d2294ba67256827e8e97f267e71e0"
-                                    },
-                                    "referer": "https://portal.app.flow.com.ar",
-                                    "origin": "https://portal.app.flow.com.ar"
-                                },
-                                {
-                                    "name": "Vix",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamxhd.com%2Flive1.php%3Fstream%3Dvix1",
-                                    "type": "iframe",
-                                    "quality": "",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "ESPN",
-                                    "url": "http://209.61.12.132:9000/play/a06z/index.m3u8",
-                                    "type": "m3u8",
-                                    "quality": "",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.postimg.cc/tu-logo/logo.png",
-                                    "clearkey": null,
-                                    "referer": "",
-                                    "origin": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "leagueId": "ligaprofesional",
-                            "leagueBackground": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/ligaprofesional.jpg"
-                        },
                         {
                             "title": "Banfield vs Argentinos Juniors",
                             "league": "Liga Profesional",
@@ -1302,45 +1041,7 @@
                     "logo": "",
                     "image": "",
                     "background": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/expamx.jpg",
-                    "events": [
-                        {
-                            "title": "Correcaminos UAT vs Dorados",
-                            "league": "Liga de Expansión MX",
-                            "code": "MEX",
-                            "time": "2026-10-16 20:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 17,
-                            "image": "",
-                            "logo": "",
-                            "homeTeam": "Correcaminos UAT",
-                            "awayTeam": "Dorados",
-                            "homeLogo": "https://static.flashscore.com/res/image/data/hpAaJcyB-EcnnWKX6.png",
-                            "awayLogo": "https://static.flashscore.com/res/image/data/h8Ke03Cr-0A0JcCWR.png",
-                            "imageMode": "teams",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "Disney +",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamxhd.com%2Flive1.php%3Fstream%3Ddisney8",
-                                    "type": "iframe",
-                                    "quality": "",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "leagueId": "expamx",
-                            "leagueBackground": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/expamx.jpg"
-                        }
-                    ],
+                    "events": [],
                     "flagCode": "",
                     "flagUrl": "",
                     "leagueId": "expamx"
@@ -1351,43 +1052,6 @@
                     "image": "",
                     "background": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/ligamx.jpg",
                     "events": [
-                        {
-                            "title": "Necaxa vs Atlas",
-                            "league": "Liga MX",
-                            "code": "LIGAMX",
-                            "time": "2026-10-16 20:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 18,
-                            "image": "",
-                            "logo": "",
-                            "homeTeam": "Necaxa",
-                            "awayTeam": "Atlas",
-                            "homeLogo": "https://static.flashscore.com/res/image/data/IZhXqhXg-8rY7at7H.png",
-                            "awayLogo": "https://static.flashscore.com/res/image/data/OfIFJZYg-OtymR74A.png",
-                            "imageMode": "teams",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "FOX One",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamxhd.com%2Flive1.php%3Fstream%3Dfoxone",
-                                    "type": "iframe",
-                                    "quality": "",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "leagueId": "ligamx",
-                            "leagueBackground": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/ligamx.jpg"
-                        },
                         {
                             "title": "Atlante vs Pumas UNAM",
                             "league": "Liga MX",
@@ -2358,14 +2022,20 @@
                                     "channelLogo": ""
                                 },
                                 {
-                                    "name": "DAZN LaLiga",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamxhd.com%2Flive1.php%3Fstream%3Ddaznlaliga",
-                                    "type": "iframe",
+                                    "name": "SKY sports La Liga",
+                                    "url": "https://live3-ott.izzigo.tv/12/out/u/dash/SKY-SPORTS-16-HD/default.mpd",
+                                    "type": "clearkey",
                                     "quality": "",
                                     "active": true,
                                     "languages": [],
                                     "customLanguages": "",
-                                    "channelLogo": ""
+                                    "channelLogo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/deportes/CHskysportslaliga.png",
+                                    "clearkey": {
+                                        "keyId": "cb80e1e7d7598eaf98b1dbbe6dc14ee9",
+                                        "key": "103ae55c7948ca1d159d6743619d26c4"
+                                    },
+                                    "referer": "https://www.izzigo.tv/webclient/",
+                                    "origin": ""
                                 }
                             ],
                             "flagCode": "",
@@ -2441,14 +2111,20 @@
                                     "channelLogo": ""
                                 },
                                 {
-                                    "name": "DAZN LaLiga",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamxhd.com%2Flive1.php%3Fstream%3Ddaznlaliga",
-                                    "type": "iframe",
+                                    "name": "SKY sports La Liga",
+                                    "url": "https://live3-ott.izzigo.tv/12/out/u/dash/SKY-SPORTS-16-HD/default.mpd",
+                                    "type": "clearkey",
                                     "quality": "",
                                     "active": true,
                                     "languages": [],
                                     "customLanguages": "",
-                                    "channelLogo": ""
+                                    "channelLogo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/deportes/CHskysportslaliga.png",
+                                    "clearkey": {
+                                        "keyId": "cb80e1e7d7598eaf98b1dbbe6dc14ee9",
+                                        "key": "103ae55c7948ca1d159d6743619d26c4"
+                                    },
+                                    "referer": "https://www.izzigo.tv/webclient/",
+                                    "origin": ""
                                 }
                             ],
                             "flagCode": "",
@@ -2524,14 +2200,20 @@
                                     "channelLogo": ""
                                 },
                                 {
-                                    "name": "DAZN LaLiga",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamxhd.com%2Flive1.php%3Fstream%3Ddaznlaliga",
-                                    "type": "iframe",
+                                    "name": "SKY sports La Liga",
+                                    "url": "https://live3-ott.izzigo.tv/12/out/u/dash/SKY-SPORTS-16-HD/default.mpd",
+                                    "type": "clearkey",
                                     "quality": "",
                                     "active": true,
                                     "languages": [],
                                     "customLanguages": "",
-                                    "channelLogo": ""
+                                    "channelLogo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/deportes/CHskysportslaliga.png",
+                                    "clearkey": {
+                                        "keyId": "cb80e1e7d7598eaf98b1dbbe6dc14ee9",
+                                        "key": "103ae55c7948ca1d159d6743619d26c4"
+                                    },
+                                    "referer": "https://www.izzigo.tv/webclient/",
+                                    "origin": ""
                                 }
                             ],
                             "flagCode": "",
@@ -2607,14 +2289,20 @@
                                     "channelLogo": ""
                                 },
                                 {
-                                    "name": "M LaLiga",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamxhd.com%2Flive1.php%3Fstream%3Dmlaliga",
-                                    "type": "iframe",
+                                    "name": "SKY sports La Liga",
+                                    "url": "https://live3-ott.izzigo.tv/12/out/u/dash/SKY-SPORTS-16-HD/default.mpd",
+                                    "type": "clearkey",
                                     "quality": "",
                                     "active": true,
                                     "languages": [],
                                     "customLanguages": "",
-                                    "channelLogo": ""
+                                    "channelLogo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/deportes/CHskysportslaliga.png",
+                                    "clearkey": {
+                                        "keyId": "cb80e1e7d7598eaf98b1dbbe6dc14ee9",
+                                        "key": "103ae55c7948ca1d159d6743619d26c4"
+                                    },
+                                    "referer": "https://www.izzigo.tv/webclient/",
+                                    "origin": ""
                                 }
                             ],
                             "flagCode": "",
@@ -4548,5 +4236,5 @@
             "leagues": []
         }
     ],
-    "updated": "2026-10-16 21:54:19"
+    "updated": "2026-10-16 22:11:28"
 }
